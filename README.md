@@ -1,1 +1,4 @@
-Placeholder for Excel lesson
+datacarpentry
+=============
+
+Data Carpentry workshop materials

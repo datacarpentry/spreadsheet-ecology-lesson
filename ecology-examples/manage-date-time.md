@@ -83,4 +83,4 @@ hh:     hour of day, i.e 17
 mm:     minutes, i.e 25
 ss:     seconds, i.e. 35
 ```
-This strings will sort correctly in ascendng or descending order and by knowing the format they can then be managed by the recieving software.
+This strings will sort correctly in ascendng or descending order and by knowing the format it can then be correctly managed by the receiving software.

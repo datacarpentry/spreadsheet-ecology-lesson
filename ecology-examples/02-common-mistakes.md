@@ -9,7 +9,10 @@ Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, *
 
 **Solution**: Spreadsheets and statistical programs will likely mis-interpret blank cells that are meant to be zero. This is equivalent to leaving out data. Zero observations are real data! Leaving zero data blank is not good in a written lab notebook, but NEVER okay when you move your data into a digital format.
 
-[create an example of this in Excel]
+This problem can be minimized or correctly addressed by using spreadsheet functions or conditional statements. An example is shown in the following spreadsheet ([Excel](../data/biology/null.values.xlsx); [OpenDocument](../data/biology/null.values.ods)).
+As seen in the example, the SUM() function correctly ignores the value of NA in cell A5 and calculates the sum while the basic approach of adding the values in the 3 cells gives a _wrong argument_ error.
+
+
 ## Using bad null values ##
 **Example**: using -999 or other numerical values (or zero).
 

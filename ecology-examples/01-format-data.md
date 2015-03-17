@@ -34,7 +34,7 @@ So, you can see how these two points apply directly to how you set up your sprea
 ###Columns for variables and rows for observations
 
 The rule of thumb, when setting up a datasheet, is columns= variables, rows = observations, cells=data (values).
-Let's try this with an example using some of our sample data: [a list of species](../../../data/biology/species.csv) and [a list of plots](../../../data/biology/plots.csv). You can do that by simply opening the `*.csv` files in Excel. Excel will automatically try to fit the data from the `*.csv` file and put the first value in column A and the second value in column B. 
+Let's try this with an example using some of our sample data: [a list of species](../../data/biology/species.csv) and [a list of plots](../../data/biology/plots.csv). You can do that by simply opening the `*.csv` files in Excel. Excel will automatically try to fit the data from the `*.csv` file and put the first value in column A and the second value in column B. 
 
 The output should look like this:
 
@@ -49,11 +49,7 @@ A common grad student error I’ve seen is creating multiple data tables within 
 
 
 But what about worksheet tabs? That seems like an easy way to organize data, right? Well, yes and no. When you create extra tabs, you fail to allow the computer to see connections in the data that are there (you have to introduce spreadsheet application-specific functions or scripting to ensure this connection). Say, for instance, you make a separate tab for each day you take a measurement.
-<!---
-#![Each table in separate worksheet](../../../img/excel_tables_example_sk_e1_p1.png)
 
-![Each table in separate worksheet](./../images/excel_tables_example_sk_e1_p1_wrl.png)
--->
 
 This is bad practice for two reasons:   
 **1)** you are more likely to accidentally add inconsistencies to your data if each time you take a measurement, you start recording data in a new tab, and   
@@ -65,6 +61,6 @@ Your data sheet might get very long over the course of experiment. This makes it
 
 ### Challege (optional) - freezing rows and columns in spreadsheets###
 
-Download and open in your spreadsheet application [a sample dataset](../../../data/biology/surveys.csv) containing information about a survey on mammals occurence in Arizona. Set up your spreadsheet so that top row containing the headers does not move as you scroll down the dataset.
+Download and open in your spreadsheet application [a sample dataset](../../data/biology/surveys.csv) containing information about a survey on mammals occurence in Arizona. Set up your spreadsheet so that top row containing the headers does not move as you scroll down the dataset.
 
 Previous: [Introduction](00-intro.html)  Next: [Common formatting mistakes by spreadsheet users.](02-common-mistakes.html)

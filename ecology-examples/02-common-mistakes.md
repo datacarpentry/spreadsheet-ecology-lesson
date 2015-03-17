@@ -9,7 +9,10 @@ Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, *
 
 **Solution**: Spreadsheets and statistical programs will likely mis-interpret blank cells that are meant to be zero. This is equivalent to leaving out data. Zero observations are real data! Leaving zero data blank is not good in a written lab notebook, but NEVER okay when you move your data into a digital format.
 
-[create an example of this in Excel]
+This problem can be minimized or correctly addressed by using spreadsheet functions or conditional statements. An example is shown in the following spreadsheet ([Excel](../data/biology/null.values.xlsx); [OpenDocument](../data/biology/null.values.ods)).
+As seen in the example, the SUM() function correctly ignores the value of NA in cell A5 and calculates the sum while the basic approach of adding the values in the 3 cells gives a _wrong argument_ error.
+
+
 ## Using bad null values ##
 **Example**: using -999 or other numerical values (or zero).
 
@@ -49,9 +52,20 @@ From White et al, 2013, [Nine simple ways to make it easier to (re)use your data
 ![Each table in separate worksheet](../../../img/excel_tables_example_sk_e2_p2.png)
 
 ## Field name problems ##
-Choose descriptive field names, but be careful not to include: spaces, numbers, or special characters of any kind. Spaces can be misinterpreted and some programs don’t like field names that are text strings that start with numbers.
+Choose descriptive field names, but be careful not to include: spaces, numbers, or special characters of any kind. Spaces can be misinterpreted by parsers that use whitespace as delimiters and some programs don’t like field names that are text strings that start with numbers.
+Underscores (`_`) are a good alternative to spaces and consider writing names in camel-case to improve readability. Remember that abbreviations that make sense at the moment may not be so obvious in 6 months but don't overdo it with names that are eccessivly long.
 
-[work through good examples of field names]
+### Examples
+
+**good name** | **good alternative** | **avoid**
+------------- | -------------------- | ---------
+Max_temp     | MaxTemp              | Maximum Temp (°C)
+Precipitation | Precipitation_mm | precmm
+Mean_year_growth | MeanYearGrowth | Mean growth/year
+sex | sex | M/F
+weight | weight | w.
+cell_type | CellType | Cell type
+first_observation | Observation_01 | 1st Obs.
 
 
 ##Special characters in data ##

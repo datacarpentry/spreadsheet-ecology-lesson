@@ -21,16 +21,14 @@ For example, our data could look like this:
 		AS,Ammodramus,savannarum,Bird
 
 In record `AH,Ammospermophilus,harrisi,Rodent-not,censused` the value for *taxa* includes a comma (`Rodent-not,censused`). 
-If we try to read the above into Excel (or other spreadsheet programme), we will get something like this:
-
-![Issue with importing csv format](../../../img/csv-mistake.png)
+If we try to read the above into Excel (or other spreadsheet programme),depending on the version of Excel, we may encouter problems.
 
 The value for 'taxa' was split into two columns (instead of being put in one column `D`). This can propagate to a number of further errors. For example, the "extra" column will be interpreted as a column with many missing values (and without a proper header!). In addition to that, the value in column `D` for the record in row 3 (so the one where the value for 'taxa' contained the comma) is now incorrect. 
  
 
 ### Dealing with commas as part of data values in `*.csv` files
 
-If you want to store your data in `*.csv` and expect that your data may contain commas in their values, you can avoid the problem discussed above by putting the values in quotes (""). This [example data file](../../../data/biology/species.csv) applies this rule so the actual data looks like:
+If you want to store your data in `*.csv` and expect that your data may contain commas in their values, you can avoid the problem discussed above by putting the values in quotes (""). This [example data file](../data/biology/species.csv) applies this rule so the actual data looks like:
 
 	species_id,genus,species,taxa
 	"AB","Amphispiza","bilineata","Bird"
@@ -48,7 +46,7 @@ This original file does not contain commas in the values.
 
 But let's see what would happen if we introduced a comma into  `"Rodent-not censused"` - so that it looks like this: `"Rodent-not, censused"`. 
 
-1. Open the [species.csv](../../../data/biology/species.csv) file in Excel (or Calc in Libre Office).
+1. Open the [species.csv](../data/biology/species.csv) file in Excel (or Calc in Libre Office).
 2. Add the comma (,) in `"Rodent-not censused"`.
 3. Save the file under a **different name** (but also in the `csv` format) and reopen it in Excel.
 4. The issue with the "extra" incorrect column should not appear.
@@ -59,9 +57,5 @@ If the dataset you're dealing with contains hundreds or thousands of records, cl
 
 Cleaning up datasets is one of major problems in many scientific disciplines. The approach almost always depends on the particular context. However, it is a good practice to clean the data in an automated fashion, for example by writing and running a script. Other lessons in Data Carpentry covering shell, Python and R will give you the basis for developing skills to build relevant scripts.
 
-
-###Tab Separated Values format
-
-###Other delimiters for data formats
 
 Previous: [Exporting data from spreadsheets.](05-exporting-data.html)

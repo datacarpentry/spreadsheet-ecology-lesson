@@ -1,3 +1,8 @@
+---
+layout: lesson
+root: ../
+---
+
 # Basic quality control and data manipulation in spreadsheets #
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>

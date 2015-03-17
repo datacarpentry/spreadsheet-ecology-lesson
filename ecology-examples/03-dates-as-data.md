@@ -1,3 +1,8 @@
+---
+layout: lesson
+root: ../
+---
+
 ## Dates as data ##
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>

@@ -52,9 +52,20 @@ From White et al, 2013, [Nine simple ways to make it easier to (re)use your data
 ![Each table in separate worksheet](../../../img/excel_tables_example_sk_e2_p2.png)
 
 ## Field name problems ##
-Choose descriptive field names, but be careful not to include: spaces, numbers, or special characters of any kind. Spaces can be misinterpreted and some programs don’t like field names that are text strings that start with numbers.
+Choose descriptive field names, but be careful not to include: spaces, numbers, or special characters of any kind. Spaces can be misinterpreted by parsers that use whitespace as delimiters and some programs don’t like field names that are text strings that start with numbers.
+Underscores (`_`) are a good alternative to spaces and consider writing names in camel-case to improve readability. Remember that abbreviations that make sense at the moment may not be so obvious in 6 months but don't overdo it with names that are eccessivly long.
 
-[work through good examples of field names]
+### Examples
+
+**good name** | **good alternative** | **avoid**
+------------- | -------------------- | ---------
+Max_temp     | MaxTemp              | Maximum Temp (°C)
+Precipitation | Precipitation_mm | precmm
+Mean_year_growth | MeanYearGrowth | Mean growth/year
+sex | sex | M/F
+weight | weight | w.
+cell_type | CellType | Cell type
+first_observation | Observation_01 | 1st Obs.
 
 
 ##Special characters in data ##

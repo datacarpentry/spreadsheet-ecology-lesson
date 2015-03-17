@@ -1,3 +1,8 @@
+---
+layout: lesson
+root: ../
+---
+
 # Using spreadsheet programs for scientific data #
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>

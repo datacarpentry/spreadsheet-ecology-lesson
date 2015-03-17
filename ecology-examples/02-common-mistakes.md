@@ -1,3 +1,8 @@
+---
+layout: lesson
+root: ../
+---
+
 ## Common mistakes by spreadsheet users
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>

@@ -1,3 +1,9 @@
+---
+layout: lesson
+root: ../
+---
+
+
 # Exporting data from spreadsheets #
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>

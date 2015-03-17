@@ -21,7 +21,7 @@ Let's try with a simple challenge.
 
 #### Challenge: pulling month out of dates ####
 
-+   In the `data` subdirectory there is an example dataset:  [a short list of species](../../../data/biology/surveys-exercise-extract_month.csv) with one of the columns containing dates. 
++   In the `data` subdirectory there is an example dataset:  [a short list of species](../data/biology/surveys-exercise-extract_month.csv) with one of the columns containing dates. 
 +   Extract month from the dates to the new column.
 +   Hint: use the dedicated function MONTH.
 
@@ -70,7 +70,7 @@ You will notice that when exporting into a text-based format (such as CSV), Exce
 
 #### Challenge: understanding the DOY formatting ####
 
-Download and open from the `data` [a spreadsheet with a list of dates](../../../data/biology/date-doy-exercise.xls).  
+Download and open from the `data` [a spreadsheet with a list of dates](../data/biology/date-doy-exercise.xls).  
 
 + The dates in the first column seem to be OK. You could for example record dates in this manned if each tab or whole spreadsheet was containing dates just from one particular year.
 + However, when you look at the second column, you can see that these dates were interpreted in a quite differently!

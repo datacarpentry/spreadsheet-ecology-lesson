@@ -67,4 +67,4 @@ Your data sheet might get very long over the course of experiment. This makes it
 
 Download and open in your spreadsheet application [a sample dataset](../../../data/biology/surveys.csv) containing information about a survey on mammals occurence in Arizona. Set up your spreadsheet so that top row containing the headers does not move as you scroll down the dataset.
 
-Previous: [Introduction](00-intro.md)  Next: [Common formatting mistakes by spreadsheet users.](02-common-mistakes.md)
+Previous: [Introduction](00-intro.html)  Next: [Common formatting mistakes by spreadsheet users.](02-common-mistakes.html)

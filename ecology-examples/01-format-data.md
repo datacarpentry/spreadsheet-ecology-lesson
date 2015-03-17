@@ -1,3 +1,10 @@
+---
+layout: lesson
+root: ../..
+---
+
+
+
 # Formatting data tables in Spreadsheets #
 
 Authors: **Christie Bahlai**, **Aleksandra Pawlik**<br>

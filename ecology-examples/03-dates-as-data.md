@@ -100,4 +100,4 @@ So, can you convert all your dates into DOY format? Well, in Excel, here’s a h
 
 
 
-Previous: [Common formatting mistakes by spreadsheet users.](02-common-mistakes.md) Next: [Basic quality control and data manipulation in spreadsheets.](04-quality-control.md)
+Previous: [Common formatting mistakes by spreadsheet users.](02-common-mistakes.html) Next: [Basic quality control and data manipulation in spreadsheets.](04-quality-control.html)

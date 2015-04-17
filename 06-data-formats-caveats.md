@@ -1,4 +1,8 @@
-# Caveats of popular data and file formats #
+---
+layout: lesson
+title: Caveats of popular data and file formats 
+root: .
+---
 
 Materials by: **Jeffrey Hollister**, **Alexander Duryee**, **Jennifer Bryan**, **Daisie Huang**, **Ben Marwick**, **Christie Bahlai**, **Owen Jones**, **Aleksandra Pawlik**
 

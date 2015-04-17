@@ -1,4 +1,8 @@
-# Exporting data from spreadsheets #
+---
+layout: lesson
+title: Exporting data from spreadsheets
+root: .
+---
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
 Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, and

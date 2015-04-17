@@ -1,4 +1,8 @@
-# Basic quality control and data manipulation in spreadsheets #
+---
+layout: lesson
+title: Basic quality control and data manipulation in spreadsheets 
+root: .
+---
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
 Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, and

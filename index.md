@@ -71,6 +71,8 @@ To most effectively use these materials, please make sure to install everything
 
 {% if page.topic == "Python" %}
 {% include pythonSetup.html %}
+{% if page.topic == "Spreadsheets" %}
+{% include spreadsheetSetup.html %}
 {% else %}
 {% include anySetup.html %}
 {% endif %}

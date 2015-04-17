@@ -22,7 +22,7 @@ For example, our data could look like this:
 In record `AH,Ammospermophilus,harrisi,Rodent-not,censused` the value for *taxa* includes a comma (`Rodent-not,censused`). 
 If we try to read the above into Excel (or other spreadsheet programme), we will get something like this:
 
-![Issue with importing csv format](../../../img/csv-mistake.png)
+![Issue with importing csv format](fig/csv-mistake.png)
 
 The value for 'taxa' was split into two columns (instead of being put in one column `D`). This can propagate to a number of further errors. For example, the "extra" column will be interpreted as a column with many missing values (and without a proper header!). In addition to that, the value in column `D` for the record in row 3 (so the one where the value for 'taxa' contained the comma) is now incorrect. 
  

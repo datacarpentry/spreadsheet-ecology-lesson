@@ -30,10 +30,10 @@ In this lesson, we will assume that you are most likely using Excel as your prim
 
 In this lesson, we’re going to talk about:
 
-1. [Formatting data tables in spreadsheets.](01-format-data.md)
-2. [Common formatting mistakes by spreadsheet users.](02-common-mistakes.md)
-3. [Dates as data.](03-dates-as-data.md)
-4. [Basic quality control and data manipulation in spreadsheets.](04-quality-control.md)
-5. [Exporting data from spreadsheets.](05-exporting-data.md)
+1. [Formatting data tables in spreadsheets.](01-format-data.html)
+2. [Common formatting mistakes by spreadsheet users.](02-common-mistakes.html)
+3. [Dates as data.](03-dates-as-data.html)
+4. [Basic quality control and data manipulation in spreadsheets.](04-quality-control.html)
+5. [Exporting data from spreadsheets.](05-exporting-data.html)
 
-Next: [Formatting data tables in spreadsheets.](01-format-data.md)
+Next: [Formatting data tables in spreadsheets.](01-format-data.html)

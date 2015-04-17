@@ -31,9 +31,11 @@ in working with {{info.domain %}} data in {{info.topic %}}.
 
 <br> 
 
-####Lesson status: {{ info.status }} 
-  [Information on Lesson Status Categories]()
 
+####Lesson status: {{ info.status }} 
+<!--
+  [Information on Lesson Status Categories]()
+-->
 
 <!-- ###### INDEX OF LESSONS ON THIS TOPIC ###### -->
 
@@ -41,11 +43,13 @@ in working with {{info.domain %}} data in {{info.topic %}}.
 
 <!-- Get information from _data/lessons.yml -->
 
+
 {% for lesson in site.data.lessons %}
 
-- [{{ lesson.name }}]({{ lesson.url }})
+1. [{{ lesson.name }}]({{ lesson.url }})
 
 {% endfor %}
+
 
 <!-- End information from _data/lessons.yml -->
 
@@ -69,10 +73,10 @@ To most effectively use these materials, please make sure to install everything
 
 
 
-{% if page.topic == "Python" %}
+{% if info.topic == "Python" %}
 {% include pythonSetup.html %}
-{% elsif page.topic == "Spreadsheets" %}
-{% include pythonSetup.html %}
+{% elsif info.topic == "Spreadsheets" %}
+{% include spreadsheetSetup.html %}
 {% else %}
 {% include anySetup.html %}
 {% endif %}

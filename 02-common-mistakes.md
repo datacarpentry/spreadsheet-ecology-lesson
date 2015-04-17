@@ -82,4 +82,4 @@ General best practice is to avoid adding characters such as newlines, tabs, and 
 
 [ include sample of problematic data, and cleaned version ]
 
-Previous: [Formatting data tables in spreadsheets.](01-format-data.md) Next: [Dates as data.](03-dates-as-data.md)
+Previous: [Formatting data tables in spreadsheets.](01-format-data.html) Next: [Dates as data.](03-dates-as-data.html)

@@ -72,7 +72,7 @@ To most effectively use these materials, please make sure to install everything
 {% if page.topic == "Python" %}
 {% include pythonSetup.html %}
 {% elsif page.topic == "Spreadsheets" %}
-{% include spreadsheetSetup.html %}
+{% include pythonSetup.html %}
 {% else %}
 {% include anySetup.html %}
 {% endif %}

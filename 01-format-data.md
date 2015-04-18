@@ -98,11 +98,19 @@ Instead you can Freeze the column headers.
 
 ### Exercise
 
-- Using the messy data spreadsheet, how would you change it so that 
-the data in multiple tables is in one table?
+Two graduate students went out and collected data in 1977 and 1978. They
+gave their data	to their advisor who put it in two separate tabs in
+the same Exel spreadsheet.
 
-- Using the messy data spreadsheet, how would you change it so that 
-the data in multiple tabs is in one table?
+- Using the survey_data_tab.xls spreadsheet in the 1977 tab, how would you 
+change it so that the data in multiple tables is in one table?
+
+- Using the survey_data_tab.xls spreadsheet in the 1978 tab, how would you 
+change it so that the data in multiple tables is in one table?
+
+- How could you combine the data in both of those tabs in to one table
+in one tab?
+
 
 
 Previous: [Introduction](00-intro.html)  Next: [Common formatting mistakes by spreadsheet users.](02-common-mistakes.html)

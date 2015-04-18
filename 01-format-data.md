@@ -10,28 +10,58 @@ Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, *
 
 ## Learning Objectives
 * Learning best practices for recording and formatting data in spreadsheets
-* Understanding the correcpondence between columns and rows in spreadsheets and data structure
-* Understanding the correspondence between spreadsheet cells, columns and rows and data observations and values
+* Understanding the correspondence between columns and rows in spreadsheets 
+and data structure
+* Understanding the correspondence between spreadsheet cells, columns and rows 
+and data observations and values
 
 
-The most common mistake a casual spreadsheet user makes is by treating the program like it is a lab notebook- that is, relying on context, notes in the margin, spatial layout of data and fields to convey information. As humans, we can (usually) interpret these things, but computers are dumb, and unless we explain to the computer what every single thing means, it will not be able to see how our data fit together.
+The most common mistake made is treating the 
+program like it is a lab notebook- that is, relying on context, notes in the 
+margin, spatial layout of data and fields to convey information. As humans, 
+we can (usually) interpret these things, but computers are dumb, and unless 
+we explain to the computer what every single thing means, it will not be able 
+to see how our data fit together.
 
-This is why it’s extremely important to set up well-formatted tables from the outset- before you even start entering data from your very first preliminary experiment. Spreadsheets are powerful because they allow us to connect things that relate to each other in a  machine-readable way. Failing to use this functionality is essentially the same as scanning your datasheets and saving them as jpegs- digitally backed up, but not really doing anything for anybody. When you don’t set up your spreadsheet in a way which allows the computer to see how things are connected, you’re either creating a lot of work for you or for someone else, or dooming your data to obscurity.
+Using the power of computers, we can manage and analyze data in much more 
+effective and faster ways, but to use that power, we have to set up
+our data for the computer to be able to understand it. 
+
+This is why it’s extremely important to set up well-formatted tables from the 
+outset- before you even start entering data from your very first preliminary 
+experiment. **Data organization is the foundation of your research project.**
+It can make it easier or harder to work with your data throughout your
+analysis, so it's worth thinking about when you're doing your data
+entry or setting up your experiment. You can set things up in a different
+way in spreadsheets, but it limits your ability to work with the data
+in other programs or have the you-of-6-months-from-now or your collaborator
+work with the data. 
+
 
 ###Structuring data in spreadsheets
 
-There are two simple rules you should keep in mind when entering your data into any spreadsheet:
+There are two rules you should keep in mind when entering your data 
+into any spreadsheet:
 
-1. Each data cell is an observation that must have all the relevant information connected to it for it to stand on its own.
+1. Each data cell is an observation that must have all the relevant information 
+connected to it for it to stand on its own.
 
-2. You must make it clear to the computer how the data cells relate to the relevant information and each other.
+2. You must make it clear to the computer how the data cells relate to the 
+relevant information and each other.
 
-So, you can see how these two points apply directly to how you set up your spreadsheets. 
+So, you can see how these two points apply directly to how you set up your 
+spreadsheets. 
 
 ###Columns for variables and rows for observations
 
-The rule of thumb, when setting up a datasheet, is columns= variables, rows = observations, cells=data (values).
-Let's try this with an example using some of our sample data: [a list of species](../../../data/biology/species.csv) and [a list of plots](../../../data/biology/plots.csv). You can do that by simply opening the `*.csv` files in Excel. Excel will automatically try to fit the data from the `*.csv` file and put the first value in column A and the second value in column B. 
+The rule of thumb, when setting up a datasheet, is columns= variables, 
+rows = observations, cells=data (values).
+Let's try this with an example using some of our sample data: [a list of 
+species](../../../data/biology/species.csv) and 
+[a list of plots](../../../data/biology/plots.csv). 
+You can do that by simply opening the `*.csv` files in Excel. Excel will 
+automatically try to fit the data from the `*.csv` file and put the first 
+value in column A and the second value in column B. 
 
 The output should look like this:
 
@@ -40,7 +70,13 @@ The output should look like this:
 ![Tables in Excel- example 2](fig/excel_tables_example1.png)
 
 
-A common grad student error I’ve seen is creating multiple data tables within one spreadsheet. NEVER DO THIS. When you create multiple tables within one spreadsheet, you’re drawing false associations between things for the computer, which sees each row as an observation. You’re also potentially using the same field name in multiple places, which will make it harder to clean your data up into a usable form. The example below depicts the problem:
+A common strategy is creating multiple data tables within 
+one spreadsheet. **This confuses the computer, so don't do this!** 
+When you create multiple tables within one 
+spreadsheet, you’re drawing false associations between things for the computer, 
+which sees each row as an observation. You’re also potentially using the same 
+field name in multiple places, which will make it harder to clean your data up 
+into a usable form. The example below depicts the problem:
 
 ![Classic spreadsheet mistake](fig/2_datasheet_example.jpg)
 
@@ -55,8 +91,17 @@ The next time you’re entering data, and you go to create another tab or table,
 
 Your data sheet might get very long over the course of experiment. This makes it harder to enter data if you can’t see your headers at the top of the spreadsheet. But do NOT repeat headers. These can easily get mixed into the data, leading to problems down the road.
 
-### Challege (optional) - freezing rows and columns in spreadsheets###
+Instead you can Freeze the column headers.
 
-Download and open in your spreadsheet application [a sample dataset](../../../data/biology/surveys.csv) containing information about a survey on mammals occurence in Arizona. Set up your spreadsheet so that top row containing the headers does not move as you scroll down the dataset.
+- Demonstration of freezing column headers
+
+### Exercise
+
+- Using the messy data spreadsheet, how would you change it so that 
+the data in multiple tables is in one table?
+
+- Using the messy data spreadsheet, how would you change it so that 
+the data in multiple tabs is in one table?
+
 
 Previous: [Introduction](00-intro.html)  Next: [Common formatting mistakes by spreadsheet users.](02-common-mistakes.html)

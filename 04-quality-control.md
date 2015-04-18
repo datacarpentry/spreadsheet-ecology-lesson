@@ -1,4 +1,8 @@
-# Basic quality control and data manipulation in spreadsheets #
+---
+layout: lesson
+title: Basic quality control and data manipulation in spreadsheets 
+root: .
+---
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
 Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, and
@@ -39,4 +43,4 @@ Why would I need to reshape my data? Different analyses require data to be in di
 
 Note: these operations can be done in most statistical or programming packages (i.e. using reshape2, plyr  in R)
 
-Previous:[Dates as data.](03-dates-as-data.md) Next: [Exporting data from spreadsheets.](05-exporting-data.md)
+Previous:[Dates as data.](03-dates-as-data.html) Next: [Exporting data from spreadsheets.](05-exporting-data.html)

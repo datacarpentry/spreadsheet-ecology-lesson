@@ -1,4 +1,8 @@
-# Formatting data tables in Spreadsheets #
+---
+layout: lesson
+title: Formatting data tables in Spreadsheets
+root: .
+---
 
 Authors: **Christie Bahlai**, **Aleksandra Pawlik**<br>
 Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, 
@@ -31,22 +35,17 @@ Let's try this with an example using some of our sample data: [a list of species
 
 The output should look like this:
 
-![Tables in Excel - example 1](./../images/excel_tables_example.png)
+![Tables in Excel - example 1](fig/excel_tables_example.png)
 
-![Tables in Excel- example 2](./../images/excel_tables_example1.png)
+![Tables in Excel- example 2](fig/excel_tables_example1.png)
 
 
 A common grad student error I’ve seen is creating multiple data tables within one spreadsheet. NEVER DO THIS. When you create multiple tables within one spreadsheet, you’re drawing false associations between things for the computer, which sees each row as an observation. You’re also potentially using the same field name in multiple places, which will make it harder to clean your data up into a usable form. The example below depicts the problem:
 
-![Classic spreadsheet mistake](./../images/2_datasheet_example.jpg)
+![Classic spreadsheet mistake](fig/2_datasheet_example.jpg)
 
 
 But what about worksheet tabs? That seems like an easy way to organize data, right? Well, yes and no. When you create extra tabs, you fail to allow the computer to see connections in the data that are there (you have to introduce spreadsheet application-specific functions or scripting to ensure this connection). Say, for instance, you make a separate tab for each day you take a measurement.
-<!---
-#![Each table in separate worksheet](../../../img/excel_tables_example_sk_e1_p1.png)
-
-![Each table in separate worksheet](./../images/excel_tables_example_sk_e1_p1_wrl.png)
--->
 
 This is bad practice for two reasons:   
 **1)** you are more likely to accidentally add inconsistencies to your data if each time you take a measurement, you start recording data in a new tab, and   
@@ -60,4 +59,4 @@ Your data sheet might get very long over the course of experiment. This makes it
 
 Download and open in your spreadsheet application [a sample dataset](../../../data/biology/surveys.csv) containing information about a survey on mammals occurence in Arizona. Set up your spreadsheet so that top row containing the headers does not move as you scroll down the dataset.
 
-Previous: [Introduction](00-intro.md)  Next: [Common formatting mistakes by spreadsheet users.](02-common-mistakes.md)
+Previous: [Introduction](00-intro.html)  Next: [Common formatting mistakes by spreadsheet users.](02-common-mistakes.html)

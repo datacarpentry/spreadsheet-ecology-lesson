@@ -15,6 +15,7 @@ Some additional resources on problems and caveats with data analysis using sprea
 3. [Statistical analysis using Microsoft Excel](http://pages.stern.nyu.edu/~jsimonof/classes/1305/pdf/excelreg.pdf) by Jeffrey S. Simonoff (Leonard N. Stern School of Business, New York University)
 
 
+
 1. [Formatting data tables in spreadsheets.](01-format-data.html)
 2. [Common formatting mistakes by spreadsheet users.](02-common-mistakes.html)
 3. [Dates as data.](03-dates-as-data.html)

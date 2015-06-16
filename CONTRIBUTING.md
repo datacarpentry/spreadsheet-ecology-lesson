@@ -17,11 +17,11 @@ under [these licenses](LICENSE.md).
 
 ## Working With GitHub
 
-1.  Fork the `datacarpentry/datacarpentry` repository on GitHub.
+1.  Fork the `datacarpentry/excel-ecology` repository on GitHub.
 
 2.  Clone that repository to your own machine.
 
-3.  Create a branch from `master` for your changes.
+3.  Create a branch from `gh-pages` for your changes.
     Give your branch a meaningful name,
     such as `fixing-typos-in-novice-shell-lesson`
     or `adding-tutorial-on-visualization`.

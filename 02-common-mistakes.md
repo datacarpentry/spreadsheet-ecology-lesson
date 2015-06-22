@@ -1,9 +1,8 @@
 ---
 layout: lesson
-root: ../
+title: Common mistakes by spreadsheet users
+root: .
 ---
-
-## Common mistakes by spreadsheet users
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
 Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, and
@@ -25,8 +24,7 @@ As seen in the example, the SUM() function correctly ignores the value of NA in 
 
 From White et al, 2013, [Nine simple ways to make it easier to (re)use your data.](http://library.queensu.ca/ojs/index.php/IEE/article/view/4608/4898) Ideas in Ecology and Evolution:
 
-![White et al.](./../images/3_white_table_1.jpg)
-
+![White et al.](fig/3_white_table_1.jpg)
 ## Using formatting to convey information ##
 **Example**: Highlighting cells, rows or columns that should be excluded from an analysis, leaving blank rows to indicate separations in data.
 
@@ -40,7 +38,7 @@ From White et al, 2013, [Nine simple ways to make it easier to (re)use your data
 
 
 
-![by @naupakaz](https://raw.githubusercontent.com/cbahlai/datacarpentry/master/lessons/excel/images/4_merged_cells.jpg)
+![by @naupakaz](fig/4_merged_cells.jpg)
 
 
 ## Placing comments or units in cells ##
@@ -79,7 +77,6 @@ first_observation | Observation_01 | 1st Obs.
 **Solution**: This is a common mistake. For example, when writing longer text in a cell, people often include line breaks, em-dashes, et al in their spreadsheet.  Worse yet, when copying data in from applications such as Word, formatting and fancy non-standard characters (such as left- and right-aligned quotation marks) are included.  When exporting this data into a coding/statistical environment or into a relational database, dangerous things may occur, such as lines being cut in half and encoding errors being thrown.
 
 General best practice is to avoid adding characters such as newlines, tabs, and vertical tabs.  In other words, treat a text cell as if it were a simple web form that can only contain text and spaces.
-
 
 
 Previous: [Formatting data tables in spreadsheets.](01-format-data.html) Next: [Dates as data.](03-dates-as-data.html)

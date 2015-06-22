@@ -1,9 +1,8 @@
 ---
 layout: lesson
-root: ../
+title: Dates as data
+root: .
 ---
-
-## Dates as data ##
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
 Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, and
@@ -38,7 +37,7 @@ Excel also entertains a second date system, the 1904 date system, as the default
 
 Spreadsheet programs have numerous “useful features” which allow them to “handle” dates in a variety of ways.
 
-![Many formats, many ambiguities](https://raw.githubusercontent.com/cbahlai/datacarpentry/master/lessons/excel/images/5_excel_dates_1.jpg)
+![Many formats, many ambiguities](fig/5_excel_dates_1.jpg)
 
 But these ‘features’ often allow ambiguity to creep into your data. Ideally, data should be as unambiguous as possible. 
 
@@ -79,7 +78,7 @@ Storing dates in `Day-of-Year` format helps remove this ambiguity. Let's look at
 
 Once, I received a dataset from a colleague representing insect counts that were taken every few days over the summer, and things went something like this:
 
-![So, so ambiguous, it's even confusing Excel](https://raw.githubusercontent.com/cbahlai/datacarpentry/master/lessons/excel/images/6_excel_dates_2.jpg)
+![So, so ambiguous, it's even confusing Excel](fig/6_excel_dates_2.jpg)
 
 
 If Excel was to be believed, my colleague had been collecting bugs IN THE FUTURE. Now, I have no doubt this person is highly capable, but I believe time travel was beyond even his grasp.
@@ -94,7 +93,7 @@ The types of statistical models I build usually incorporate year as a factor, to
 
 So, can you convert all your dates into DOY format? Well, in Excel, here’s a handy dandy guide:
 
-![Kill that ambiguity before it bites you!](https://raw.githubusercontent.com/cbahlai/datacarpentry/master/lessons/excel/images/7_excel_dates_3.jpg)
+![Kill that ambiguity before it bites you!](fig/7_excel_dates_3.jpg)
 
 
 

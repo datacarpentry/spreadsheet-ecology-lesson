@@ -1,10 +1,8 @@
 ---
 layout: lesson
-root: ../
+title: Exporting data from spreadsheets
+root: .
 ---
-
-
-# Exporting data from spreadsheets #
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
 Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, and
@@ -69,4 +67,4 @@ Add the follwing to the file ([see the detailed tutorial](http://nicercode.githu
 3. Use [dos2unix](http://dos2unix.sourceforge.net/) (available on OSX, *nix, and Cygwin) on local files to standardize line endings.
 
 
-Previous: [Basic quality control and data manipulation in spreadsheets.](04-quality-control.html) 
+Previous: [Basic quality control and data manipulation in spreadsheets.](04-quality-control.html) Next: [Caveats of popular data and file formats.](06-data-formats-caveats.html)

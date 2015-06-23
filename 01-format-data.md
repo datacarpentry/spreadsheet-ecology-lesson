@@ -31,7 +31,7 @@ So, you can see how these two points apply directly to how you set up your sprea
 ###Columns for variables and rows for observations
 
 The rule of thumb, when setting up a datasheet, is columns= variables, rows = observations, cells=data (values).
-Let's try this with an example using some of our sample data: [a list of species](http://files.figshare.com/1919741/species.csv) and [a list of plots](http://files.figshare.com/1919741/plots.csv). You can do that by simply opening the `*.csv` files in Excel. Excel will automatically try to fit the data from the `*.csv` file and put the first value in column A and the second value in column B. 
+Let's try this with an example using some of our sample data: [a list of species](../../../data/biology/species.csv) and [a list of plots](../../../data/biology/plots.csv). You can do that by simply opening the `*.csv` files in Excel. Excel will automatically try to fit the data from the `*.csv` file and put the first value in column A and the second value in column B. 
 
 The output should look like this:
 
@@ -57,6 +57,6 @@ Your data sheet might get very long over the course of experiment. This makes it
 
 ### Challege (optional) - freezing rows and columns in spreadsheets###
 
-Download and open in your spreadsheet application [a sample dataset](http://files.figshare.com/1919744/surveys.csv) containing information about a survey on mammals occurence in Arizona. Set up your spreadsheet so that top row containing the headers does not move as you scroll down the dataset.
+Download and open in your spreadsheet application [a sample dataset](../../../data/biology/surveys.csv) containing information about a survey on mammals occurence in Arizona. Set up your spreadsheet so that top row containing the headers does not move as you scroll down the dataset.
 
 Previous: [Introduction](00-intro.html)  Next: [Common formatting mistakes by spreadsheet users.](02-common-mistakes.html)

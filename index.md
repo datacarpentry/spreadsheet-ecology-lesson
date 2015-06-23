@@ -54,9 +54,9 @@ in working with {{info.domain %}} data in {{info.topic %}}.
 <!-- End information from _data/lessons.yml -->
 
 ## Data
-{% for  info in site.data.info %}
-Data files for the workshop are available at: [{{ info.dataurl }}]({{ info.dataurl }})
-{% endfor %}
+
+Data files for the workshop are available at: [{{ info.dataurl %}}]({{ info.dataurl %}})
+
 
 <br>
 

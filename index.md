@@ -55,7 +55,7 @@ in working with {{info.domain %}} data in {{info.topic %}}.
 
 ## Data
 
-Data files for the workshop are available at: [{{ messy data spreadsheet %}}]({{ info.dataurl %}})
+Data files for the workshop are available at: [{{ info.dataurl %}}]({{ info.dataurl %}})
 
 
 <br>

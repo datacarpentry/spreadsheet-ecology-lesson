@@ -3,5 +3,5 @@
   maintainers: ["Aleksandra Pawlik", "Tracy Teal"]
   domain: Ecology
   topic: Spreadsheets
-  dataurl: https://github.com/datacarpentry/data-ecology/blob/gh-pages/messy-data/survey_data_tabs.xls?raw=true
+  dataurl:
   status: Teaching

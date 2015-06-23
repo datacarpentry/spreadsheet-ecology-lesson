@@ -1,10 +1,7 @@
 ---
-layout: lesson
-root: ../
+layout: page
 title: Managing dates and times in spreadsheets
 ---
-
-
 Correct handling of dates and times in a spreadsheet can be done with little to no hassle if we use the correct functions. Spreadsheet programs are designed to be able to handle different conventions in use around the world, since the work is already done, we might as well use it to our advantage. 
 Please remember that functions that are valid for a given spreadsheet program (be it excel, open/libre office, gnumeric, etc) are usually guaranteed to be compatible only within the same famly of products. If you will later need to export the data and need to conserve the timestamps you are better off handling them using custom solutions.   
 

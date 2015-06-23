@@ -55,7 +55,7 @@ in working with {{info.domain %}} data in {{info.topic %}}.
 
 ## Data
 {% for  info in site.data.info %}
-Data files for the workshop are available at: ({{ info.dataurl }})[{{ info.dataurl }}]
+Data files for the workshop are available at: [{{ info.dataurl }}]({{ info.dataurl }})
 {% endfor %}
 
 <br>

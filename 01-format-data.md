@@ -50,67 +50,48 @@ connected to it for it to stand on its own.
 2. You must make it clear to the computer how the data cells relate to the 
 relevant information and each other.
 
-So, you can see how these two points apply directly to how you set up your 
-spreadsheets. 
+For instance, we have data from a survey of small mammals in a desert ecosystem.
+Different people have gone to the field and entered data in to a spreadsheet.
+They keep track of things like species, plot, weight, sex and date collected. 
+
+If they were to keep track of the data like this:
+
+![multiple-info example](fig/multiple-info.png)
+
+the problem is that species and sex are in the same field. So, if they wanted to 
+look at all of one species or look at different weight distributions by sex, 
+it would be hard to set up the data to do this. If instead we put sex and species 
+in different columns, you can see that it would be much easier. 
 
 ###Columns for variables and rows for observations
 
 The rule of thumb, when setting up a datasheet, is columns= variables, 
 rows = observations, cells=data (values).
-Let's try this with an example using some of our sample data: [a list of 
-species](../../../data/biology/species.csv) and 
-[a list of plots](../../../data/biology/plots.csv). 
-You can do that by simply opening the `*.csv` files in Excel. Excel will 
-automatically try to fit the data from the `*.csv` file and put the first 
-value in column A and the second value in column B. 
 
-The output should look like this:
+So, instead we should have:
 
-![Tables in Excel - example 1](fig/excel_tables_example.png)
+![single-info example](fig/single-info.png)
 
-![Tables in Excel- example 2](fig/excel_tables_example1.png)
+## Exercise
 
+We're going to take a messy version of the survey data and clean it up.
 
-A common strategy is creating multiple data tables within 
-one spreadsheet. **This confuses the computer, so don't do this!** 
-When you create multiple tables within one 
-spreadsheet, you’re drawing false associations between things for the computer, 
-which sees each row as an observation. You’re also potentially using the same 
-field name in multiple places, which will make it harder to clean your data up 
-into a usable form. The example below depicts the problem:
+- Download the data by clicking on [https://github.com/tracykteal/excel-ecology/blob/gh-pages/data/biology/survey_data_tabs.xls](https://github.com/tracykteal/excel-ecology/blob/gh-pages/data/biology/survey_data_tabs.xls)
 
-![Classic spreadsheet mistake](fig/2_datasheet_example.jpg)
+- Open up the data in a spreadsheet program 
 
+- You can see that there are two tabs. Two field assistants conducted the surveys, one
+in 2013 and one in 2014, and they both kept track of the data in their own way. Now
+you're the person in charge of this project and you want to be able to start doing
+statistics with the data. 
 
-But what about worksheet tabs? That seems like an easy way to organize data, right? Well, yes and no. When you create extra tabs, you fail to allow the computer to see connections in the data that are there (you have to introduce spreadsheet application-specific functions or scripting to ensure this connection). Say, for instance, you make a separate tab for each day you take a measurement.
+- With the person next to you, work on the messy data so that a computer will
+be able to understand it. Clean up the 2013 and 2014 tabs, and put them all together
+in one spreadsheet. 
 
-This is bad practice for two reasons:   
-**1)** you are more likely to accidentally add inconsistencies to your data if each time you take a measurement, you start recording data in a new tab, and   
-**2)** even if you manage to prevent all inconsistencies from creeping in, you will add an extra step for yourself before you analyze the data because you will have to combine these data into a single datatable. You will have to explicitly tell the computer how to combine tabs - and if the tabs are inconsistently formatted, you might even have to do it by hand!
+After you go through this exercise, we'll discuss as a group what you think was wrong
+with this data and how you fixed it. 
 
-The next time you’re entering data, and you go to create another tab or table, I want you to ask yourself “Self, could I avoid adding this tab by adding another column to my original spreadsheet?”
+*Instructors see notes in 'instructors_notes.md' on this exercise.*
 
-Your data sheet might get very long over the course of experiment. This makes it harder to enter data if you can’t see your headers at the top of the spreadsheet. But do NOT repeat headers. These can easily get mixed into the data, leading to problems down the road.
-
-Instead you can Freeze the column headers.
-
-- Demonstration of freezing column headers
-
-### Exercise
-
-Two graduate students went out and collected data in 1977 and 1978. They
-gave their data	to their advisor who put it in two separate tabs in
-the same Exel spreadsheet.
-
-- Using the survey_data_tab.xls spreadsheet in the 1977 tab, how would you 
-change it so that the data in multiple tables is in one table?
-
-- Using the survey_data_tab.xls spreadsheet in the 1978 tab, how would you 
-change it so that the data in multiple tables is in one table?
-
-- How could you combine the data in both of those tabs in to one table
-in one tab?
-
-
-
-Previous: [Introduction](00-intro.html)  Next: [Common formatting mistakes by spreadsheet users.](02-common-mistakes.html)
+Previous: [Introduction](00-intro.html)  Next: [Common Spreadsheet Mistakes](02-common-mistakes.html)

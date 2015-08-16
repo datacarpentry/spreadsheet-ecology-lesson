@@ -120,8 +120,6 @@ primary spreadsheet program- there are others (gnumeric, Calc from OpenOffice),
  and their functionality is similar, but Excel seems to be the program most 
 used by biologists and ecologists.
 
-![Helpful clippy - img by @tim_yates](fig/1_helpful_clippy.jpg)
-
 In this lesson, we’re going to talk about:
 
 1. [Formatting data tables in spreadsheets.](01-format-data.html)

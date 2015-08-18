@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Common spreadsheet errors
+title: Formatting problems
 root: .
 ---
 

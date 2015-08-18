@@ -38,17 +38,41 @@ way in spreadsheets, but it limits your ability to work with the data
 in other programs or have the you-of-6-months-from-now or your collaborator
 work with the data. 
 
+### Keeping track of your analyses
 
-###Structuring data in spreadsheets
+When you're working with spreadsheets, during data clean up or analyses, it's
+very easy to end up with a spreadsheet that looks very different from the one
+you started with. In order to be able to reproduce your analyses or figure out
+what you did when Reviewer #3 asks for a different analysis, **you must**
 
-There are two rules you should keep in mind when entering your data 
-into any spreadsheet:
+- **create a new file or tab with your cleaned or analyzed data.** Do not modify
+that original dataset, or you will never know where you started!
+- **keep track of the steps you took in your clean up or analysis.** You should track 
+these steps as you would any step in an experiment. You can
+do this in another text file, or a good option is to create a new tab in your spreadsheet
+with your notes. This way the notes and data stay together.
 
-1. Each data cell is an observation that must have all the relevant information 
-connected to it for it to stand on its own.
+This might be an example of a spreadsheet setup:
 
-2. You must make it clear to the computer how the data cells relate to the 
-relevant information and each other.
+![spreadsheet setup](fig/spreadsheet-setup.png)
+
+Put these principles in to practice today during your Exercises. 
+
+
+### Structuring data in spreadsheets
+
+
+The cardinal rules of using spreadsheet programs for data:
+
+        1. Put all your variables in columns - the thing you're measuring, like 'weight' or 'temperature'.
+        2. Put each observation in its own row.
+        3. Don't combine multiple pieces of information in one cell. Sometimes it just 
+seems like one thing, but think if that's the only way you'll want to be able to use or sort
+that data. 
+        4. Leave the raw data raw - don’t mess with it!
+        5. Export the cleaned data to a text based format like CSV. This ensures that anyone
+can use the data, and is the format required by most data repositories.
+
 
 For instance, we have data from a survey of small mammals in a desert ecosystem.
 Different people have gone to the field and entered data in to a spreadsheet.

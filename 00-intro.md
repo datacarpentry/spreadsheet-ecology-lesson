@@ -78,18 +78,10 @@ Head First Excel by O'Reilly
 or plotting analyses done in spreadsheet programs
 
 ---
-
-
-The cardinal rules of using spreadsheet programs for data:
-
-	1. Put all your variables in columns
-	2. Put each observation in its own row
-	3. Leave the raw data raw - don’t mess with it!
-	4. Export to a text based format like CSV.
-
 In reality, though, many scientists use spreadsheet programs for much more 
 than this. We use them to create data tables for publications, to generate 
 summary statistics, and make figures. 
+
 Generating tables for publications in a spreadsheet is not optimal- often, 
 when formatting a data table for publication, we’re reporting key summary 
 statistics in a way that is not really meant to be read as data, and often 
@@ -122,8 +114,8 @@ used by biologists and ecologists.
 
 In this lesson, we’re going to talk about:
 
-1. [Formatting data tables in spreadsheets.](01-format-data.html)
-2. [Common formatting mistakes by spreadsheet users.](02-common-mistakes.html)
+1. [Formatting data tables in spreadsheets](01-format-data.html)
+2. [Formatting problems](02-common-mistakes.html)
 3. [Dates as data.](03-dates-as-data.html)
 4. [Basic quality control and data manipulation in spreadsheets.](04-quality-control.html)
 5. [Exporting data from spreadsheets.](05-exporting-data.html)

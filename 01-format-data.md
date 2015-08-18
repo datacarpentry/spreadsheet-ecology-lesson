@@ -94,4 +94,4 @@ with this data and how you fixed it.
 
 *Instructors see notes in 'instructors_notes.md' on this exercise.*
 
-Previous: [Introduction](00-intro.html)  Next: [Common Spreadsheet Mistakes](02-common-mistakes.html)
+Previous: [Introduction](00-intro.html)  Next: [Formatting problems](02-common-mistakes.html)

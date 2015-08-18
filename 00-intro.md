@@ -8,9 +8,50 @@ Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
 Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, **Clare Sloggett**, **Harriet Dashnow** and
 **Ben Marwick**
 
-Spreadsheet programs are very useful graphical interfaces for designing data tables and handling very basic data quality control functions. 
+Good data organization is the foundation of your research project. Most researchers
+have data or do data entry in spreadsheets. Spreadsheet programs are very useful graphical interfaces for designing data tables and handling very basic data quality control functions. 
 
 ---
+
+### Spreadsheet outline
+
+In this lesson, we’re going to talk about:
+
+- Good data entry practices - formatting data tables in spreadsheets
+- How to avoid common formatting mistakes
+- Dates as data - beware!
+- Basic quality control and data manipulation in spreadsheets
+- Exporting data from spreadsheets
+
+*Overall good data practices*
+
+**Much of your time as a researcher will be spent in this 'data wrangling' stage.**
+It's not the most fun, but it's necessary. We'll teach you how to think
+about data organization and some practices for more effective data wrangling.
+
+
+---
+
+### What this lesson will not teach you
+
+- How to do statistics in a spreadsheet
+- How to do plotting in a spreadsheet
+- How to write code in spreadsheet programs
+
+If you're looking to do this, a good reference is
+Head First Excel by O'Reilly
+
+---
+
+### Why aren't we teaching data analysis in spreadsheets
+
+- Data analysis in spreadsheets usually requires a lot of manual work. If you want to change a parameter or run
+an analyses with a new dataset, you usually have to redo everything by hand. (We do know
+that you can create macros, but see the next point.)
+- It is also difficult to track or reproduce statistical or plotting analyses 
+done in spreadsheet programs when you want to go back to your work or someone asks 
+for details of your analysis.
+
 
 ### Spreadsheet programs
 
@@ -47,39 +88,11 @@ easily?
 
 ---
 
-### Spreadsheet outline
+## Problems with Spreadsheets
 
-In this lesson, we’re going to talk about:
-
-- Good data entry practices - formatting data tables in spreadsheets
-- How to avoid common formatting mistakes
-- Dates as data - beware!
-- Basic quality control and data manipulation in spreadsheets
-- Exporting data from spreadsheets
-
-*Overall good data practices*
-
----
-
-### What this lesson will not teach you
-
-- How to do statistics in a spreadsheet
-- How to do plotting in a spreadsheet
-- How to write code in spreadsheet programs
-
-If you're looking to do this, a good reference is
-Head First Excel by O'Reilly
-
----
-
-### Why aren't we teaching this
-
-- It is difficult to track or reproduce statistical
-or plotting analyses done in spreadsheet programs
-
----
-In reality, though, many scientists use spreadsheet programs for much more 
-than this. We use them to create data tables for publications, to generate 
+Spreadsheets are good for data entry, but in reality we tend to use spreadsheet 
+programs for much more 
+than data entry. We use them to create data tables for publications, to generate 
 summary statistics, and make figures. 
 
 Generating tables for publications in a spreadsheet is not optimal- often, 
@@ -99,6 +112,8 @@ slightly different formula to multiple adjacent cells. When using a
 command-line based statistics program like R or SAS, it’s practically 
 impossible to accidentally apply a calculation to one observation in your 
 dataset but not another unless you’re doing it on purpose. 
+
+### Using for Spreadsheets for Data Entry and Cleaning
 
 HOWEVER, there are circumstances where you might want to use a spreadsheet 
 program to produce “quick and dirty” calculations or figures, and some of 

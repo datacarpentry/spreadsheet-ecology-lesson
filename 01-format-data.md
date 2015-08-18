@@ -100,7 +100,7 @@ So, instead we should have:
 
 We're going to take a messy version of the survey data and clean it up.
 
-- Download the data by clicking on [https://github.com/tracykteal/excel-ecology/blob/gh-pages/data/biology/survey_data_tabs.xls](https://github.com/tracykteal/excel-ecology/blob/gh-pages/data/biology/survey_data_tabs.xls)
+- Download the data by clicking [here](https://www.dropbox.com/s/5ncuacnd3arjitc/survey_data_tabs.xls?dl=0)
 
 - Open up the data in a spreadsheet program 
 

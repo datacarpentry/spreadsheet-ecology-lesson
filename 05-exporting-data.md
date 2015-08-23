@@ -10,14 +10,20 @@ Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, *
 
 ###Spreadsheet data formats
 
-Storing data in Excel default file format (`*.xls` or `*.xlsx` - depending on the Excel version) is a bad idea. Why? Because it is a proprietary format, and it is possible that in the future, technology won’t exist (or will become sufficiently rare)  to make it inconvenient, if not impossible, to open the file. 
+Storing the data you're going to work with for your analyses
+in Excel default file format (`*.xls` or `*.xlsx` - depending on the Excel version) is a bad idea. Why? 
+
+- Because it is a proprietary format, and it is possible that in the future, technology won’t exist (or will become sufficiently rare)  to make it inconvenient, if not impossible, to open the file. 
 
 Think about zipdisks. How many old theses in your lab are “backed up” and stored on zipdisks? Ever wanted to pull out the raw data from one of those?
 *Exactly.*
 
-Also, other spreadsheet software may not be able to open the files saved in a proprietary Excel format.
+- Other spreadsheet software may not be able to open the files saved in a proprietary Excel format.
 
-But more insidiously- different versions of Excel may be changed so they handle data differently, leading to inconsistencies.
+- Different versions of Excel may be changed so they handle data differently, leading to inconsistencies.
+
+- Finally, as more journals and grant agencies are requiring you to deposit your data in a data repository, they mainly don't accept Excel format. It needs to be in one of the formats 
+discussed here.
 
 As an example, do you remember how we talked about how Excel stores dates earlier? Turns out there are multiple defaults for different versions of the software. And you can switch between them all willy-nilly. So, say you’re compiling Excel-stored data from multiple sources. There’s dates in each file- Excel interprets them as their own internally consistent serial numbers. When you combine the data, Excel will take the serial number from the place you’re importing it from, and interpret it using the rule set for the version of Excel you’re using. Essentially, you could be adding a huge error to your data, and it wouldn’t necessarily be flagged by any data cleaning methods if your ranges overlap.
 
@@ -29,7 +35,7 @@ To save a file you have opened in Excel into the `*.csv` format:
 2. In the 'Format' field, from the list, select 'Comma Separated Values' (`*.csv`).
 3. Double check the file name and the location where you want to save it and hit 'Save'.
 
-![Saving an Excel file to CSV](../../../img/excel-to-csv.png)
+![Saving an Excel file to CSV](fig/excel-to-csv.png)
 
 An important note for backwards compatibility: you can open CSVs in Excel!
 

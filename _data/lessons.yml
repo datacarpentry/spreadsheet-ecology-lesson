@@ -2,10 +2,10 @@
   name: Introduction
 
 - url: 01-format-data.html
-  name: Formatting data tables in spreadsheets
+  name: Formatting data exercise
 
 - url: 02-common-mistakes.html
-  name: Common formatting mistakes by spreadsheet users
+  name: Formatting problems
 
 - url: 03-dates-as-data.html
   name: Dates as data
@@ -17,4 +17,4 @@
   name: Exporting data from spreadsheets
 
 - url: 06-data-formats-caveats.html
-  name: Data Formats Caveats
+  name: Data Format Caveats

@@ -34,6 +34,9 @@ in working with {{page.domain %}} data in {{page.topic %}}.
 
 **Lesson status: {{ page.status }}**
 
+### Instructors
+See [Instructor notes](http://datacarpentry.github.io/spreadsheet-ecology-lesson/instructor_notes.html) on how to teach this lesson.
+
 <!--
   [Information on Lesson Status Categories]()
 -->

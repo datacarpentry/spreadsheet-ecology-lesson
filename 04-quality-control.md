@@ -108,4 +108,13 @@ is your interest, there are many good on-line tutorials. However, because
 of their lack of reproducibility and limited automation, we will focus in 
 this workshop on other analytical approaches instead.
 
+See [http://fortune.com/2013/04/17/damn-excel-how-the-most-important-software-application-of-all-time-is-ruining-the-world/](http://fortune.com/2013/04/17/damn-excel-how-the-most-important-software-application-of-all-time-is-ruining-the-world/) for some of the outcomes of accidental errors in spreadsheets
+having broad implications. 
+
+Can you also make errors in code like R, Python and SQL? Absolutely! The difference is that in this code, everything that you're doing is transparent, so
+not only is it easier for you to track what you've done and re-do or automate
+analyses, but it's also transparent to anyone else. This is not only good
+practice and consistent with the scientific method, but it's also starting
+to be required by funding agencies and journals. 
+
 Previous:[Dates as data.](03-dates-as-data.html) Next: [Exporting data from spreadsheets.](05-exporting-data.html)

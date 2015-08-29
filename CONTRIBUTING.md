@@ -17,7 +17,7 @@ under [these licenses](LICENSE.md).
 
 ## Working With GitHub
 
-1.  Fork the `datacarpentry/excel-ecology` repository on GitHub.
+1.  Fork the `datacarpentry/spreadsheet-ecology-lesson` repository on GitHub.
 
 2.  Clone that repository to your own machine.
 

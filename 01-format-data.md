@@ -67,11 +67,10 @@ The cardinal rules of using spreadsheet programs for data:
         1. Put all your variables in columns - the thing you're measuring, like 'weight' or 'temperature'.
         2. Put each observation in its own row.
         3. Don't combine multiple pieces of information in one cell. Sometimes it just 
-seems like one thing, but think if that's the only way you'll want to be able to use or sort
-that data. 
+        seems like one thing, but think if that's the only way you'll want to be able to use or sort that data. 
         4. Leave the raw data raw - don’t mess with it!
-        5. Export the cleaned data to a text based format like CSV. This ensures that anyone
-can use the data, and is the format required by most data repositories.
+        5. Export the cleaned data to a text based format like CSV. This ensures that anyone 
+        can use the data, and is the format required by most data repositories.
 
 
 For instance, we have data from a survey of small mammals in a desert ecosystem.

@@ -102,14 +102,19 @@ A good way to check if you’ve got data of the wrong type in a column is by che
 [Example: variable format]
 
 ## Pivot tables ##
-Pivot tables are a very powerful tool in Excel. They’re useful to check for issues with data integrity because they provide a quick, visual way to spot things that are amiss, including with categorical variables. They are also great for reshaping data and obtaining summary statistics quickly in a drag and drop interface.
 
-[Example in Pivot Table]
+Pivot tables are something that give you analytical power in Excel. If that
+is your interest, there are many good on-line tutorials. However, because
+of their lack of reproducibility and limited automation, we will focus in 
+this workshop on other analytical approaches instead.
 
-Why would I need to reshape my data? Different analyses require data to be in different formats- example: taking a species list to a diversity analysis.
+See [http://fortune.com/2013/04/17/damn-excel-how-the-most-important-software-application-of-all-time-is-ruining-the-world/](http://fortune.com/2013/04/17/damn-excel-how-the-most-important-software-application-of-all-time-is-ruining-the-world/) for some of the outcomes of accidental errors in spreadsheets
+having broad implications. 
 
-[Use species list example]
-
-Note: these operations can be done in most statistical or programming packages (i.e. using reshape2, plyr  in R)
+Can you also make errors in code like R, Python and SQL? Absolutely! The difference is that in this code, everything that you're doing is transparent, so
+not only is it easier for you to track what you've done and re-do or automate
+analyses, but it's also transparent to anyone else. This is not only good
+practice and consistent with the scientific method, but it's also starting
+to be required by funding agencies and journals. 
 
 Previous:[Dates as data.](03-dates-as-data.html) Next: [Exporting data from spreadsheets.](05-exporting-data.html)

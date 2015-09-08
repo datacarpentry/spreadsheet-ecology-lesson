@@ -39,7 +39,7 @@ To save a file you have opened in Excel into the `*.csv` format:
 
 An important note for backwards compatibility: you can open CSVs in Excel!
 
-## A Note on Cross-platform Operability## 
+## A Note on Cross-platform Operability
 (or, how typewriters are ruining your work)
 
 By default, most coding and statistical environments expect UNIX-style line endings (`\n`) as representing line breaks.  However, Windows uses an alternate line ending signifier (`\r\n`) by default for legacy compatibility with Teletype-based systems.  As such, when exporting to CSV using Excel, your data will look like this:

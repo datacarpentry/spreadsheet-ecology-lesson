@@ -100,19 +100,19 @@ to be able to do as researchers. We can use them for:
 
 ## Problems with Spreadsheets
 
-Spreadsheets are good for data entry, but in reality we tend to use spreadsheet 
-programs for much more 
-than data entry. We use them to create data tables for publications, to generate 
-summary statistics, and make figures. 
+Spreadsheets are **good for data entry**, but in reality we **tend to
+use spreadsheet programs for much more** than data entry. We use them
+to create data tables for publications, to generate summary
+statistics, and make figures.
 
-Generating tables for publications in a spreadsheet is not optimal- often, 
-when formatting a data table for publication, we’re reporting key summary 
-statistics in a way that is not really meant to be read as data, and often 
-involves special formatting (merging cells, creating borders, making it 
-pretty). We advise you to do this sort of operation within your document 
-editing software.
+Generating **tables for publications** in a spreadsheet is not
+optimal - often, when formatting a data table for publication, we’re
+reporting key summary statistics in a way that is not really meant to
+be read as data, and often involves special formatting (merging cells,
+creating borders, making it pretty). We advise you to do this sort of
+operation within your document editing software.
 
-The latter two applications,  generating statistics and figures,  should 
+The latter two applications, **generating statistics and figures**, should 
 be used with caution: because of the graphical, drag and drop nature of 
 spreadsheet programs, it can be very difficult, if not impossible, to 
 replicate your steps (much less retrace anyone else's), particularly if your 

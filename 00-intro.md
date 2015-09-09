@@ -37,9 +37,9 @@ about data organization and some practices for more effective data wrangling.
 
 ### What this lesson will not teach you
 
-- How to do statistics in a spreadsheet
-- How to do plotting in a spreadsheet
-- How to write code in spreadsheet programs
+- How to do *statistics* in a spreadsheet
+- How to do *plotting* in a spreadsheet
+- How to *write code* in spreadsheet programs
 
 If you're looking to do this, a good reference is
 Head First Excel by O'Reilly

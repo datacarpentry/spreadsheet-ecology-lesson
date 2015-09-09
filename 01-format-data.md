@@ -16,12 +16,13 @@ and data structure
 and data observations and values
 
 
-The most common mistake made is treating the 
-program like it is a lab notebook- that is, relying on context, notes in the 
-margin, spatial layout of data and fields to convey information. As humans, 
-we can (usually) interpret these things, but computers are dumb, and unless 
-we explain to the computer what every single thing means, it will not be able 
-to see how our data fit together.
+The most common mistake made is treating the program like it is a lab
+notebook - that is, relying on **context**, notes in the margin,
+spatial layout of data and fields to convey information. As humans, we
+can (usually) interpret these things, but computers are dumb, and
+unless we explain to the computer what every single thing means (and
+that can be hard!), it will not be able to see how our data fit
+together.
 
 Using the power of computers, we can manage and analyze data in much more 
 effective and faster ways, but to use that power, we have to set up

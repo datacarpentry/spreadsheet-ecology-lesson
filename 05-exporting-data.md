@@ -10,13 +10,17 @@ Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, *
 
 ###Spreadsheet data formats
 
-Storing the data you're going to work with for your analyses
-in Excel default file format (`*.xls` or `*.xlsx` - depending on the Excel version) is a bad idea. Why? 
+Storing the data you're going to work with for your analyses in Excel
+default file format (`*.xls` or `*.xlsx` - depending on the Excel
+version) is a **bad idea**. Why?
 
-- Because it is a proprietary format, and it is possible that in the future, technology won’t exist (or will become sufficiently rare)  to make it inconvenient, if not impossible, to open the file. 
+- Because it is a **proprietary format**, and it is possible that in
+  the future, technology won’t exist (or will become sufficiently
+  rare) to make it inconvenient, if not impossible, to open the file.
 
-Think about zipdisks. How many old theses in your lab are “backed up” and stored on zipdisks? Ever wanted to pull out the raw data from one of those?
-*Exactly.*
+  Think about zipdisks. How many old theses in your lab are “backed
+  up” and stored on zipdisks? Ever wanted to pull out the raw data
+  from one of those? *Exactly.*
 
 - Other spreadsheet software may not be able to open the files saved in a proprietary Excel format.
 

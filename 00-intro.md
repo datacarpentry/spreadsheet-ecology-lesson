@@ -71,6 +71,10 @@ for thinking about spreadsheets is the same.
 
 ---
 
+#### Questions:
+- What kind of operations do you do in spreadsheets?
+- Which ones od you think spreadsheets are good for?
+
 Spreadsheets encompass a lot of the things we need
 to be able to do as researchers. We can use them for:
 
@@ -82,14 +86,15 @@ to be able to do as researchers. We can use them for:
 
 ---
 
-How many people have used spreadsheets in their research?
+#### Questions
 
-Spreadsheets can be very useful, but they can also be
-frustrating and even sometimes give us incorrect results.
+- How many people have used spreadsheets in their research?
 
-What are some things that you've accidentally done in
-a spreadsheet, or have been frustrated that you can't do
-easily?
+- Spreadsheets can be very useful, but they can also be frustrating
+  and even sometimes give us incorrect results.
+
+- What are some things that you've accidentally done in a spreadsheet,
+  or have been frustrated that you can't do easily?
 
 ---
 

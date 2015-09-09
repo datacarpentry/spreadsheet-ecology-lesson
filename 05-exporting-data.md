@@ -81,9 +81,6 @@ Add the follwing to the file ([see the detailed tutorial](http://nicercode.githu
 	
 3. Use [dos2unix](http://dos2unix.sourceforge.net/) (available on OSX, *nix, and Cygwin) on local files to standardize line endings.
 
-
-Previous: [Basic quality control and data manipulation in spreadsheets.](04-quality-control.html) Next: [Caveats of popular data and file formats.](06-data-formats-caveats.html)
-
 #### A note on R and `xls`
 
 There are R packages that enable to read `xls` files (as well as
@@ -97,3 +94,5 @@ worksheets in the `xls` documents.
   additional complexity/dependencies in the data analysis R code
 - **data formatting best practice STILL apply**
 - Is there really a good reason why `csv` (or similar) is not adequate?
+
+Previous: [Basic quality control and data manipulation in spreadsheets.](04-quality-control.html) Next: [Caveats of popular data and file formats.](06-data-formats-caveats.html)

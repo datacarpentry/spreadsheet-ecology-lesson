@@ -84,13 +84,13 @@ right option from the list.
 
 **readMe (README) files:** As you start manipulating your data files, create a readMe document / text file to keep track of your files and document your manipulations so that they may be easily understood and replicated, either by your future self or by an independent researcher. Your readMe file should document all of the files in your data set (including documentation), describe their content and format, and lay out the organizing principles of folders and subfolders. For each of the separate files listed, it is a good idea to document the manipulations or analyses that were carried out on those data.
 
-[Example: converting all data to values: use soybean aphid suction trap dataset for this section]
+<!-- [Example: converting all data to values: use soybean aphid suction trap dataset for this section] -->
 
 ## Sorting ##
-Bad values often sort to bottom or top of the column. For example, if your data should be numeric, then alphabetical and null data will group at the ends of the sorted data. Sort your data by each field, one at a time. Scan through each column, but pay the most attention to the top and the bottom of a column. 
+**Bad values often sort to bottom or top of the column**. For example, if your data should be numeric, then alphabetical and null data will group at the ends of the sorted data. Sort your data by each field, one at a time. Scan through each column, but pay the most attention to the top and the bottom of a column. 
 If your dataset is well-structured and does not contain formulas, sorting should never affect the integrity of your dataset.
 
-[Example: sorting]
+<!-- [Example: sorting] -->
 
 ## Conditional formatting ##
 Use with caution! But a great way to flag inconsistent values when entering data.

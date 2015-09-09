@@ -132,7 +132,7 @@ with this data and how you fixed it.
 An excellent reference, in particular with regard to R scripting is
 
 > Hadley Wickham, *Tidy Data*, Vol. 59, Issue 10, Sep 2014, Journal of
-> Statistical Software. [http://www.jstatsoft.org/v59/i10](http://www.jstatsoft.org/v59/i10.).
+> Statistical Software. [http://www.jstatsoft.org/v59/i10](http://www.jstatsoft.org/v59/i10).
 
 <!-- *Instructors see notes in 'instructors_notes.md' on this exercise.* -->
 

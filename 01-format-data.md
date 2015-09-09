@@ -82,9 +82,10 @@ The cardinal rules of using spreadsheet programs for data:
    ensures that anyone can use the data, and is the format required by
    most data repositories.
 
-For instance, we have data from a survey of small mammals in a desert ecosystem.
-Different people have gone to the field and entered data in to a spreadsheet.
-They keep track of things like species, plot, weight, sex and date collected. 
+For instance, we have data from a survey of small mammals in a desert
+ecosystem. Different people have gone to the field and entered data in
+to a spreadsheet. They keep track of things like species, plot,
+weight, sex and date collected.
 
 If they were to keep track of the data like this:
 

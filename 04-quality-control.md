@@ -93,7 +93,7 @@ If your dataset is well-structured and does not contain formulas, sorting should
 <!-- [Example: sorting] -->
 
 ## Conditional formatting ##
-Use with caution! But a great way to flag inconsistent values when entering data.
+**Use with caution!** But a great way to flag inconsistent values when entering data.
 
 [Example: conditional formatting]
 

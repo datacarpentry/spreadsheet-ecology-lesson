@@ -61,7 +61,7 @@ Head First Excel by O'Reilly
 ### Spreadsheet programs
 
 - LibreOffice - used in these lessons because it's a free, open source
-spreadsheet program
+  spreadsheet program
 - Microsoft Excel
 - Gnumeric
 - OpenOffice.org

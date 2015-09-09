@@ -48,12 +48,14 @@ Head First Excel by O'Reilly
 
 ### Why aren't we teaching data analysis in spreadsheets
 
-- Data analysis in spreadsheets usually requires a lot of manual work. If you want to change a parameter or run
-an analyses with a new dataset, you usually have to redo everything by hand. (We do know
-that you can create macros, but see the next point.)
-- It is also difficult to track or reproduce statistical or plotting analyses 
-done in spreadsheet programs when you want to go back to your work or someone asks 
-for details of your analysis.
+- Data analysis in spreadsheets usually requires **a lot of manual
+  work**. If you want to change a parameter or run an analyses with a
+  new dataset, you usually have to redo everything by hand. (We do
+  know that you can create macros, but see the next point.)
+
+- It is also difficult to **track or reproduce statistical or plotting
+  analyses** done in spreadsheet programs when you want to go back to
+  your work or someone asks for details of your analysis.
 
 
 ### Spreadsheet programs

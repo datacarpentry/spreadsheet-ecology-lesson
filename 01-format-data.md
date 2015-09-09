@@ -119,4 +119,5 @@ with this data and how you fixed it.
 
 Previous: [Introduction](00-intro.html)
 Next: Formatting problems
+
 <!-- Next: [Formatting problems](02-common-mistakes.html) -->

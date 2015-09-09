@@ -80,7 +80,7 @@ Previous: [Basic quality control and data manipulation in spreadsheets.](04-qual
 
 There are R packages that enable to read `xls` files (as well as
 Google spreadsheets). It is even possible to access different
-worksheeets in the `xls` documents.
+worksheets in the `xls` documents.
 
 **But**
 

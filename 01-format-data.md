@@ -40,10 +40,10 @@ but it limits your ability to work with the data in other programs or
 have the you-of-6-months-from-now or your collaborator work with the
 data.
 
-**Note:** the best layouts/formats (as well as software and
-  interfaces) for **data entry** and **data analysis** might be
-  different. It is important to take this into account, and ideally
-  automate the conversion from one to another.
+> **Note:** the best layouts/formats (as well as software and
+> interfaces) for **data entry** and **data analysis** might be
+> different. It is important to take this into account, and ideally
+> automate the conversion from one to another.
 
 ### Keeping track of your analyses
 

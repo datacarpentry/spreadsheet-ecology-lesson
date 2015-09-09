@@ -29,15 +29,21 @@ effective and faster ways, but to use that power, we have to set up
 our data for the computer to be able to understand it (and computers are very 
 literal).
 
-This is why it’s extremely important to set up well-formatted tables from the 
-outset- before you even start entering data from your very first preliminary 
-experiment. **Data organization is the foundation of your research project.**
-It can make it easier or harder to work with your data throughout your
-analysis, so it's worth thinking about when you're doing your data
-entry or setting up your experiment. You can set things up in a different
-way in spreadsheets, but it limits your ability to work with the data
-in other programs or have the you-of-6-months-from-now or your collaborator
-work with the data. 
+This is why it’s extremely important to set up **well-formatted
+tables** from the outset - before you even start entering data from
+your very first preliminary experiment. **Data organization is the
+foundation of your research project.** It can make it easier or harder
+to work with your data throughout your analysis, so it's worth
+thinking about when you're doing your data entry or setting up your
+experiment. You can set things up in a different way in spreadsheets,
+but it limits your ability to work with the data in other programs or
+have the you-of-6-months-from-now or your collaborator work with the
+data.
+
+**Note:** the best layouts/formats (as well as software and
+  interfaces) for **data entry** and **data analysis** might be
+  different. It is important to take this into account, and ideally
+  automate the conversion from one to another.
 
 ### Keeping track of your analyses
 

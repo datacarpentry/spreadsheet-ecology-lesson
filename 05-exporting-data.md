@@ -75,3 +75,17 @@ Add the follwing to the file ([see the detailed tutorial](http://nicercode.githu
 
 
 Previous: [Basic quality control and data manipulation in spreadsheets.](04-quality-control.html) Next: [Caveats of popular data and file formats.](06-data-formats-caveats.html)
+
+#### A note on R and `xls`
+
+There are R packages that enable to read `xls` files (as well as
+Google spreadsheets). It is even possible to access different
+worksheeets in the `xls` documents.
+
+**But**
+
+- some of these only work on Windows
+- this equates to replacing a (simple but manual) export to `csv` with
+  additional complexity/dependencies in the data analysis R code
+- **data formatting best practice STILL apply**
+- Is there really a good reason why `csv` (or similar) is not adequate?

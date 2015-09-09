@@ -9,10 +9,11 @@ Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, *
 **Ben Marwick**, and **Ethan White**
 
 When you have a well-structured data table, you can use several simple
-techniques within your spreadsheet to ensure the data you enter is free of
-errors. These approaches include techniques that are implemented prior to entering
-data (quality assurance) and techniques that are used after entering data to
-check for errors (quality control).
+techniques within your spreadsheet to ensure the data you enter is
+free of errors. These approaches include techniques that are
+implemented **prior to entering data** (**quality assurance**) and
+techniques that are used **after entering data to check for errors**
+(**quality control**).
 
 # Quality Assurance
 

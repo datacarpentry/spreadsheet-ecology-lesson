@@ -125,19 +125,19 @@ dataset but not another unless you’re doing it on purpose.
 
 ### Using for Spreadsheets for Data Entry and Cleaning
 
-HOWEVER, there are circumstances where you might want to use a spreadsheet 
+**HOWEVER**, there are circumstances where you might want to use a spreadsheet 
 program to produce “quick and dirty” calculations or figures, and some of 
-these features can be used in data cleaning, prior to importation into a 
+these features can be used in **data cleaning**, prior to importation into a 
 statistical analysis program. We will show you how to use some features of 
 spreadsheet programs to check your data quality along the way and produce 
 preliminary summary statistics.
 
-In this lesson, we will assume that you are most likely using Excel as your 
-primary spreadsheet program- there are others (gnumeric, Calc from OpenOffice),
- and their functionality is similar, but Excel seems to be the program most 
-used by biologists and ecologists.
+In this lesson, we will assume that you are most likely using Excel as
+your primary spreadsheet program- there are others (gnumeric, Calc
+from OpenOffice), and their functionality is similar, but Excel seems
+to be the program most used by biologists and ecologists.
 
-In this lesson, we’re going to talk about:
+In this lesson, we're going to talk about:
 
 1. [Formatting data tables in spreadsheets](01-format-data.html)
 2. [Formatting problems](02-common-mistakes.html)

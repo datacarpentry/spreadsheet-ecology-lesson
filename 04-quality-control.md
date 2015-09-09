@@ -100,6 +100,8 @@ If your dataset is well-structured and does not contain formulas, sorting should
 ## Check on cell formats
 A good way to check if you’ve got data of the wrong type in a column is by checking column format. This can also help prevent issues when you export your data.
 
+(See also later how to explore the *format* (class) of your data in R.)
+
 <!-- [Example: variable format] -->
 
 ## Pivot tables

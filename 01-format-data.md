@@ -122,9 +122,10 @@ statistics with the data.
 be able to understand it. Clean up the 2013 and 2014 tabs, and put them all together
 in one spreadsheet. 
 
-> **Important** Do not forget of our first piece of advice, the
-> **create a new file (or tab)** for the cleaned data, **do never
-> modify the original (raw) data**.
+> ### Important
+> Do not forget of our first piece of advice, the **create a new file
+> (or tab)** for the cleaned data, **do never modify the original
+> (raw) data**.
 
 After you go through this exercise, we'll discuss as a group what you think was wrong
 with this data and how you fixed it. 

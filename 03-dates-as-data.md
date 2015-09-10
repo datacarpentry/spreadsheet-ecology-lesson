@@ -107,6 +107,5 @@ So, can you convert all your dates into DOY format? Well, in Excel, here’s a h
 ![Kill that ambiguity before it bites you!](fig/7_excel_dates_3.jpg)
 
 
-<!-- Previous: [Formatting problems](02-common-mistakes.html) -->
-Previous: Formatting problems
+Previous: [Formatting problems](02-common-mistakes.html)
 Next: [Basic quality control and data manipulation in spreadsheets.](04-quality-control.html)

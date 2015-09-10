@@ -139,10 +139,13 @@ to be the program most used by biologists and ecologists.
 In this lesson, we're going to talk about:
 
 1. [Formatting data tables in spreadsheets](01-format-data.html)
-2. [Formatting problems](02-common-mistakes.html)
+2. Formatting problems
 3. [Dates as data.](03-dates-as-data.html)
 4. [Basic quality control and data manipulation in spreadsheets.](04-quality-control.html)
 5. [Exporting data from spreadsheets.](05-exporting-data.html)
 6. [Data export formats caveats](06-data-formats-caveats.html)
+
+
+<!-- 2. [Formatting problems](02-common-mistakes.html) -->
 
 Next: [Formatting data tables in spreadsheets.](01-format-data.html)

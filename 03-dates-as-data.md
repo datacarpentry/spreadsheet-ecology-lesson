@@ -13,22 +13,29 @@ Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, *
 * Manipulating dates stored in spreadhseets
 * Understanding the caveats of the default formatting of the dates
 
-Dates in spreadsheets are stored in one column. Whilst this seems the most natural way to record dates, it actually is not a good practice. A spreadsheet application will display the dates in seemingly correct way (for the human eye) but how it actually handles and stores the dates may be problematic.
+Dates in spreadsheets are stored in one column. Whilst this seems the
+most natural way to record dates, it actually is not a good
+practice. A spreadsheet application will display the dates in
+seemingly correct way (for the human eye) but how it actually handles
+and stores the dates may be problematic.
 
 Let's try with a simple challenge.
 
 #### Challenge: pulling month, day and year out of dates ####
 
-- In the 'dates' tab of your Excel file you have the data from 2014 plot 3. There's a 'Date collected' column.
+- In the `dates` tab of your Excel file you have the data from 2014 plot 3. There's a `Date collected` column.
 - Let’s extract month and year from the dates to new columns. For this we can use the built in Excel functions
 
+```
 =MONTH(A3)  
 =DAY(A3)
 =YEAR(A3)
+```
 
 (Make sure the new column is formatted as a number and not as a date.)
 
-You can see that even though you wanted the year to be 2014, Excel automatically interpreted it as 2015, the year you entered the data.
+> You can see that even though you wanted the year to be 2014, Excel
+> automatically interpreted it as 2015, the year you entered the data.
 
 ## Preferred date format
 
@@ -38,7 +45,7 @@ Instead it is much safer to store dates with [MONTH, DAY and YEAR](#day) in sepa
 Excel also entertains a second date system, the 1904 date system, as the default in Excel for Macintosh. This system will assign a different serial number than the [1900 date system](https://support.microsoft.com/kb/180162). Because of this, [dates must be checked for accuracy when exporting data from Excel](http://datapub.cdlib.org/2014/04/10/abandon-all-hope-ye-who-enter-dates-in-excel/) (look for dates that are ~4 years off). 
 
 
-##Data formats in spreadsheets
+## Data formats in spreadsheets
 
 Spreadsheet programs have numerous “useful features” which allow them to “handle” dates in a variety of ways.
 
@@ -46,7 +53,7 @@ Spreadsheet programs have numerous “useful features” which allow them to “
 
 But these ‘features’ often allow ambiguity to creep into your data. Ideally, data should be as unambiguous as possible. 
 
-###Dates stored as integers
+### Dates stored as integers
 
 The first thing you need to know is that Excel **stores dates as a number** - see the last column in the above figure. Essentially, it counts the days from a default of December 31, 1899, and thus stores July 2, 2014 as  the serial number 41822.
 
@@ -100,7 +107,5 @@ So, can you convert all your dates into DOY format? Well, in Excel, here’s a h
 ![Kill that ambiguity before it bites you!](fig/7_excel_dates_3.jpg)
 
 
-
-
-
-Previous: [Formatting problems](02-common-mistakes.html) Next: [Basic quality control and data manipulation in spreadsheets.](04-quality-control.html)
+Previous: [Formatting problems](02-common-mistakes.html)
+Next: [Basic quality control and data manipulation in spreadsheets.](04-quality-control.html)

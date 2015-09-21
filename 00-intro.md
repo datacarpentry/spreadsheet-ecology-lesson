@@ -8,8 +8,11 @@ Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
 Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, **Clare Sloggett**, **Harriet Dashnow** and
 **Ben Marwick**
 
-Good data organization is the foundation of your research project. Most researchers
-have data or do data entry in spreadsheets. Spreadsheet programs are very useful graphical interfaces for designing data tables and handling very basic data quality control functions. 
+Good **data organization** is the foundation of your research
+project. Most **researchers** have data or do data entry in
+spreadsheets. Spreadsheet programs are very **useful graphical
+interfaces** for designing data tables and handling very basic data
+quality control functions.
 
 ---
 
@@ -34,9 +37,9 @@ about data organization and some practices for more effective data wrangling.
 
 ### What this lesson will not teach you
 
-- How to do statistics in a spreadsheet
-- How to do plotting in a spreadsheet
-- How to write code in spreadsheet programs
+- How to do *statistics* in a spreadsheet
+- How to do *plotting* in a spreadsheet
+- How to *write code* in spreadsheet programs
 
 If you're looking to do this, a good reference is
 Head First Excel by O'Reilly
@@ -45,18 +48,20 @@ Head First Excel by O'Reilly
 
 ### Why aren't we teaching data analysis in spreadsheets
 
-- Data analysis in spreadsheets usually requires a lot of manual work. If you want to change a parameter or run
-an analyses with a new dataset, you usually have to redo everything by hand. (We do know
-that you can create macros, but see the next point.)
-- It is also difficult to track or reproduce statistical or plotting analyses 
-done in spreadsheet programs when you want to go back to your work or someone asks 
-for details of your analysis.
+- Data analysis in spreadsheets usually requires **a lot of manual
+  work**. If you want to change a parameter or run an analyses with a
+  new dataset, you usually have to redo everything by hand. (We do
+  know that you can create macros, but see the next point.)
+
+- It is also difficult to **track or reproduce statistical or plotting
+  analyses** done in spreadsheet programs when you want to go back to
+  your work or someone asks for details of your analysis.
 
 
 ### Spreadsheet programs
 
 - LibreOffice - used in these lessons because it's a free, open source
-spreadsheet program
+  spreadsheet program
 - Microsoft Excel
 - Gnumeric
 - OpenOffice.org
@@ -65,6 +70,11 @@ Commands may differ a bit between programs, but general ideas
 for thinking about spreadsheets is the same.
 
 ---
+
+#### Questions:
+- How many people have used spreadsheets in their research?
+- What kind of operations do you do in spreadsheets?
+- Which ones do you think spreadsheets are good for?
 
 Spreadsheets encompass a lot of the things we need
 to be able to do as researchers. We can use them for:
@@ -77,32 +87,31 @@ to be able to do as researchers. We can use them for:
 
 ---
 
-How many people have used spreadsheets in their research?
+#### Questions
 
-Spreadsheets can be very useful, but they can also be
-frustrating and even sometimes give us incorrect results.
+- Spreadsheets can be very useful, but they can also be frustrating
+  and even sometimes give us incorrect results.
 
-What are some things that you've accidentally done in
-a spreadsheet, or have been frustrated that you can't do
-easily?
+- What are some things that you've accidentally done in a spreadsheet,
+  or have been frustrated that you can't do easily?
 
 ---
 
 ## Problems with Spreadsheets
 
-Spreadsheets are good for data entry, but in reality we tend to use spreadsheet 
-programs for much more 
-than data entry. We use them to create data tables for publications, to generate 
-summary statistics, and make figures. 
+Spreadsheets are **good for data entry**, but in reality we **tend to
+use spreadsheet programs for much more** than data entry. We use them
+to create data tables for publications, to generate summary
+statistics, and make figures.
 
-Generating tables for publications in a spreadsheet is not optimal- often, 
-when formatting a data table for publication, we’re reporting key summary 
-statistics in a way that is not really meant to be read as data, and often 
-involves special formatting (merging cells, creating borders, making it 
-pretty). We advise you to do this sort of operation within your document 
-editing software.
+Generating **tables for publications** in a spreadsheet is not
+optimal - often, when formatting a data table for publication, we’re
+reporting key summary statistics in a way that is **not really meant to
+be read as data**, and often involves **special formatting**
+(merging cells, creating borders, making it pretty). We advise you to
+do this sort of operation within your document editing software.
 
-The latter two applications,  generating statistics and figures,  should 
+The latter two applications, **generating statistics and figures**, should 
 be used with caution: because of the graphical, drag and drop nature of 
 spreadsheet programs, it can be very difficult, if not impossible, to 
 replicate your steps (much less retrace anyone else's), particularly if your 
@@ -115,25 +124,27 @@ dataset but not another unless you’re doing it on purpose.
 
 ### Using for Spreadsheets for Data Entry and Cleaning
 
-HOWEVER, there are circumstances where you might want to use a spreadsheet 
+**HOWEVER**, there are circumstances where you might want to use a spreadsheet 
 program to produce “quick and dirty” calculations or figures, and some of 
-these features can be used in data cleaning, prior to importation into a 
+these features can be used in **data cleaning**, prior to importation into a 
 statistical analysis program. We will show you how to use some features of 
 spreadsheet programs to check your data quality along the way and produce 
 preliminary summary statistics.
 
-In this lesson, we will assume that you are most likely using Excel as your 
-primary spreadsheet program- there are others (gnumeric, Calc from OpenOffice),
- and their functionality is similar, but Excel seems to be the program most 
-used by biologists and ecologists.
+In this lesson, we will assume that you are most likely using Excel as
+your primary spreadsheet program - there are others (gnumeric, Calc
+from OpenOffice), and their functionality is similar, but Excel seems
+to be the program most used by biologists and ecologists.
 
-In this lesson, we’re going to talk about:
+In this lesson, we're going to talk about:
 
 1. [Formatting data tables in spreadsheets](01-format-data.html)
 2. [Formatting problems](02-common-mistakes.html)
-3. [Dates as data.](03-dates-as-data.html)
+3. [Dates as data](03-dates-as-data.html)
 4. [Basic quality control and data manipulation in spreadsheets.](04-quality-control.html)
 5. [Exporting data from spreadsheets.](05-exporting-data.html)
 6. [Data export formats caveats](06-data-formats-caveats.html)
+
+
 
 Next: [Formatting data tables in spreadsheets.](01-format-data.html)

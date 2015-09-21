@@ -89,32 +89,31 @@ right option from the list.
 Bad values often sort to bottom or top of the column. For example, if your data should be numeric, then alphabetical and null data will group at the ends of the sorted data. Sort your data by each field, one at a time. Scan through each column, but pay the most attention to the top and the bottom of a column. 
 If your dataset is well-structured and does not contain formulas, sorting should never affect the integrity of your dataset.
 
-[Example: sorting]
+Let's try this with the *1980* tab in our messy spreadsheet. Go to that tab. Select
+**Data** then select **Sort**
+
+Sort by *wgt* in the order *Smallest to Largest*
+
+![Figure of Sorting menu](fig/sorting.png)
+
+- When you do this sort, do you notice anything strange?
+
+- Try sorting by *species*. Anything strange there?
+
 
 ## Conditional formatting ##
 Use with caution! But a great way to flag inconsistent values when entering data.
 
-[Example: conditional formatting]
+Conditional formatting basically can do something like color code your values by some
+criteria or lowest to highest. This makes it easy to scan your data for outliers.
 
-## Check on cell formats ##
-A good way to check if you’ve got data of the wrong type in a column is by checking column format. This can also help prevent issues when you export your data.
+Let's try this again with weight. Go to **Format** then **Conditional Formatting**.
 
-[Example: variable format]
+We'll do the *2-Color Scale* with Lowest to Highest for the orange colors. Then we'll 
+apply that to the *wgt* column again. Now we can scan through and different colors will
+stand out. Again, do we notice any strange values?
 
-## Pivot tables ##
-
-Pivot tables are something that give you analytical power in Excel. If that
-is your interest, there are many good on-line tutorials. However, because
-of their lack of reproducibility and limited automation, we will focus in 
-this workshop on other analytical approaches instead.
-
-See [http://fortune.com/2013/04/17/damn-excel-how-the-most-important-software-application-of-all-time-is-ruining-the-world/](http://fortune.com/2013/04/17/damn-excel-how-the-most-important-software-application-of-all-time-is-ruining-the-world/) for some of the outcomes of accidental errors in spreadsheets
-having broad implications. 
-
-Can you also make errors in code like R, Python and SQL? Absolutely! The difference is that in this code, everything that you're doing is transparent, so
-not only is it easier for you to track what you've done and re-do or automate
-analyses, but it's also transparent to anyone else. This is not only good
-practice and consistent with the scientific method, but it's also starting
-to be required by funding agencies and journals. 
+It is nice to do be able to do these scans in spreadsheets, but we also can do these
+checks in a programming language like R, or in OpenRefine or SQL. 
 
 Previous:[Dates as data.](03-dates-as-data.html) Next: [Exporting data from spreadsheets.](05-exporting-data.html)

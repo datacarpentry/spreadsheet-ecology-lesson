@@ -90,29 +90,31 @@ right option from the list.
 **Bad values often sort to bottom or top of the column**. For example, if your data should be numeric, then alphabetical and null data will group at the ends of the sorted data. Sort your data by each field, one at a time. Scan through each column, but pay the most attention to the top and the bottom of a column. 
 If your dataset is well-structured and does not contain formulas, sorting should never affect the integrity of your dataset.
 
-<!-- [Example: sorting] -->
+Let's try this with the *1980* tab in our messy spreadsheet. Go to that tab. Select
+**Data** then select **Sort**
 
-## Conditional formatting
-**Use with caution!** But a great way to flag inconsistent values when entering data.
+Sort by *wgt* in the order *Smallest to Largest*
 
-<!-- [Example: conditional formatting] -->
+![Figure of Sorting menu](fig/sorting.png)
 
-## Check on cell formats
-A good way to check if you’ve got data of the wrong type in a column is by checking column format. This can also help prevent issues when you export your data.
+- When you do this sort, do you notice anything strange?
 
-(See also later how to explore the *format* (`class`) of your data in R.)
+- Try sorting by *species*. Anything strange there?
 
-<!-- [Example: variable format] -->
 
-## Pivot tables
-Pivot tables are a very powerful tool in Excel. They’re useful to check for issues with data integrity because they provide a quick, visual way to spot things that are amiss, including with categorical variables. They are also great for reshaping data and obtaining summary statistics quickly in a drag and drop interface.
+## Conditional formatting ##
+Use with caution! But a great way to flag inconsistent values when entering data.
 
-<!-- [Example in Pivot Table] -->
+Conditional formatting basically can do something like color code your values by some
+criteria or lowest to highest. This makes it easy to scan your data for outliers.
 
-Why would I need to reshape my data? Different analyses require data to be in different formats- example: taking a species list to a diversity analysis.
+Let's try this again with weight. Go to **Format** then **Conditional Formatting**.
 
-<!-- [Use species list example] -->
+We'll do the *2-Color Scale* with Lowest to Highest for the orange colors. Then we'll 
+apply that to the *wgt* column again. Now we can scan through and different colors will
+stand out. Again, do we notice any strange values?
 
-Note: these operations can be done in most statistical or programming packages (i.e. using `reshape2`, `plyr` in R)
+It is nice to do be able to do these scans in spreadsheets, but we also can do these
+checks in a programming language like R, or in OpenRefine or SQL. 
 
 Previous:[Dates as data.](03-dates-as-data.html) Next: [Exporting data from spreadsheets.](05-exporting-data.html)

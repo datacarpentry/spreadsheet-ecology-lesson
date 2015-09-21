@@ -109,17 +109,18 @@ So, instead we should have:
 
 We're going to take a messy version of the survey data and clean it up.
 
-- Download the data by clicking [here](https://www.dropbox.com/s/5ncuacnd3arjitc/survey_data_tabs.xls?dl=0)
+- Download the data by clicking [here](http://files.figshare.com/2236371/survey_data_spreadsheet_messy.xls) to get it from FigShare.
 
 - Open up the data in a spreadsheet program 
 
-- You can see that there are two tabs. Two field assistants conducted the surveys, one
-in 2013 and one in 2014, and they both kept track of the data in their own way. Now
+- You can see that there are four tabs. We're going to start with 1977 and 1978.
+Two field assistants conducted the surveys, one
+in 1977 and one in 1978, and they both kept track of the data in their own way. Now
 you're the person in charge of this project and you want to be able to start doing
 statistics with the data. 
 
 - With the person next to you, work on the messy data so that a computer will
-be able to understand it. Clean up the 2013 and 2014 tabs, and put them all together
+be able to understand it. Clean up the 1977 and 1978 tabs, and put them all together
 in one spreadsheet. 
 
 > **Important** Do not forget of our first piece of advice, the
@@ -129,12 +130,14 @@ in one spreadsheet.
 After you go through this exercise, we'll discuss as a group what you think was wrong
 with this data and how you fixed it. 
 
+*Instructors see notes in 'instructors_notes.md' on this exercise.*
+
 An excellent reference, in particular with regard to R scripting is
 
 > Hadley Wickham, *Tidy Data*, Vol. 59, Issue 10, Sep 2014, Journal of
 > Statistical Software. [http://www.jstatsoft.org/v59/i10](http://www.jstatsoft.org/v59/i10).
 
-<!-- *Instructors see notes in 'instructors_notes.md' on this exercise.* -->
+
 
 Previous: [Introduction](00-intro.html)
 Next: [Formatting problems](02-common-mistakes.html)

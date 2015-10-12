@@ -109,7 +109,7 @@ So, instead we should have:
 
 We're going to take a messy version of the survey data and clean it up.
 
-- Download the data by clicking [here](http://files.figshare.com/2236371/survey_data_spreadsheet_messy.xls) to get it from FigShare.
+- Download the data by clicking [here](http://files.figshare.com/2252083/survey_data_spreadsheet_messy.xls) to get it from FigShare.
 
 - Open up the data in a spreadsheet program 
 
@@ -123,7 +123,7 @@ be able to understand it. Clean up the 2013 and 2014 tabs, and put them all toge
 in one spreadsheet. 
 
 > **Important** Do not forget of our first piece of advice, the
-> **create a new file (or tab)** for the cleaned data, **do never
+> **create a new file (or tab)** for the cleaned data, **never
 > modify the original (raw) data**.
 
 After you go through this exercise, we'll discuss as a group what you think was wrong

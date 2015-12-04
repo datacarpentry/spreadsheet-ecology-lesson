@@ -19,6 +19,7 @@ Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, *
 - [More than one piece of information in a cell](#info)
 - [Field name problems](#field_name)
 - [Special characters in data](#special)
+- [Inclusion of metadata in data table](#metadata)
 - [Date formatting](03-dates-as-data.html)
 
 ---
@@ -75,7 +76,6 @@ From White et al, 2013, [Nine simple ways to make it easier to (re)use your data
 ![White et al.](fig/3_white_table_1.jpg)
 
 
-
 ## <a name="formatting"></a> Using formatting to convey information 
 
 **Example**: highlighting cells, rows or columns that should be excluded from an analysis, leaving blank rows to indicate separations in data.
@@ -96,15 +96,17 @@ From White et al, 2013, [Nine simple ways to make it easier to (re)use your data
 
 ## <a name="units"></a> Placing comments or units in cells
 
-**Example**: Your data was collected, in part, by a summer student you later found out was mis-identifying some of your species, some of the time. You want a way to note these data are suspect.
+**Example**: Your data was collected, in part, by a summer student who you later found out was mis-identifying some of your species, some of the time. You want a way to note these data are suspect.
 
-**Solution**: Most statistical programs can’t see Excel’s comments, and would be confused by comments placed within your data cells. Create another field if you need to add notes to cells. Similarly, don’t include units- ideally, all the measurements you place in one column should be in the same unit, but if for some reason they aren’t, create another field and specify the units the cell is in.
+**Solution**: Most statistical programs can’t see Excel’s comments, and would be confused by comments placed within your data cells. As described above for formatting, create another field if you need to add notes to cells. Similarly, don’t include units in cells: ideally, all the measurements you place in one column should be in the same unit, but if for some reason they aren’t, create another field and specify the units the cell is in.
+
 
 ## <a name="info"></a> More than one piece of information in a cell
 
 **Example**: You find one male, and one female of the same species. You enter this as 1M, 1F.
 
 **Solution**: Never include more than one piece of information in a cell. If you need both these measurements, design your data sheet to include this information.
+
 
 ## <a name="field_name"></a> Field name problems
 Choose descriptive field names, but be careful not to include: spaces, numbers, or special characters of any kind. Spaces can be misinterpreted by parsers that use whitespace as delimiters and some programs don’t like field names that are text strings that start with numbers.
@@ -122,6 +124,7 @@ weight | weight | w.
 cell_type | CellType | Cell type
 first_observation | Observation_01 | 1st Obs.
 
+
 ## <a name="special"></a> Special characters in data
 
 **Example**: You treat Excel as a word processor when writing notes, even copying data directly from Word or other applications.
@@ -129,6 +132,13 @@ first_observation | Observation_01 | 1st Obs.
 **Solution**: This is a common strategy. For example, when writing longer text in a cell, people often include line breaks, em-dashes, et al in their spreadsheet.  Worse yet, when copying data in from applications such as Word, formatting and fancy non-standard characters (such as left- and right-aligned quotation marks) are included.  When exporting this data into a coding/statistical environment or into a relational database, dangerous things may occur, such as lines being cut in half and encoding errors being thrown.
 
 General best practice is to avoid adding characters such as newlines, tabs, and vertical tabs.  In other words, treat a text cell as if it were a simple web form that can only contain text and spaces.
+
+
+## <a name="metadata"></a> Inclusion of metadata in data table
+
+**Example**: You add a legend at the top or bottom of your data table explaining column meaning, units, exceptions, etc.
+
+**Solution**: While recording data about your data ("metadata") is essential, this information should not be contained in the data file itself. Unlike a table in a paper or a supplemental file, metadata (in the form of legends) should not be included in a data file since this information is not data, and including it can disrupt how computer programs interpret your data file. Rather, metadata should be stored as a separate file in the same directory as your data file, preferably in plain text format with a name that clearly associates it with your data file. Because metadata files are free text format, they also allow you to encode comments, units, information about how null values are encoded, etc. that are important to document but can disrupt the formatting of your data file.
 
 
 Previous: [Formatting data tables in spreadsheets.](01-format-data.html) Next: [Dates as data.](03-dates-as-data.html)

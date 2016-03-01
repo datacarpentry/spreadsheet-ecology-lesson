@@ -7,7 +7,7 @@ maintainers: ["Aleksandra Pawlik", "Tracy Teal"]
 domain: Ecology
 topic: Spreadsheets
 software: Spreadsheets
-dataurl: http://files.figshare.com/2252083/survey_data_spreadsheet_messy.xls
+dataurl: https://ndownloader.figshare.com/files/2252083
 status: Teaching
 ---
 

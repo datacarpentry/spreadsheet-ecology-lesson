@@ -9,6 +9,7 @@ topic: Spreadsheets
 software: Spreadsheets
 dataurl: https://www.dropbox.com/s/5ncuacnd3arjitc/survey_data_tabs.xls?dl=0
 status: Teaching
+github: https://github.com/datacarpentry/spreadsheet-ecology-lesson
 ---
 
 <!-- USING THIS LESSON TEMPLATE -->

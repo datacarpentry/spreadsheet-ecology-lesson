@@ -2,6 +2,7 @@
 layout: lesson
 title: Dates as data
 root: .
+github:	https://github.com/datacarpentry/spreadsheet-ecology-lesson
 ---
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>

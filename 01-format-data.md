@@ -9,11 +9,11 @@ Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, *
 **Ben Marwick** and **Sebastian Kupny**.
 
 ## Learning Objectives
-* Learning best practices for recording and formatting data in spreadsheets
+* Learning best practices for recording and formatting data in spreadsheets (Remember)
 * Understanding the correspondence between columns and rows in spreadsheets 
-and data structure
+and data structure (Understand)
 * Understanding the correspondence between spreadsheet cells, columns and rows 
-and data observations and values
+and data observations and values (Understand)
 
 
 The most common mistake made is treating the program like it is a lab

@@ -49,7 +49,7 @@ Head First Excel by O'Reilly
 ### Why aren't we teaching data analysis in spreadsheets
 
 - Data analysis in spreadsheets usually requires **a lot of manual
-  work**. If you want to change a parameter or run an analyses with a
+  work**. If you want to change a parameter or run an analysis with a
   new dataset, you usually have to redo everything by hand. (We do
   know that you can create macros, but see the next point.)
 
@@ -66,8 +66,8 @@ Head First Excel by O'Reilly
 - Gnumeric
 - OpenOffice.org
 
-Commands may differ a bit between programs, but general ideas
-for thinking about spreadsheets is the same.
+Commands may differ a bit between programs, but the general idea
+is the same.
 
 ---
 

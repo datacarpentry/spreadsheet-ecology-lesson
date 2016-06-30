@@ -10,7 +10,7 @@ root: .
 
 The purpose of this lesson is not to teach how to do data analysis in spreadsheets, 
 but to teach good data organization and how to do some data cleaning and 
-quality control checking in a spreadsheet program.
+quality control in a spreadsheet program.
 
 ### Narrative
 
@@ -32,11 +32,11 @@ very manual and also not reproducible. That's why we're teaching SQL, R, Python!
 does spreadsheets like Excel, LibreOffice, OpenOffice. Most learners are probably using Excel.
 - Ask the audience any things they've accidentally done in spreadsheets. Talk about an example of your own, like that you accidentally sorted only a single column and not the rest
 of the data in the spreadsheet. What are the pain points!?
-- As people answer highlight some of these issues with spreadsheets
+- As people answer highlight some of these issues with spreadsheets.
 
 **In 01-format-data.md**
-- Go through the point about keeping track of your steps and keeping raw data raw
-- Go through the cardinal rule of spreadsheets about columns, rows and cells
+- Go through the point about keeping track of your steps and keeping raw data raw.
+- Go through the cardinal rule of spreadsheets about columns, rows and cells.
 - Hand them a messy data file and have them pair up and work together to clean up the data. 
 *Give them 15 minutes to do this.* 
 - Ask for what people did to clean the data. As they bring up different points you can
@@ -47,7 +47,7 @@ dataset.
 - If you get a response where they've fixed the date, you can pause and go to the 
 03-dates-as-data.md lesson. Or you can say you'll come back to dates at the end. 
 There's an exercise in that file about how to change the
-date in to three columns using Excel's built in MONTH, DAY, YEAR functions. Have them
+date into three columns using Excel's built in MONTH, DAY, YEAR functions. Have them
 run through that exercise. 
 
 **Don't go through 02-common-mistakes.md except to refer to as responses to the Exercise in
@@ -76,7 +76,7 @@ rest of the workshop.
 - While your data is now neatly organized, it still might have errors or missing data
 or other problems. It's like you put all your data in the right drawers, but the
 drawers might still be messy. The next lesson is going to teach you OpenRefine which 
-is great for data cleaning and for some of the quality control checking that we touched on 
+is great for data cleaning and for some of the quality control that we touched on 
 in this lesson. It also has the advantage that it automatically keeps track of the
 steps you take. 
 

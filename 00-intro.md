@@ -122,7 +122,7 @@ command-line based statistics program like R or SAS, it’s practically
 impossible to accidentally apply a calculation to one observation in your 
 dataset but not another unless you’re doing it on purpose. 
 
-### Using for Spreadsheets for Data Entry and Cleaning
+### Using Spreadsheets for Data Entry and Cleaning
 
 **HOWEVER**, there are circumstances where you might want to use a spreadsheet 
 program to produce “quick and dirty” calculations or figures, and some of 

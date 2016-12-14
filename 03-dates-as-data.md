@@ -9,9 +9,9 @@ Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, *
 
 ## Learning Objectives 
 
-* Understanding how dates are handled and formatted in spreadsheets
-* Manipulating dates stored in spreadhseets
-* Understanding the caveats of the default formatting of the dates
+* Describe how dates are stored and formatted in spreadsheets.
+* Describe the advantages of alternative date formatting in spreadsheets.
+* Demonstrate best practices for entering dates in spreadsheets.
 
 Dates in spreadsheets are stored in one column. Whilst this seems the
 most natural way to record dates, it actually is not a good

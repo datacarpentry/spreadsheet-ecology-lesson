@@ -6,6 +6,11 @@ root: .
 
 Materials by: **Jeffrey Hollister**, **Alexander Duryee**, **Jennifer Bryan**, **Daisie Huang**, **Ben Marwick**, **Christie Bahlai**, **Owen Jones**, **Aleksandra Pawlik**
 
+## Learning Objectives
+* Identify problems with using the .csv file format.
+* Apply best practices for data cleaning to avoid problems with the .csv file format.
+
+
 ###Commas as part of data values in `*.csv` files
 
 In the [previous lesson](05-exporting-data.md) we discussed how to export Excel file formats into `*.csv`. Whilst Comma Separated Value files are indeed very useful allowing for easily exchanging and sharing data. 

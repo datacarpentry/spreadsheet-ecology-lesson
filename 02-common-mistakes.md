@@ -7,6 +7,9 @@ root: .
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
 Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, and **Ben Marwick**
 
+## Learning Objectives
+* Recognize and resolve common spreadsheet formatting problems.
+
 ## Common Spreadsheet Errors
 
 - [Multiple tables](#tables)

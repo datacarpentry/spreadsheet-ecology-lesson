@@ -8,7 +8,10 @@ Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
 Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, and
 **Ben Marwick**
 
-###Spreadsheet data formats
+## Learning Objectives
+* Store spreadsheet data in universal file formats.
+* Export data from a spreadsheet to a .csv file.
+
 
 Storing the data you're going to work with for your analyses in Excel
 default file format (`*.xls` or `*.xlsx` - depending on the Excel

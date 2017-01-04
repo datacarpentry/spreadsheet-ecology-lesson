@@ -8,6 +8,10 @@ Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
 Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**,
 **Ben Marwick**, and **Ethan White**
 
+## Learning Objectives 
+
+* Apply quality control techniques to ensure data in spreadsheets is free from errors.
+
 When you have a well-structured data table, you can use several simple
 techniques within your spreadsheet to ensure the data you enter is
 free of errors. These approaches include techniques that are

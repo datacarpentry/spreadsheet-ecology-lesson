@@ -9,6 +9,7 @@ Materials by: **Jeffrey Hollister**, **Alexander Duryee**, **Jennifer Bryan**, *
 ## Learning Objectives
 * Identify problems with using the .csv file format.
 * Apply best practices for data cleaning to avoid problems with the .csv file format.
+* Choose alternate file formats (ex. tsv) to work with data.
 
 
 ###Commas as part of data values in `*.csv` files

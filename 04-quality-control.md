@@ -10,7 +10,7 @@ Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, *
 
 ## Learning Objective 
 
-* Apply quality control techniques to ensure data in spreadsheets is free from errors.
+* Apply quality control techniques to identify errors in spreadsheets and limit incorrect data entry.
 
 When you have a well-structured data table, you can use several simple
 techniques within your spreadsheet to ensure the data you enter is

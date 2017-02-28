@@ -116,16 +116,48 @@ Choose descriptive field names, but be careful not to include: spaces, numbers, 
 Underscores (`_`) are a good alternative to spaces and consider writing names in camel-case to improve readability. Remember that abbreviations that make sense at the moment may not be so obvious in 6 months but don't overdo it with names that are eccessivly long.
 
 **Examples**  
-
-**good name** | **good alternative** | **avoid**
-------------- | -------------------- | ---------
-Max_temp     | MaxTemp              | Maximum Temp (°C)
-Precipitation | Precipitation_mm | precmm
-Mean_year_growth | MeanYearGrowth | Mean growth/year
-sex | sex | M/F
-weight | weight | w.
-cell_type | CellType | Cell type
-first_observation | Observation_01 | 1st Obs.
+<table align = "left" style = "width =50%; border: 1px solid black;">
+<tr>
+	<td> <b>Good Name</b></td> <br />
+	<td> <b>Good Alternative </b> </td><br />
+	<td> <b>Avoid </b></td><br />
+</tr>
+<tr>
+	<td> Max_temp</td>
+	<td> MaxTemp </td>
+	<td> Maximum Temp (°C) </td>
+</tr>
+<tr>
+	<td> Precipitation</td>
+	<td> Precipitation_mm </td>
+	<td> precmm </td>
+</tr>	
+<tr>
+	<td> Mean_year_growth</td>
+	<td> MeanYearGrowth </td>
+	<td> Mean growth/year</td>	
+</tr>	
+<tr>
+	<td> sex </td>
+	<td> sex </td>	
+	<td> M/F </td>
+</tr>
+<tr>	
+	<td> weight </td>
+	<td> weight </td>	
+	<td> w.</td>	
+</tr>
+<tr>	
+	<td> cell_type </td>
+	<td> CellType </td>
+	<td> Cell Type </td>
+</tr>
+<tr>
+	<td> Observation_01 </td>
+	<td> first_observation</td>
+	<td> 1st Obs</td>
+</tr>
+</table>
 
 
 ## <a name="special"></a> Special characters in data

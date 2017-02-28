@@ -5,7 +5,8 @@ root: .
 ---
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
-Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, and **Ben Marwick**
+Contributors: **Jennifer Bryan**, **Angel Corpuz**, **Alexander Duryee**,
+**Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, and **Ben Marwick**
 
 ## Learning Objectives 
 
@@ -18,6 +19,12 @@ most natural way to record dates, it actually is not a good
 practice. A spreadsheet application will display the dates in
 seemingly correct way (for the human eye) but how it actually handles
 and stores the dates may be problematic.
+
+In particular, please remember that functions that are valid for a given
+spreadsheet program (be it LibreOffice, Microsoft Excel, OpenOffice.org,
+Gnumeric, etc.) are usually guaranteed to be compatible only within the same
+famly of products. If you will later need to export the data and need to
+conserve the timestamps you are better off handling them using custom solutions.
 
 Let's try with a simple challenge.
 
@@ -36,6 +43,20 @@ Let's try with a simple challenge.
 
 > You can see that even though you wanted the year to be 2014, Excel
 > automatically interpreted it as 2015, the year you entered the data.
+
+#### Exercise: pulling hour, minute and second out of the current time ####
+
+Current time and date are best retrieved using the functions `NOW()`, which
+returns the current date and time, and `TODAY()`, which returns the current
+date. The results will be formatted according to your computer's settings.
+
+- Try to extract the year, month and day from the current date and time string
+returned by the `NOW()` function.
+- Calculate the current time using `NOW()-TODAY()`.
+- Try to extract the hour, minute and second from the current time using
+functions `HOUR()`, `MINUTE()` and `SECOND()`.
+- press `F9` to force the spreadsheet to recalculate the `NOW()` function,
+and check that it has been updated.
 
 ## Preferred date format
 
@@ -59,7 +80,10 @@ The first thing you need to know is that Excel **stores dates as a number** - se
 
 (But wait. That’s the default on my version of Excel. We’ll get into how this can introduce problems down the line later in this lesson. )
 
-This serial number thing can actually be useful in some circumstances. Say you had a sampling plan where you needed to sample every thirty seven days. In another cell, you could type:
+This serial number thing can actually be useful in some circumstances. By using
+the above functions we can easily add days, months or years to a given date.
+Say you had a sampling plan where you needed to sample every thirty seven days.
+In another cell, you could type:
     
     =B2+37
     
@@ -67,7 +91,23 @@ And it would return
 
     8-Aug
 
-because it understands the date as a number `41822`, and `41822 +37 = 41859` which Excel interprets as August 8, 2014. It retains the format (for the most part) of the cell that is being operated upon, (unless you did some sort of formatting to the cell before, and then all bets are off).
+because it understands the date as a number `41822`, and `41822 + 37 = 41859`
+which Excel interprets as August 8, 2014. It retains the format (for the most
+part) of the cell that is being operated upon, (unless you did some sort of
+formatting to the cell before, and then all bets are off). Month and year
+rollovers are internally tracked and applied.
+
+**Note**
+Adding years and months and days is slightly trickier because we need to make
+sure that we are adding the amount to the correct entity.
+
+- First we extract the single entities (day, month or year)
+- We can then add values to to that
+- Finally the complete date string is reconstructed using the `DATE()` function.
+
+As for dates, times are handled in a similar way; seconds cam be directly
+added but to add hour and minutes we need to make sure that we are adding
+the quantities to the correct entities.
 
 Which brings us to the many different ways Excel provides in how it displays dates. If you refer to the figure above, you’ll see that there are many, MANY ways that ambiguity creeps into your data depending on the format you chose when you enter your data, and if you’re not fully cognizant of which format you’re using, you can end up actually entering your data in a way that Excel will badly misinterpret. 
 
@@ -106,6 +146,25 @@ So, can you convert all your dates into DOY format? Well, in Excel, here’s a h
 
 ![Kill that ambiguity before it bites you!](fig/7_excel_dates_3.jpg)
 
+### <a href=str></a> Storing dates as a single string
+
+Another alternative could be to convert the date string
+into a single string using the `YYYYMMDDhhmmss` format.
+For example the date `March 24, 2015 17:25:35` would
+become `20150324172535`, where:
+
+```
+YYYY:   the full year, i.e. 2015
+MM:     the month, i.e. 03
+DD:     the day of month, i.e. 24
+hh:     hour of day, i.e. 17
+mm:     minutes, i.e. 25
+ss:     seconds, i.e. 35
+```
+
+Such strings will be correctly sorted in ascendng or descending order, and by
+knowing the format they can then be correctly processed by the receiving
+software.
 
 Previous: [Formatting problems](02-common-mistakes.html)
 Next: [Basic quality control and data manipulation in spreadsheets.](04-quality-control.html)

@@ -8,7 +8,10 @@ Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
 Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, and
 **Ben Marwick**
 
-###Spreadsheet data formats
+## Learning Objectives
+* Store spreadsheet data in universal file formats.
+* Export data from a spreadsheet to a .csv file.
+
 
 Storing the data you're going to work with for your analyses in Excel
 default file format (`*.xls` or `*.xlsx` - depending on the Excel
@@ -22,14 +25,14 @@ version) is a **bad idea**. Why?
   up” and stored on zipdisks? Ever wanted to pull out the raw data
   from one of those? *Exactly.*
 
-- **Other spreadsheet software** may not be able to open the files
+- **Other spreadsheet software** may not be able to open files
   saved in a proprietary Excel format.
 
-- **Different versions of Excel** may be changed so they handle data
+- **Different versions of Excel** may handle data
   differently, leading to inconsistencies.
 
-- Finally, as more **journals and grant agencies** are requiring you
-  to deposit your data in a data repository, they mainly **don't
+- Finally, more **journals and grant agencies** are requiring you
+  to deposit your data in a data repository, and most of them **don't
   accept Excel format**. It needs to be in one of the formats
   discussed here.
 
@@ -37,7 +40,7 @@ As an example, do you remember how we talked about how Excel stores **dates** ea
 
 Storing data in a **universal**, **open**, **static format** will help deal with this problem. Try **tab-delimited** or **CSV** (more common). CSV files are plain text files where the columns are separated by commas, hence 'comma separated variables' or CSV. The advantage of a CSV over an Excel/SPSS/etc. file is that we can open and read a CSV file using just about any software, including a simple **text editor**. Data in a CSV can also be **easily imported** into other formats and environments, such as SQLite and R. We're not tied to a certain version of a certain expensive program when we work with CSV, so it's a good format to work with for maximum portability and endurance. Most spreadsheet programs can save to delimited text formats like CSV easily, although they complain and make you feel like you’re doing something wrong along the way.
 
-To save a file you have opened in Excel into the `*.csv` format:
+To save a file you have opened in Excel in `*.csv` format:
 
 1. From the top menu select 'File' and 'Save as'.
 2. In the 'Format' field, from the list, select 'Comma Separated Values' (`*.csv`).
@@ -83,7 +86,7 @@ Add the follwing to the file ([see the detailed tutorial](http://nicercode.githu
 
 #### A note on R and `xls`
 
-There are R packages that enable to read `xls` files (as well as
+There are R packages that can read `xls` files (as well as
 Google spreadsheets). It is even possible to access different
 worksheets in the `xls` documents.
 

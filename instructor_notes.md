@@ -10,7 +10,7 @@ root: .
 
 The purpose of this lesson is not to teach how to do data analysis in spreadsheets, 
 but to teach good data organization and how to do some data cleaning and 
-quality control checking in a spreadsheet program.
+quality control in a spreadsheet program.
 
 ### Narrative
 
@@ -47,7 +47,7 @@ dataset.
 * If you get a response where they've fixed the date, you can pause and go to the
 03-dates-as-data.md lesson. Or you can say you'll come back to dates at the end. 
 There's an exercise in that file about how to change the
-date in to three columns using Excel's built in MONTH, DAY, YEAR functions. Have them
+date into three columns using Excel's built in MONTH, DAY, YEAR functions. Have them
 run through that exercise. 
 
 #### [Common formatting problems](02-common-mistakes.html)
@@ -84,7 +84,7 @@ rest of the workshop.
 * While your data is now neatly organized, it still might have errors or missing data
 or other problems. It's like you put all your data in the right drawers, but the
 drawers might still be messy. The next lesson is going to teach you OpenRefine which 
-is great for data cleaning and for some of the quality control checking that we touched on 
+is great for data cleaning and for some of the quality control that we touched on 
 in this lesson. It also has the advantage that it automatically keeps track of the
 steps you take. 
 

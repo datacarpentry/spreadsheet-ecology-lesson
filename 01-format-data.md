@@ -9,11 +9,8 @@ Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, *
 **Ben Marwick** and **Sebastian Kupny**.
 
 ## Learning Objectives
-* Learning best practices for recording and formatting data in spreadsheets
-* Understanding the correspondence between columns and rows in spreadsheets 
-and data structure
-* Understanding the correspondence between spreadsheet cells, columns and rows 
-and data observations and values
+* Describe best practices for data entry and formatting in spreadsheets.
+* Apply best practices to arrange variables and observations in a spreadsheet.
 
 
 The most common mistake made is treating the program like it is a lab

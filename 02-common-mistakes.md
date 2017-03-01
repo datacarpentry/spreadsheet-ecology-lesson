@@ -159,6 +159,7 @@ Underscores (`_`) are a good alternative to spaces and consider writing names in
 	<td> 1st Obs</td>
 </tr>
 </table>
+<p><br><br><br><br><br><br><br><br><br><br />
 
 ## <a name="special"></a> Special characters in data
 

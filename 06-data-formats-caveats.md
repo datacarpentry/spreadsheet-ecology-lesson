@@ -2,6 +2,7 @@
 layout: lesson
 title: Caveats of popular data and file formats 
 root: .
+github:	https://github.com/datacarpentry/spreadsheet-ecology-lesson
 ---
 
 Materials by: **Jeffrey Hollister**, **Alexander Duryee**, **Jennifer Bryan**, **Daisie Huang**, **Ben Marwick**, **Christie Bahlai**, **Owen Jones**, **Aleksandra Pawlik**

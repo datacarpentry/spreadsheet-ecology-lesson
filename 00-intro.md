@@ -2,6 +2,7 @@
 layout: lesson
 title: Using spreadsheet programs for scientific data
 root: .
+github: https://github.com/datacarpentry/spreadsheet-ecology-lesson
 ---
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>

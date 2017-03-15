@@ -9,6 +9,7 @@ topic: Spreadsheets
 software: Spreadsheets
 dataurl: https://ndownloader.figshare.com/files/2252083
 status: Teaching
+github: https://github.com/datacarpentry/spreadsheet-ecology-lesson
 ---
 
 <!-- USING THIS LESSON TEMPLATE -->

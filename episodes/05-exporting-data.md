@@ -1,7 +1,15 @@
 ---
-layout: lesson
-title: Exporting data from spreadsheets
-root: .
+title: "Exporting data"
+teaching: 10
+exercises: 0
+questions:
+- "Exporting data from spreadsheets"
+objectives:
+- "Store spreadsheet data in universal file formats."
+- "Export data from a spreadsheet to a .csv file."
+keypoints:
+- "Exporting data from spreadsheets to formats like .csv or .tsv puts it in a format that can be
+used by most programs and is broadly accessible."
 ---
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
@@ -46,7 +54,7 @@ To save a file you have opened in Excel in `*.csv` format:
 2. In the 'Format' field, from the list, select 'Comma Separated Values' (`*.csv`).
 3. Double check the file name and the location where you want to save it and hit 'Save'.
 
-![Saving an Excel file to CSV](fig/excel-to-csv.png)
+![Saving an Excel file to CSV](../fig/excel-to-csv.png)
 
 An important note for backwards compatibility: you can open CSVs in Excel!
 
@@ -98,4 +106,13 @@ worksheets in the `xls` documents.
 - **data formatting best practice STILL apply**
 - Is there really a good reason why `csv` (or similar) is not adequate?
 
-Previous: [Basic quality control and data manipulation in spreadsheets.](04-quality-control.html) Next: [Caveats of popular data and file formats.](06-data-formats-caveats.html)
+#### Caveats on commas
+
+In some datasets, the data values themselves may include commas (,). In that case, the software which you use (including Excel) will most likely incorrectly display the data in columns. It is because the commas which are a part of the data values will be interpreted as a delimiter.
+
+If commas are common in your dataset, you likely will need to use another delimiter when working in a spreadsheet. 
+
+If you are exporting your data, it is better
+to use the `.tsv` file format, or *tab separated values*. 
+
+Previous: [Basic quality control and data manipulation in spreadsheets.](/04-quality-control/)

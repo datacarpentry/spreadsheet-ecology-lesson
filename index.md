@@ -1,85 +1,53 @@
 ---
 layout: lesson
 root: .
-lastupdated: August 18, 2015
-contributors: ["Christie Bahlai", "Aleksandra Pawlik", "Jennifer Bryan", "Alexander Duryee", "Jeffrey Hollister", "Daisie Huang", "Owen Jones", "Ben Marwick", "Tracy Teal"]
-maintainers: ["Aleksandra Pawlik", "Tracy Teal"]
-domain: Ecology
-topic: Spreadsheets
-software: Spreadsheets
-dataurl: https://ndownloader.figshare.com/files/2252083
-status: Teaching
 ---
 
-<!-- USING THIS LESSON TEMPLATE -->
-<!-- Lesson specific information is taken from the YAML header at the top of the page -->
+Good data organization is the foundation of any research project. Most 
+researchers have data in spreadsheets, so it's the place that many research
+projects start. 
 
-<!-- THE LESSON INFORMATION -->
+We organize data in spreadsheets how we as humans want to work with the data, 
+but computers require that data be organized in a particular way. In order
+to use tools that make computation more efficient, such as programming 
+languages like R or Python, we need to structure our data the way that 
+computers need the data. Since this is where most research projects start, 
+this is where we want to start too!
 
+In this lesson, you will learn:
 
-#Data Carpentry {{ page.topic }} for {{ page.domain }}
-=======
+- Good data entry practices - formatting data tables in spreadsheets
+- How to avoid common formatting mistakes
+- Approaches for handling dates in spreadsheets
+- Basic quality control and data manipulation in spreadsheets
+- Exporting data from spreadsheets
+- Overall good data practices
 
-Data Carpentry's aim is to teach researchers basic concepts, skills,
-and tools for working with data so that they can get more done in less
-time, and with less pain. The lessons below were designed for those interested
-in working with {{page.domain %}} data in {{page.topic %}}.
-
-
-**Content Contributors: {{page.contributors | join: ', ' %}}**
-
-
-**Lesson Maintainers: {{page.maintainers | join: ', ' %}}**
-
-
-**Lesson status: {{ page.status }}**
-
-### Instructors
-See [Instructor notes](instructor_notes.html) on how to teach this lesson.
-
-<!--
-  [Information on Lesson Status Categories]()
--->
-
-<!-- ###### INDEX OF LESSONS ON THIS TOPIC ###### -->
-
-## Lessons:
-
-1. [Introduction](00-intro.html)
-2. [Formatting data](01-format-data.html)
-3. [Common formatting problems](02-common-mistakes.html)
-4. [Dates as data](03-dates-as-data.html)
-5. [Quality control](04-quality-control.html)
-6. [Exporting data](05-exporting-data.html)
-7. [Data Format Caveats](06-data-formats-caveats.html)
+Much of your time as a researcher will be spent in this 'data wrangling' 
+stage. It's not the most fun, but it is necessary. In this lesson you will 
+learn how to think about data organization and some practices for more 
+effective data wrangling. With this approach you can better format current data
+and plan new data collection so less data wrangling is needed.
 
 
+> ## Getting Started
+>
+> Data Carpentry's teaching is hands-on, so participants are encouraged to use
+> their own computers to insure the proper setup of tools for an efficient 
+> workflow. <br>**These lessons assume no prior knowledge of the skills or tools.**
+>
+> To get started, follow the directions in the "[Setup](setup/)" tab to 
+> download data to your computer and follow any installation instructions.
+>
+> #### Prerequisites
+>
+> This lesson requires a working copy of spreadsheet software, like Microsoft 
+> Excel or LibreOffice.
+> <br>To most effectively use these materials, please make sure to install 
+> everything *before* working through this lesson.
+{: .prereq}
 
-## Data
-
-Data files for the lesson are available here: [{{page.dataurl %}}]({{page.dataurl %}})
-
-
-### Requirements
-
-Data Carpentry's teaching is hands-on, so participants are encouraged to use
-their own computers to insure the proper setup of tools for an efficient workflow.
-*These lessons assume no prior knowledge of the skills or tools*, but working
-through this lesson requires working copies of the software described below.
-To most effectively use these materials, please make sure to install everything
-*before* working through this lesson.
-
-
-
-
-{% if page.software == "Python" %}
-{% include pythonSetup.html %}
-{% elsif page.software == "Spreadsheets" %}
-{% include spreadsheetSetup.html %}
-{% elsif page.software == "R" %}
-{% include rSetup.html %}
-{% else %}
-{% include anySetup.html %}
-{% endif %}
-
-<p><strong>Twitter</strong>: @datacarpentry
+> ## For Instructors
+> If you are teaching this lesson in a workshop, please see the 
+> [Instructor notes](/guide/).
+{: .prereq}

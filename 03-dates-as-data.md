@@ -10,6 +10,7 @@ Contributors: **Jennifer Bryan**, **Angel Corpuz**, **Alexander Duryee**,
 
 ## Learning Objectives 
 
+
 * Describe how dates are stored and formatted in spreadsheets.
 * Describe the advantages of alternative date formatting in spreadsheets.
 * Demonstrate best practices for entering dates in spreadsheets.

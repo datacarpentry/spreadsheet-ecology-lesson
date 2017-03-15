@@ -12,7 +12,6 @@ Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, *
 * Describe best practices for data entry and formatting in spreadsheets.
 * Apply best practices to arrange variables and observations in a spreadsheet.
 
-
 The most common mistake made is treating the program like it is a lab
 notebook - that is, relying on **context**, notes in the margin,
 spatial layout of data and fields to convey information. As humans, we

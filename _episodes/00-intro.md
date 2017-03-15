@@ -1,7 +1,13 @@
 ---
-layout: lesson
-title: Using spreadsheet programs for scientific data
-root: .
+title: "Introduction"
+teaching: 15
+exercises: 0
+questions:
+- "Introduction to spreadsheets for good data organization"
+objectives:
+- "Understand how to organize data so computers can make the best use of the data"
+keypoints:
+- "Good data organization is the foundation of any research project."
 ---
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
@@ -14,7 +20,6 @@ spreadsheets. Spreadsheet programs are very **useful graphical
 interfaces** for designing data tables and handling very basic data
 quality control functions.
 
----
 
 ### Spreadsheet outline
 
@@ -28,12 +33,14 @@ In this lesson, we’re going to talk about:
 
 *Overall good data practices*
 
+Spreadsheets are good for data entry. Therefore we have a lot of data
+in spreadsheets. 
 **Much of your time as a researcher will be spent in this 'data wrangling' stage.**
 It's not the most fun, but it's necessary. We'll teach you how to think
 about data organization and some practices for more effective data wrangling.
 
 
----
+
 
 ### What this lesson will not teach you
 
@@ -69,12 +76,12 @@ Head First Excel by O'Reilly
 Commands may differ a bit between programs, but the general idea
 is the same.
 
----
 
-#### Questions:
-- How many people have used spreadsheets in their research?
-- What kind of operations do you do in spreadsheets?
-- Which ones do you think spreadsheets are good for?
+> ## Questions:
+> - How many people have used spreadsheets in their research?
+> - How many people have accidentally done something that make them
+> frustrated or sad?
+{: .callout}
 
 Spreadsheets encompass a lot of the things we need
 to be able to do as researchers. We can use them for:
@@ -85,17 +92,8 @@ to be able to do as researchers. We can use them for:
 - Statistics
 - Plotting
 
----
+We do a lot of different operations in spreadsheets. What kind of operations do you do in spreadsheets? Which ones do you think spreadsheets are good for?
 
-#### Questions
-
-- Spreadsheets can be very useful, but they can also be frustrating
-  and even sometimes give us incorrect results.
-
-- What are some things that you've accidentally done in a spreadsheet,
-  or have been frustrated that you can't do easily?
-
----
 
 ## Problems with Spreadsheets
 
@@ -136,15 +134,15 @@ your primary spreadsheet program - there are others (gnumeric, Calc
 from OpenOffice), and their functionality is similar, but Excel seems
 to be the program most used by biologists and ecologists.
 
-In this lesson, we're going to talk about:
+In this lesson we're going to talk about:
 
-1. [Formatting data tables in spreadsheets](01-format-data.html)
-2. [Formatting problems](02-common-mistakes.html)
-3. [Dates as data](03-dates-as-data.html)
-4. [Basic quality control and data manipulation in spreadsheets.](04-quality-control.html)
-5. [Exporting data from spreadsheets.](05-exporting-data.html)
-6. [Data export formats caveats](06-data-formats-caveats.html)
+1. [Formatting data tables in spreadsheets](/01-format-data/)
+2. [Formatting problems](/02-common-mistakes/)
+3. [Dates as data](/03-dates-as-data/)
+4. [Basic quality control and data manipulation in spreadsheets.](/04-quality-control/)
+5. [Exporting data from spreadsheets.](/05-exporting-data/)
+6. [Data export formats caveats](/06-data-formats-caveats/)
 
 
 
-Next: [Formatting data tables in spreadsheets.](01-format-data.html)
+Next: [Formatting data tables in spreadsheets.](/01-format-data/)

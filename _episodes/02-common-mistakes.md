@@ -1,7 +1,13 @@
 ---
-layout: lesson
-title: Formatting problems
-root: .
+title: "Formatting problems"
+teaching: 20
+exercises: 0
+questions:
+- "Some of the common formatting challenges and how to avoid them"
+objectives:
+- "Recognize and resolve common spreadsheet formatting problems."
+keypoints:
+- "Knowing formatting challenges can help you avoid them."
 ---
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
@@ -23,11 +29,10 @@ Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, *
 - [Field name problems](#field_name)
 - [Special characters in data](#special)
 - [Inclusion of metadata in data table](#metadata)
-- [Date formatting](03-dates-as-data.html)
+- [Date formatting](/03-dates-as-data/)
 
----
 
-## <a name=tables></a> Multiple tables
+## <a name="tables"></a> Multiple tables
 
 A common strategy is creating multiple data tables within
 one spreadsheet. **This confuses the computer, so don't do this!**
@@ -37,11 +42,11 @@ which sees each row as an observation. You’re also potentially using the same
 field name in multiple places, which will make it harder to clean your data up
 into a usable form. The example below depicts the problem:
 
-![multiple tabs](fig/2_datasheet_example.jpg)
+![multiple tabs](../fig/2_datasheet_example.jpg)
 
 
 
-## <a name=tabs></a> Multiple tabs
+## <a name="tabs"></a> Multiple tabs
 
 But what about worksheet tabs? That seems like an easy way to organize data, right? Well, yes and no. When you create extra tabs, you fail to allow the computer to see connections in the data that are there (you have to introduce spreadsheet application-specific functions or scripting to ensure this connection). Say, for instance, you make a separate tab for each day you take a measurement.
 
@@ -57,7 +62,7 @@ Instead you can Freeze the column headers.
 
 [Documentation on how to freeze column headers](https://support.office.com/en-ca/article/Freeze-column-headings-for-easy-scrolling-57ccce0c-cf85-4725-9579-c5d13106ca6a)
 
-## <a name=zeros></a> Not filling in zeroes
+## <a name="zeros"></a> Not filling in zeroes
 
 It might be that when you're measuring something, it's
 usually a zero, say the number of times an elephant
@@ -76,18 +81,18 @@ The spreadsheets or statistical programs will likely mis-interpret blank cells t
 
 From White et al, 2013, [Nine simple ways to make it easier to (re)use your data.](http://library.queensu.ca/ojs/index.php/IEE/article/view/4608/4898) Ideas in Ecology and Evolution:
 
-![White et al.](fig/3_white_table_1.jpg)
+![White et al.](../fig/3_white_table_1.jpg)
 
 
 ## <a name="formatting"></a> Using formatting to convey information 
 
 **Example**: highlighting cells, rows or columns that should be excluded from an analysis, leaving blank rows to indicate separations in data.
 
-![formatting](fig/formatting.png)
+![formatting](../fig/formatting.png)
 
 **Solution**: create a new field to encode which data should be excluded.
 
-![good formatting](fig/good_formatting.png)
+![good formatting](../fig/good_formatting.png)
 
 
 ## <a name="formatting_pretty"></a> Using formatting to make the data sheet look pretty

@@ -180,5 +180,3 @@ General best practice is to avoid adding characters such as newlines, tabs, and 
 
 **Solution**: While recording data about your data ("metadata") is essential, this information should not be contained in the data file itself. Unlike a table in a paper or a supplemental file, metadata (in the form of legends) should not be included in a data file since this information is not data, and including it can disrupt how computer programs interpret your data file. Rather, metadata should be stored as a separate file in the same directory as your data file, preferably in plain text format with a name that clearly associates it with your data file. Because metadata files are free text format, they also allow you to encode comments, units, information about how null values are encoded, etc. that are important to document but can disrupt the formatting of your data file.
 
-
-Previous: [Formatting data tables in spreadsheets.](01-format-data.html) Next: [Dates as data.](03-dates-as-data.html)

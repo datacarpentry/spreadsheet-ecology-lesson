@@ -99,7 +99,7 @@ look at all of one species or look at different weight distributions by sex,
 it would be hard to set up the data to do this. If instead we put sex and species 
 in different columns, you can see that it would be much easier. 
 
-###Columns for variables and rows for observations
+### Columns for variables and rows for observations
 
 The rule of thumb, when setting up a datasheet, is **columns =
 variables**, **rows = observations**, **cells = data** (values).
@@ -134,7 +134,4 @@ An excellent reference, in particular with regard to R scripting is
 > Hadley Wickham, *Tidy Data*, Vol. 59, Issue 10, Sep 2014, Journal of
 > Statistical Software. [http://www.jstatsoft.org/v59/i10](http://www.jstatsoft.org/v59/i10).
 
-<!-- *Instructors see notes in 'instructors_notes.md' on this exercise.* -->
 
-Previous: [Introduction](00-intro.html)
-Next: [Formatting problems](02-common-mistakes.html)

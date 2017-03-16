@@ -1,7 +1,14 @@
 ---
-layout: lesson
-title: Formatting data tables in Spreadsheets
-root: .
+title: "Formatting data tables in Spreadsheets"
+teaching: 15
+exercises: 0
+questions:
+- "How to format data in spreadsheets for effective data use"
+objectives:
+- "Describe best practices for data entry and formatting in spreadsheets."
+- "Apply best practices to arrange variables and observations in a spreadsheet."
+keypoints:
+- "There are key guidelines for data formatting."
 ---
 
 Authors: **Christie Bahlai**, **Aleksandra Pawlik**<br>
@@ -57,7 +64,7 @@ with your notes. This way the notes and data stay together.
 
 This might be an example of a spreadsheet setup:
 
-![spreadsheet setup](fig/spreadsheet-setup.png)
+![spreadsheet setup](../fig/spreadsheet-setup.png)
 
 Put these principles in to practice today during your Exercises. 
 
@@ -85,7 +92,7 @@ weight, sex and date collected.
 
 If they were to keep track of the data like this:
 
-![multiple-info example](fig/multiple-info.png)
+![multiple-info example](../fig/multiple-info.png)
 
 the problem is that species and sex are in the same field. So, if they wanted to 
 look at all of one species or look at different weight distributions by sex, 
@@ -99,32 +106,28 @@ variables**, **rows = observations**, **cells = data** (values).
 
 So, instead we should have:
 
-![single-info example](fig/single-info.png)
+![single-info example](../fig/single-info.png)
 
-## Exercise
-
-We're going to take a messy version of the survey data and clean it up.
-
-- Download the data by clicking [here](https://ndownloader.figshare.com/files/2252083) to get it from FigShare.
-
-
-- Open up the data in a spreadsheet program 
-
-- You can see that there are two tabs. Two field assistants conducted the surveys, one
+> ## Exercise
+> We're going to take a messy version of the survey data and clean it up.
+>
+> - Download the data by clicking [here](https://ndownloader.figshare.com/files/2252083) to get it from FigShare.
+> - Open up the data in a spreadsheet program 
+> - You can see that there are two tabs. Two field assistants conducted the surveys, one
 in 2013 and one in 2014, and they both kept track of the data in their own way. Now
 you're the person in charge of this project and you want to be able to start doing
 statistics with the data. 
-
-- With the person next to you, work on the messy data so that a computer will
+> - With the person next to you, work on the messy data so that a computer will
 be able to understand it. Clean up the 2013 and 2014 tabs, and put them all together
 in one spreadsheet. 
-
+>
 > **Important** Do not forget of our first piece of advice, the
 > **create a new file (or tab)** for the cleaned data, **never
 > modify the original (raw) data**.
-
-After you go through this exercise, we'll discuss as a group what you think was wrong
-with this data and how you fixed it. 
+>
+>After you go through this exercise, we'll discuss as a group what you think was wrong
+> with this data and how you fixed it. 
+{: .challenge}
 
 An excellent reference, in particular with regard to R scripting is
 

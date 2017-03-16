@@ -49,5 +49,5 @@ and plan new data collection so less data wrangling is needed.
 
 > ## For Instructors
 > If you are teaching this lesson in a workshop, please see the 
-> [Instructor notes](/guide/).
+> [Instructor notes](guide/).
 {: .prereq}

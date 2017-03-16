@@ -37,26 +37,28 @@ conserve the timestamps you are better off handling them using custom solutions.
 
 Let's try with a challenge.
 
-> ##Exercise 
-> Challenge: pulling month, day and year out of dates ####
+> ## Exercise 
 >
-> - In the `dates` tab of your Excel file you have the data from 2014 plot 3. There's a `Date collected` column.
-> - Let’s extract month and year from the dates to new columns. For this we can use the built in Excel functions
+> Challenge: pulling month, day and year out of dates 
 >
-> ```
-> =MONTH(A3)  
-> =DAY(A3)
+> - In the `dates` tab of your Excel file you have the data from 2014 plot 3. 
+> There's a `Date collected` column.
+> - Let’s extract month and year from the dates to new columns. For this we 
+> can use the built in Excel functions
+>
+> =MONTH(A3)    
+> =DAY(A3)  
 > =YEAR(A3)
-> ```
+>
 > (Make sure the new column is formatted as a number and not as a date.)
 >
 > You can see that even though you wanted the year to be 2014, Excel
 > automatically interpreted it as 2015, the year you entered the data.
 {: .challenge}
 
-> ##Exercise
+> ## Exercise
 > 
-> Exercise: pulling hour, minute and second out of the current time ####
+> Challenge: pulling hour, minute and second out of the current time 
 >
 > Current time and date are best retrieved using the functions `NOW()`, which
 > returns the current date and time, and `TODAY()`, which returns the current

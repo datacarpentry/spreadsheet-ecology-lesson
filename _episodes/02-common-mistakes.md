@@ -29,7 +29,7 @@ Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, *
 - [Field name problems](#field_name)
 - [Special characters in data](#special)
 - [Inclusion of metadata in data table](#metadata)
-- [Date formatting](/03-dates-as-data/)
+- [Date formatting](../03-dates-as-data/)
 
 
 ## <a name="tables"></a> Multiple tables

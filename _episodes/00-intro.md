@@ -79,7 +79,7 @@ is the same.
 
 > ## Questions:
 > - How many people have used spreadsheets in their research?
-> - How many people have accidentally done something that make them
+> - How many people have accidentally done something that made them
 > frustrated or sad?
 {: .callout}
 
@@ -136,12 +136,11 @@ to be the program most used by biologists and ecologists.
 
 In this lesson we're going to talk about:
 
-1. [Formatting data tables in spreadsheets](/01-format-data/)
-2. [Formatting problems](/02-common-mistakes/)
-3. [Dates as data](/03-dates-as-data/)
-4. [Basic quality control and data manipulation in spreadsheets.](/04-quality-control/)
-5. [Exporting data from spreadsheets.](/05-exporting-data/)
-6. [Data export formats caveats](/06-data-formats-caveats/)
+1. [Formatting data tables in spreadsheets](01-format-data/)
+2. [Formatting problems](02-common-mistakes/)
+3. [Dates as data](03-dates-as-data/)
+4. [Basic quality control and data manipulation in spreadsheets.](04-quality-control/)
+5. [Exporting data from spreadsheets.](05-exporting-data/)
 
 
 

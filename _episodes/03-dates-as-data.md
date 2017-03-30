@@ -16,13 +16,6 @@ Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
 Contributors: **Jennifer Bryan**, **Angel Corpuz**, **Alexander Duryee**,
 **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, and **Ben Marwick**
 
-## Learning Objectives 
-
-
-* Describe how dates are stored and formatted in spreadsheets.
-* Describe the advantages of alternative date formatting in spreadsheets.
-* Demonstrate best practices for entering dates in spreadsheets.
-
 Dates in spreadsheets are stored in one column. Whilst this seems the
 most natural way to record dates, it actually is not a good
 practice. A spreadsheet application will display the dates in
@@ -181,6 +174,3 @@ ss:     seconds, i.e. 35
 Such strings will be correctly sorted in ascendng or descending order, and by
 knowing the format they can then be correctly processed by the receiving
 software.
-
-Previous: [Formatting problems](02-common-mistakes.html)
-Next: [Basic quality control and data manipulation in spreadsheets.](04-quality-control.html)

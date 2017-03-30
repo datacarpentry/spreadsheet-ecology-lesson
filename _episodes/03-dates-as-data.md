@@ -56,7 +56,7 @@ Let's try with a challenge.
 > automatically interpreted it as 2015, the year you entered the data.
 >
 > > ## Solution
-> > (../fig/solution_exercise_1_dates.png)
+> > ![dates, exersize 1](../fig/solution_exercise_1_dates.png)
 > {: .solution}
 >
 {: .challenge}

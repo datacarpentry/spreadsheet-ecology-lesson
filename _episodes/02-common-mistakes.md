@@ -7,14 +7,21 @@ questions:
 objectives:
 - "Recognize and resolve common spreadsheet formatting problems."
 keypoints:
-- "Knowing formatting challenges can help you avoid them."
+- "Avoid using multiple tables within one spreadsheet."
+- "Avoid spreading data across multiple tabs (but do use a new tab to record data cleaning or manipulations)."
+- "Record zeros as zeros."
+- "Use an appropriate null value to record missing data."
+- "Don't use formatting to convey information or to make your spreadsheet look pretty."
+- "Place comments in a separate column."
+- "Record units in column headers."
+- "Include only one piece of information in a cell."
+- "Avoid spaces, numbers and special characters in column headers."
+- "Avoid special characters in your data."
+- "Record metadata in a separate plain text file."
 ---
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
 Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, and **Ben Marwick**
-
-## Learning Objectives
-* Recognize and resolve common spreadsheet formatting problems.
 
 ## Common Spreadsheet Errors
 

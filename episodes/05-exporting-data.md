@@ -8,18 +8,13 @@ objectives:
 - "Store spreadsheet data in universal file formats."
 - "Export data from a spreadsheet to a .csv file."
 keypoints:
-- "Exporting data from spreadsheets to formats like .csv or .tsv puts it in a format that can be
-used by most programs and is broadly accessible."
+- "Data stored in common spreadsheet formats will often not be read correctly into data analysis software, introducing errors into your data."
+- "Exporting data from spreadsheets to formats like .csv or .tsv puts it in a format that can be used consistently by most programs."
 ---
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
 Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, and
 **Ben Marwick**
-
-## Learning Objectives
-* Store spreadsheet data in universal file formats.
-* Export data from a spreadsheet to a .csv file.
-
 
 Storing the data you're going to work with for your analyses in Excel
 default file format (`*.xls` or `*.xlsx` - depending on the Excel
@@ -114,5 +109,3 @@ If commas are common in your dataset, you likely will need to use another delimi
 
 If you are exporting your data, it is better
 to use the `.tsv` file format, or *tab separated values*. 
-
-Previous: [Basic quality control and data manipulation in spreadsheets.](/04-quality-control/)

@@ -8,16 +8,14 @@ objectives:
 - "Describe best practices for data entry and formatting in spreadsheets."
 - "Apply best practices to arrange variables and observations in a spreadsheet."
 keypoints:
-- "There are key guidelines for data formatting."
+- "Never modify your raw data. Always make a copy before making any changes."  
+- "Keep track of all of the steps you take to clean your data."  
+- "Organize your data according to tidy data principles."  
 ---
 
 Authors: **Christie Bahlai**, **Aleksandra Pawlik**<br>
 Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, 
 **Ben Marwick** and **Sebastian Kupny**.
-
-## Learning Objectives
-* Describe best practices for data entry and formatting in spreadsheets.
-* Apply best practices to arrange variables and observations in a spreadsheet.
 
 The most common mistake made is treating the program like it is a lab
 notebook - that is, relying on **context**, notes in the margin,

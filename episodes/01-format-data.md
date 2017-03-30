@@ -17,8 +17,8 @@ Authors: **Christie Bahlai**, **Aleksandra Pawlik**<br>
 Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, 
 **Ben Marwick** and **Sebastian Kupny**.
 
-The most common mistake made is treating the program like it is a lab
-notebook - that is, relying on **context**, notes in the margin,
+The most common mistake made is treating treating spreadsheet programs like lab notebooks, that is, 
+relying on **context**, notes in the margin,
 spatial layout of data and fields to convey information. As humans, we
 can (usually) interpret these things, but computers are dumb, and
 unless we explain to the computer what every single thing means (and
@@ -36,8 +36,8 @@ your very first preliminary experiment. **Data organization is the
 foundation of your research project.** It can make it easier or harder
 to work with your data throughout your analysis, so it's worth
 thinking about when you're doing your data entry or setting up your
-experiment. You can set things up in a different way in spreadsheets,
-but it limits your ability to work with the data in other programs or
+experiment. You can set things up a different ways in spreadsheets,
+but some of these choices can limit your ability to work with the data in other programs or
 have the you-of-6-months-from-now or your collaborator work with the
 data.
 
@@ -94,7 +94,7 @@ If they were to keep track of the data like this:
 
 the problem is that species and sex are in the same field. So, if they wanted to 
 look at all of one species or look at different weight distributions by sex, 
-it would be hard to set up the data to do this. If instead we put sex and species 
+it would be hard to do this using this data setup. If instead we put sex and species 
 in different columns, you can see that it would be much easier. 
 
 ### Columns for variables and rows for observations
@@ -113,13 +113,13 @@ So, instead we should have:
 > - Open up the data in a spreadsheet program 
 > - You can see that there are two tabs. Two field assistants conducted the surveys, one
 in 2013 and one in 2014, and they both kept track of the data in their own way. Now
-you're the person in charge of this project and you want to be able to start doing
-statistics with the data. 
+you're the person in charge of this project and you want to be able to 
+start analyzing the data.   
 > - With the person next to you, work on the messy data so that a computer will
 be able to understand it. Clean up the 2013 and 2014 tabs, and put them all together
 in one spreadsheet. 
 >
-> **Important** Do not forget of our first piece of advice, the
+> **Important** Do not forget our first piece of advice, the
 > **create a new file (or tab)** for the cleaned data, **never
 > modify the original (raw) data**.
 >

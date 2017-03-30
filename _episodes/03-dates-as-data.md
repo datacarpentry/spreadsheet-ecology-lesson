@@ -43,7 +43,7 @@ Let's try with a challenge.
 >
 > - In the `dates` tab of your Excel file you have the data from 2014 plot 3. 
 > There's a `Date collected` column.
-> - Let’s extract month and year from the dates to new columns. For this we 
+> - Let’s extract month, day and year from the dates to new columns. For this we 
 > can use the built in Excel functions
 >
 > =MONTH(A3)    
@@ -71,6 +71,9 @@ Let's try with a challenge.
 > functions `HOUR()`, `MINUTE()` and `SECOND()`.
 > - press `F9` to force the spreadsheet to recalculate the `NOW()` function,
 > and check that it has been updated.
+> > ## Solution
+> > 
+> {: .solution}
 {: .challenge}
 
 ## Preferred date format

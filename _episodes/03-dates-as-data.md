@@ -54,6 +54,11 @@ Let's try with a challenge.
 >
 > You can see that even though you wanted the year to be 2014, Excel
 > automatically interpreted it as 2015, the year you entered the data.
+>
+> > ## Solution
+> > Solution File
+> {: .solution}
+>
 {: .challenge}
 
 > ## Exercise
@@ -71,9 +76,7 @@ Let's try with a challenge.
 > functions `HOUR()`, `MINUTE()` and `SECOND()`.
 > - press `F9` to force the spreadsheet to recalculate the `NOW()` function,
 > and check that it has been updated.
-> > ## Solution
-> > 
-> {: .solution}
+
 {: .challenge}
 
 ## Preferred date format

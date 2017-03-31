@@ -20,9 +20,9 @@ Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, *
 When you have a well-structured data table, you can use several simple
 techniques within your spreadsheet to ensure the data you enter is
 free of errors. These approaches include techniques that are
-implemented **prior to entering data** (**quality assurance**) and
-techniques that are used **after entering data to check for errors**
-(**quality control**).
+implemented prior to entering data (quality assurance) and
+techniques that are used after entering data to check for errors
+(quality control).
 
 # Quality Assurance
 
@@ -89,18 +89,17 @@ right option from the list.
 
 # Quality Control
 
-**Tip!** *Before doing any quality control operations, save your original file with the formulas and a name indicating it is the original data. Create a **separate file** with appropriate naming and versioning, and ensure your data is stored as **values** and not as **formulas**.  Because formulas refer to other cells, and you may be moving cells around, you may compromise the integrity of your data if you do not take this step!*
+Tip: *Before doing any quality control operations, save your original file with the formulas and a name indicating it is the original data. Create a separate file with appropriate naming and versioning, and ensure your data is stored as values and not as formulas.  Because formulas refer to other cells, and you may be moving cells around, you may compromise the integrity of your data if you do not take this step!*
 
-**readMe (README) files:** As you start manipulating your data files, create a readMe document / text file to keep track of your files and document your manipulations so that they may be easily understood and replicated, either by your future self or by an independent researcher. Your readMe file should document all of the files in your data set (including documentation), describe their content and format, and lay out the organizing principles of folders and subfolders. For each of the separate files listed, it is a good idea to document the manipulations or analyses that were carried out on those data.
+readMe (README) files: As you start manipulating your data files, create a readMe document / text file to keep track of your files and document your manipulations so that they may be easily understood and replicated, either by your future self or by an independent researcher. Your readMe file should document all of the files in your data set (including documentation), describe their content and format, and lay out the organizing principles of folders and subfolders. For each of the separate files listed, it is a good idea to document the manipulations or analyses that were carried out on those data.
 
 <!-- [Example: converting all data to values: use soybean aphid suction trap dataset for this section] -->
 
 ## Sorting
-**Bad values often sort to the bottom or top of the column**. For example, if your data should be numeric, then alphabetical and null data will group at the ends of the sorted data. Sort your data by each field, one at a time. Scan through each column, but pay the most attention to the top and the bottom of a column. 
+Bad values often sort to the bottom or top of the column. For example, if your data should be numeric, then alphabetical and null data will group at the ends of the sorted data. Sort your data by each field, one at a time. Scan through each column, but pay the most attention to the top and the bottom of a column. 
 If your dataset is well-structured and does not contain formulas, sorting should never affect the integrity of your dataset.
 
-Let's try this with the *1980* tab in our messy spreadsheet. Go to that tab. Select
-**Data** then select **Sort**
+Let's try this with the *1980* tab in our messy spreadsheet. Go to that tab. Select Data then select Sort
 
 Sort by *wgt* in the order *Smallest to Largest*
 
@@ -117,7 +116,7 @@ criteria or lowest to highest. This makes it easy to scan your data for outliers
 
 Conditional formatting should be used with caution, but it can be a great way to flag inconsistent values when entering data.
 
-Let's try this again with weight. Go to **Format** then **Conditional Formatting**.
+Let's try this again with weight. Go to Format then Conditional Formatting.
 
 We'll do the *2-Color Scale* with Lowest to Highest for the orange colors. Then we'll 
 apply that to the *wgt* column again. Now we can scan through and different colors will

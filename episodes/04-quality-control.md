@@ -49,8 +49,8 @@ in each data column.
 
 ![Image of Data Validation window](../fig/data_validation_window.png)
    
-4\. After selecting an item enter any additional details. For example if you've
-   chosen a list of values then enter a comma-delimited list of allowable
+4\. After selecting an item enter any additional details. For example, if you've
+   chosen a list of values, enter a comma-delimited list of allowable
    values in the `Source` box.
 
 Let's try this out by setting the plot column in our spreadsheet to only allow
@@ -74,7 +74,7 @@ your own message in the `Input Message` tab
 
 ![Image of Input Message tab](../fig/input_message.png)
 
-and allow invalid data to just result in a warning by modifying the `Style`
+or allow invalid data to result in a warning rather than an error by modifying the `Style`
 option on the `Error Alert` tab.
 
 ![Image of Error Alert tab](../fig/error_alert.png)
@@ -96,7 +96,7 @@ right option from the list.
 <!-- [Example: converting all data to values: use soybean aphid suction trap dataset for this section] -->
 
 ## Sorting
-**Bad values often sort to bottom or top of the column**. For example, if your data should be numeric, then alphabetical and null data will group at the ends of the sorted data. Sort your data by each field, one at a time. Scan through each column, but pay the most attention to the top and the bottom of a column. 
+**Bad values often sort to the bottom or top of the column**. For example, if your data should be numeric, then alphabetical and null data will group at the ends of the sorted data. Sort your data by each field, one at a time. Scan through each column, but pay the most attention to the top and the bottom of a column. 
 If your dataset is well-structured and does not contain formulas, sorting should never affect the integrity of your dataset.
 
 Let's try this with the *1980* tab in our messy spreadsheet. Go to that tab. Select
@@ -112,10 +112,10 @@ Sort by *wgt* in the order *Smallest to Largest*
 
 
 ## Conditional formatting ##
-Use with caution! But a great way to flag inconsistent values when entering data.
-
 Conditional formatting basically can do something like color code your values by some
 criteria or lowest to highest. This makes it easy to scan your data for outliers.
+
+Conditional formatting should be used with caution, but it can be a great way to flag inconsistent values when entering data.
 
 Let's try this again with weight. Go to **Format** then **Conditional Formatting**.
 

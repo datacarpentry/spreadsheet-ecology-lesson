@@ -40,7 +40,7 @@ version) is a **bad idea**. Why?
   discussed below.
 
 As an example of inconsistencies in data storage, do you remember how we talked about how Excel stores **dates** earlier? It turns out that 
-there are **multiple defaults for different versions of the software**. And you can switch between them all willy-nilly. So, say you’re
+there are **multiple defaults for different versions of the software**, and you can switch between them all. So, say you’re
 compiling Excel-stored data from multiple sources. There’s dates in each file- Excel interprets them as their own internally consistent
 serial numbers. When you combine the data, Excel will take the serial number from the place you’re importing it from, and interpret it
 using the rule set for the version of Excel you’re using. Essentially, you could be adding errors to your data, and it wouldn’t

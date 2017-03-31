@@ -82,7 +82,7 @@ But these ‘features’ often allow ambiguity to creep into your data. Ideally,
 
 ### Dates stored as integers
 
-The first thing you need to know is that Excel **stores dates as a number** - see the last column in the above figure. Essentially, it counts the days from a default of December 31, 1899, and thus stores July 2, 2014 as  the serial number 41822.
+The first thing you need to know is that Excel stores dates as numbers - see the last column in the above figure. Essentially, it counts the days from a default of December 31, 1899, and thus stores July 2, 2014 as  the serial number 41822.
 
 (But wait. That’s the default on my version of Excel. We’ll get into how this can introduce problems down the line later in this lesson. )
 
@@ -140,7 +140,7 @@ If Excel was to be believed, this person had been collecting bugs **in the futur
 
 Entering dates in one cell is helpful but due to the fact that the spreadsheet programs may interpret and save the data in different ways (doing that somewhat behind the scenes), there is a better practice.  
 
-In dealing with dates in spreadsheets, separate **date data into separate fields** (day, month, year), which will eliminate any chance of ambiguity. 
+In dealing with dates in spreadsheets, separate date data into separate fields (day, month, year), which will eliminate any chance of ambiguity. 
 
 ### <a name="doy"></a> Storing dates as YEAR, DAY-OF-YEAR
 

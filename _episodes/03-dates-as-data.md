@@ -34,7 +34,7 @@ conserve the timestamps, you are better off handling them using one of the solut
 >
 > - In the `dates` tab of your spreadsheet you have the data from 2014 plot 3. 
 > There's a `Date collected` column.
-> - Let’s extract month and year from the dates to new columns. For this we 
+> - Let’s extract month, day and year from the dates to new columns. For this we 
 > can use the built in Excel functions
 >
 > =MONTH(A3)    
@@ -44,7 +44,12 @@ conserve the timestamps, you are better off handling them using one of the solut
 > (Make sure the new column is formatted as a number and not as a date.)
 >
 > You can see that even though you wanted the year to be 2014, your spreadsheet program
-> automatically interpreted it as the year you entered the data.
+> automatically interpreted it as 2015, the year you entered the data.
+>
+> > ## Solution
+> > ![dates, exersize 1](../fig/solution_exercise_1_dates.png)
+> {: .solution}
+
 {: .challenge}
 
 > ## Exercise
@@ -62,6 +67,7 @@ conserve the timestamps, you are better off handling them using one of the solut
 > functions `HOUR()`, `MINUTE()` and `SECOND()`.
 > - Press `F9` to force the spreadsheet to recalculate the `NOW()` function,
 > and check that it has been updated.
+
 {: .challenge}
 
 ## Preferred date format

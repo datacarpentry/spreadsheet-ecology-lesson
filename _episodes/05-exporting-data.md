@@ -18,15 +18,11 @@ Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, *
 
 Storing the data you're going to work with for your analyses in Excel
 default file format (`*.xls` or `*.xlsx` - depending on the Excel
-version) is a bad idea. Why?
+version) isn't a good idea. Why?
 
-- Because it is a **proprietary format**, and it is possible that in
+- Because it is a proprietary format, and it is possible that in
   the future, technology won’t exist (or will become sufficiently
   rare) to make it inconvenient, if not impossible, to open the file.
-
-  Think about zipdisks. How many old theses in your lab are “backed
-  up” and stored on zipdisks? Ever wanted to pull out the raw data
-  from one of those? *Exactly.*
 
 - Other spreadsheet software may not be able to open files
   saved in a proprietary Excel format.
@@ -110,7 +106,7 @@ worksheets in the `xls` documents.
 - some of these only work on Windows
 - this equates to replacing a (simple but manual) export to `csv` with
   additional complexity/dependencies in the data analysis R code
-- **data formatting best practice still apply**
+- data formatting best practice still apply
 - Is there really a good reason why `csv` (or similar) is not adequate?
 
 #### Caveats on commas

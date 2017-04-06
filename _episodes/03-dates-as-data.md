@@ -48,9 +48,7 @@ conserve the timestamps, you are better off handling them using one of the solut
 >
 > > ## Solution
 > > ![dates, exersize 1](../fig/solution_exercise_1_dates.png)
-> {: .solution}
-
-{: .challenge}
+> {: .solution}{: .challenge}
 
 > ## Exercise
 > 

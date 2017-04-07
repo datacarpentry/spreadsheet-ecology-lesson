@@ -67,7 +67,6 @@ conserve the timestamps, you are better off handling them using one of the solut
 > functions `HOUR()`, `MINUTE()` and `SECOND()`.
 > - Press `F9` to force the spreadsheet to recalculate the `NOW()` function,
 > and check that it has been updated.
-
 {: .challenge}
 
 ## Preferred date format

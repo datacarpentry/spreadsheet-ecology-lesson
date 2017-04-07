@@ -4,7 +4,7 @@ root: .
 ---
 
 Good data organization is the foundation of any research project. Most 
-researchers store data in spreadsheets, so it's the place that many research
+researchers have data in spreadsheets, so it's the place that many research
 projects start. 
 
 We organize data in spreadsheets in the ways that we as humans want to work with the data, 

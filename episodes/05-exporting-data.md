@@ -3,7 +3,7 @@ title: "Exporting data"
 teaching: 10
 exercises: 0
 questions:
-- "Exporting data from spreadsheets"
+- "How can we export data from spreadsheets in a way that is useful for downstream applications?"
 objectives:
 - "Store spreadsheet data in universal file formats."
 - "Export data from a spreadsheet to a .csv file."

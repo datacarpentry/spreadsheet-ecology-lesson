@@ -115,28 +115,24 @@ Let's try do the following sorting challange:
 
 > Challenge: 
 >
-> Download the survey_data_messy_quality_control.xlsx file for this sort exersize.
+> Download this data file based on the 2013 survey data to your computer: src="https://figshare.com/articles/survey_data_messy_quality_control/4830016" 
 >
 > Once downloaded, sort the weight_grams column in your spreadsheet program from Smallets to Largest. 
 >
 > What do you notice?
 >
 > > ## Solution
-> > 
-<img width="699" alt="screen shot 2017-04-02 at 2 31 38 pm" src="https://cloud.githubusercontent.com/assets/13110354/24587036/c906a16c-17ae-11e7-9df1-f696d7b8083f.png">
+> > <img width="699" alt="screen shot 2017-04-02 at 2 31 38 pm" src="https://cloud.githubusercontent.com/assets/13110354/24587036/c906a16c-17ae-11e7-9df1-f696d7b8083f.png">
 
 > >
 > > Note how the outliers in the case of the 2013 data sort to the bottom of the tabular data. 
 > > The cells containing no data values as well as the cells where the letter "g" was included can be 
 > > found towards the bottom of the tabular data.
-> > 
-<img width="573" alt="screen shot 2017-04-02 at 2 32 51 pm 1" src="https://cloud.githubusercontent.com/assets/13110354/24587039/d64d5578-17ae-11e7-97e8-d969266d0510.png">
+> > <img width="573" alt="screen shot 2017-04-02 at 2 32 51 pm 1" src="https://cloud.githubusercontent.com/assets/13110354/24587039/d64d5578-17ae-11e7-97e8-d969266d0510.png">
 > >
 > {: .solution}
 >
 {: .challenge}
-
-
 
 
 ## Conditional formatting ##

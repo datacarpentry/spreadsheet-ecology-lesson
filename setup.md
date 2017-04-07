@@ -39,7 +39,7 @@ For this lesson, if you don't have a spreadsheet program already, you can use Li
 - Download the Installer 
   - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Mac should automatically be selected. Click Download Version X.X.X. You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.
 - Install LibreOffice 
-- Once the installer is downloaded, double click on this file, and LibreOffice will be installed.
+- Once the installer is downloaded, double click on it and LibreOffice should install.
 
 
 #### Linux

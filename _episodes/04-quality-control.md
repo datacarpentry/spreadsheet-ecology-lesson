@@ -125,11 +125,13 @@ criteria or lowest to highest. This makes it easy to scan your data for outliers
 
 Conditional formatting should be used with caution, but it can be a great way to flag inconsistent values when entering data.
 
-Let's try this again with weight. Go to Format then Conditional Formatting.
-
-We'll do the *2-Color Scale* with Lowest to Highest for the orange colors. Then we'll 
-apply that to the *wgt* column again. Now we can scan through and different colors will
-stand out. Again, do we notice any strange values?
+> ## Exercise
+> Let's try this again with weight. Go to Format then Conditional Formatting.
+> 
+> We'll do the *2-Color Scale* with Lowest to Highest for the orange colors. Then we'll 
+> apply that to the *wgt* column again. Now we can scan through and different colors will
+> stand out. Again, do we notice any strange values?
+{: .challenge} 
 
 It is nice to do be able to do these scans in spreadsheets, but we also can do these
 checks in a programming language like R, or in OpenRefine or SQL. 

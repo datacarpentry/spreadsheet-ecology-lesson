@@ -25,6 +25,8 @@ Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, *
 
 ## Common Spreadsheet Errors
 
+There are a few potential errors to be on the lookout for in your own data as well as data from collaborators or the Internet. If you are aware of the errors and the possible negative effect on downstream data analysis and result interpretation, it might motivate yourself and your project members to try and avoid them. Making small changes to the way you format your data in spreadsheets, can have a great impact on efficiency and reliability when it comes to data cleaning and analysis.
+
 - [Multiple tables](#tables)
 - [Multiple tabs](#tabs)
 - [Not filling in zeros](#zeros)

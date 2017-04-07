@@ -45,7 +45,7 @@ about data organization and some practices for more effective data wrangling.
 - How to *write code* in spreadsheet programs
 
 If you're looking to do this, a good reference is
-Head First Excel by O'Reilly
+[Head First Excel](https://www.amazon.com/Head-First-Excel-learners-spreadsheets/dp/0596807694/ref=sr_1_1?ie=UTF8&qid=1491594584&sr=8-1&keywords=head+first+excel), published by O'Reilly
 
 ---
 

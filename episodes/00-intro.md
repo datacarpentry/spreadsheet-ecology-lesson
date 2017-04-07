@@ -62,11 +62,9 @@ Head First Excel by O'Reilly
 
 ### Spreadsheet programs
 
-- LibreOffice - used in these lessons because it's a free, open source
-  spreadsheet program
-- Microsoft Excel
-- Gnumeric
-- OpenOffice
+Many spreadsheet programs are available. Since most participants utilize Excel as their primary spreadsheet program, this lesson will make use of Excel examples.
+
+A free spreadsheet program that can also be used is LibreOffice
 
 Commands may differ a bit between programs, but the general idea
 is the same.

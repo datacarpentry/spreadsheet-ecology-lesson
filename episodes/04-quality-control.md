@@ -108,15 +108,35 @@ will group at the ends of the sorted data. Sort your data by each field, one at 
 attention to the top and the bottom of a column. 
 If your dataset is well-structured and does not contain formulas, sorting should never affect the integrity of your dataset.
 
-Let's try this with the *1980* tab in our messy spreadsheet. Go to that tab. Select Data then select Sort
+ Remember to expand your sort in order to prevent data corruption. Expanding your sort ensures that 
+> the the all the data in one row move together instead of only sorting a single column in isolation as shown in the screenshot.
 
-Sort by *wgt* in the order *Smallest to Largest*
+Let's try do the following sorting challange:
 
-![Figure of Sorting menu](../fig/sorting.png)
+> Challenge: 
+>
+> Download the survey_data_messy_quality_control.xlsx file for this sort exersize.
+>
+> Once downloaded, sort the weight_grams column in your spreadsheet program from Smallets to Largest. 
+>
+> What do you notice?
+>
+> > ## Solution
+> > 
+<img width="699" alt="screen shot 2017-04-02 at 2 31 38 pm" src="https://cloud.githubusercontent.com/assets/13110354/24587036/c906a16c-17ae-11e7-9df1-f696d7b8083f.png">
 
-- When you do this sort, do you notice anything strange?
+> >
+> > Note how the outliers in the case of the 2013 data sort to the bottom of the tabular data. 
+> > The cells containing no data values as well as the cells where the letter "g" was included can be 
+> > found towards the bottom of the tabular data.
+> > 
+<img width="573" alt="screen shot 2017-04-02 at 2 32 51 pm 1" src="https://cloud.githubusercontent.com/assets/13110354/24587039/d64d5578-17ae-11e7-97e8-d969266d0510.png">
+> >
+> {: .solution}
+>
+{: .challenge}
 
-- Try sorting by *species*. Anything strange there?
+
 
 
 ## Conditional formatting ##

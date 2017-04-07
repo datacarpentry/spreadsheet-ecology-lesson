@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
 teaching: 15
-exercises: 1
+exercises: 3
 questions:
 - "Introduction to spreadsheets for good data organization"
 objectives:

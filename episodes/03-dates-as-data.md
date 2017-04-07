@@ -37,9 +37,9 @@ conserve the timestamps, you are better off handling them using one of the solut
 > - Let’s extract month, day and year from the dates to new columns. For this we 
 > can use the built in Excel functions
 >
-> =MONTH(A3)    
-> =DAY(A3)  
-> =YEAR(A3)
+> `MONTH()`    
+> `DAY()`  
+> `YEAR()`
 >
 > (Make sure the new column is formatted as a number and not as a date.)
 >

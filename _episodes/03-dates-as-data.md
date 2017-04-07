@@ -160,10 +160,10 @@ ambiguity.
 There is also another option. You can also store dates as year and day of year (DOY). Why? Because depending on your
 question, this might be what's useful to you, and there is practically no possibility for ambiguity creeping in.
 
-Statistical models often incorporate year as a factor, to account for year-to-year variation, and DOY can be used to measure the passage
-of time within a year. 
+Statistical models often incorporate year as a factor, or a categorical variable, rather than a numeric variable, to account for 
+year-to-year variation, and DOY can be used to measure the passage of time within a year. 
 
-So, can you convert all your dates into DOY format? Well, in Excel, here’s a handy dandy guide:
+So, can you convert all your dates into DOY format? Well, in Excel, here’s a useful guide:
 
 ![Kill that ambiguity before it bites you!](../fig/7_excel_dates_3.jpg)
 

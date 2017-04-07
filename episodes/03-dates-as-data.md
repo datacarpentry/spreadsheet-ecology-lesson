@@ -1,7 +1,7 @@
 ---
 title: "Dates as data"
 teaching: 10
-exercises: 0
+exercises: 3
 questions:
 - "Approaches for handling dates in spreadsheets"
 objectives:
@@ -129,7 +129,7 @@ Which brings us to the many different ways Excel provides in how it displays dat
 there are many ways that ambiguity creeps into your data depending on the format you chose when you enter your data, and if you’re not
 fully aware of which format you’re using, you can end up actually entering your data in a way that Excel will badly misinterpret. 
 
-> ## Question  
+> ## Exercise  
 > What will happen if you save our data file in Excel (in `csv` format) and then open the file using a plain text editor? 
 {: .callout}
 

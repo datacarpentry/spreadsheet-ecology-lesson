@@ -3,7 +3,7 @@ title: "Dates as data"
 teaching: 10
 exercises: 3
 questions:
-- "Approaches for handling dates in spreadsheets"
+- "What are good approaches for handling dates in spreadsheets?"
 objectives:
 - "Describe how dates are stored and formatted in spreadsheets."
 - "Describe the advantages of alternative date formatting in spreadsheets."

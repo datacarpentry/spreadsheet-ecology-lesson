@@ -3,7 +3,7 @@ title: "Quality control"
 teaching: 20
 exercises: 0
 questions:
-- "Approaches for basic quality control and assurance in spreadsheets"
+- "How can we carry out basic quality control and quality assurance in spreadsheets?"
 objectives:
 - "Apply quality control techniques to identify errors in spreadsheets and limit incorrect data entry."
 keypoints:

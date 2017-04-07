@@ -3,7 +3,7 @@ title: "Introduction"
 teaching: 15
 exercises: 3
 questions:
-- "Introduction to spreadsheets for good data organization"
+- "What are basic principles for using spreadsheets for good data organization?"
 objectives:
 - "Understand how to organize data so computers can make the best use of the data"
 keypoints:

@@ -3,7 +3,7 @@ title: "Formatting data tables in Spreadsheets"
 teaching: 15
 exercises: 20
 questions:
-- "How to format data in spreadsheets for effective data use"
+- "How do we format data in spreadsheets for effective data use?"
 objectives:
 - "Describe best practices for data entry and formatting in spreadsheets."
 - "Apply best practices to arrange variables and observations in a spreadsheet."

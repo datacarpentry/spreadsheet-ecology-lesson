@@ -108,14 +108,13 @@ will group at the ends of the sorted data. Sort your data by each field, one at 
 attention to the top and the bottom of a column. 
 If your dataset is well-structured and does not contain formulas, sorting should never affect the integrity of your dataset.
 
- Remember to expand your sort in order to prevent data corruption. Expanding your sort ensures that 
-> the the all the data in one row move together instead of only sorting a single column in isolation as shown in the screenshot.
+*Remember* to expand your sort in order to prevent data corruption. Expanding your sort ensures that the the all the data in one row move together instead of only sorting a single column in isolation as shown in the screenshot.
 
-Let's try do the following sorting exersize:
+Let's try the following sorting exersize:
 
 > ## Exersize: 
 >
-> Download this data file based on the 2013 survey data to your computer: https://figshare.com/articles/survey_data_messy_quality_control/4830016" 
+> Download this data file based on the 2013 survey data to your computer: [https://figshare.com/articles/survey_data_messy_quality_control/4830016]
 >
 > Once downloaded, sort the weight_grams column in your spreadsheet program from Smallets to Largest. 
 >

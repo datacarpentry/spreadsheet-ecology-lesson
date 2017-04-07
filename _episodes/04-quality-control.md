@@ -115,14 +115,14 @@ Let's try do the following sorting exersize:
 
 > ## Exersize: 
 >
-> Download this data file based on the 2013 survey data to your computer: src="https://figshare.com/articles/survey_data_messy_quality_control/4830016" 
+> Download this data file based on the 2013 survey data to your computer: https://figshare.com/articles/survey_data_messy_quality_control/4830016" 
 >
 > Once downloaded, sort the weight_grams column in your spreadsheet program from Smallets to Largest. 
 >
 > What do you notice?
 >
 > > ## Solution
-> > ![quality_control1, exersize 1](../fig/sorting_exersize.png)
+> > ![quality_control1, exersize 1](../fig/sorting_example.png)
 > > {: .output}
 > > Note how the outliers in the case of the 2013 data sort to the bottom of the tabular data. 
 > > The cells containing no data values as well as the cells where the letter "g" was included can be 

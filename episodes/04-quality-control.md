@@ -98,7 +98,9 @@ readMe (README) files: As you start manipulating your data files, create a readM
 document your manipulations so that they may be easily understood and replicated, either by your future self or by an independent
 researcher. Your readMe file should document all of the files in your data set (including documentation), describe their content and
 format, and lay out the organizing principles of folders and subfolders. For each of the separate files listed, it is a good idea to
-document the manipulations or analyses that were carried out on those data.
+document the manipulations or analyses that were carried out on those data. 
+[Cornell University's Research Data Management Service Group](https://data.research.cornell.edu/content/readme) provides detailed
+guidelines for how to write a good readMe file, along with an adaptable template.
 
 <!-- [Example: converting all data to values: use soybean aphid suction trap dataset for this section] -->
 

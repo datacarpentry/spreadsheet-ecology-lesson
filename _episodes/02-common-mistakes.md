@@ -27,21 +27,21 @@ Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, *
 
 There are a few potential errors to be on the lookout for in your own data as well as data from collaborators or the Internet. If you are aware of the errors and the possible negative effect on downstream data analysis and result interpretation, it might motivate yourself and your project members to try and avoid them. Making small changes to the way you format your data in spreadsheets, can have a great impact on efficiency and reliability when it comes to data cleaning and analysis.
 
-- [Multiple tables](#tables)
-- [Multiple tabs](#tabs)
+- [Using multiple tables](#tables)
+- [Using multiple tabs](#tabs)
 - [Not filling in zeros](#zeros)
-- [Using bad null values](#null)
+- [Using problematic null values](#null)
 - [Using formatting to convey information](#formatting)
 - [Using formatting to make the data sheet look pretty](#formatting_pretty)
 - [Placing comments or units in cells](#units)
-- [More than one piece of information in a cell](#info)
-- [Field name problems](#field_name)
-- [Special characters in data](#special)
+- [Entering more than one piece of information in a cell](#info)
+- [Using problematic field names](#field_name)
+- [Using special characters in data](#special)
 - [Inclusion of metadata in data table](#metadata)
 - [Date formatting](../03-dates-as-data/)
 
 
-## <a name="tables"></a> Multiple tables
+## <a name="tables"></a> Using multiple tables
 
 A common strategy is creating multiple data tables within
 one spreadsheet. This confuses the computer, so don't do this!
@@ -55,7 +55,7 @@ into a usable form. The example below depicts the problem:
 
 
 
-## <a name="tabs"></a> Multiple tabs
+## <a name="tabs"></a> Using multiple tabs
 
 But what about workbook tabs? That seems like an easy way to organize data, right? Well, yes and no. When you create extra tabs, you fail
 to allow the computer to see connections in the data that are there (you have to introduce spreadsheet application-specific functions or
@@ -137,7 +137,7 @@ cells: ideally, all the measurements you place in one column should be in the sa
 another field and specify the units the cell is in.
 
 
-## <a name="info"></a> More than one piece of information in a cell
+## <a name="info"></a> Entering more than one piece of information in a cell
 
 **Example**: You find one male, and one female of the same species. You enter this as 1M, 1F.
 
@@ -145,7 +145,7 @@ another field and specify the units the cell is in.
 If you need both these measurements, design your data sheet to include this information. For example, include one column for number of
 individuals and a separate column for sex.
 
-## <a name="field_name"></a> Field name problems
+## <a name="field_name"></a> Using problematic field names
 Choose descriptive field names, but be careful not to include spaces, numbers, or special characters of any kind. Spaces can be
 misinterpreted by parsers that use whitespace as delimiters and some programs don’t like field names that are text strings that start
 with numbers.  
@@ -199,7 +199,7 @@ that are excessively long. Including the units in the field names avoids confusi
 </tr>
 </table>
 
-## <a name="special"></a> Special characters in data
+## <a name="special"></a> Using special characters in data
 
 **Example**: You treat your spreadsheet program as a word processor when writing notes, for example copying data directly from Word or
 other applications.

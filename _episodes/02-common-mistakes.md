@@ -3,7 +3,7 @@ title: "Formatting problems"
 teaching: 20
 exercises: 0
 questions:
-- "Some of the common formatting challenges and how to avoid them"
+- "What are some common challenges with formatting data in spreadsheets and how can we avoid them?"
 objectives:
 - "Recognize and resolve common spreadsheet formatting problems."
 keypoints:

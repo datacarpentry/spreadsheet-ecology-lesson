@@ -97,9 +97,8 @@ you move your data into a digital format like a spreadsheet.
 
 **Solution**: Many statistical programs will not recognize that numeric values of null are indeed null. It will depend on the final
 application of your data and how you intend to analyse it, but it is essential to use a clearly defined and consistent null indicator.
-Blanks (most applications) and NA (for R) are good choices.
-
-From White et al, 2013, [Nine simple ways to make it easier to (re)use your data.](http://library.queensu.ca/ojs/index.php/IEE/article/view/4608/4898) Ideas in Ecology and Evolution:
+Blanks (most applications) and NA (for R) are good choices. White et al, 2013, explain good choices for indicating null values for different software applications in their article:
+[Nine simple ways to make it easier to (re)use your data.](http://library.queensu.ca/ojs/index.php/IEE/article/view/4608/4898) Ideas in Ecology and Evolution.
 
 ![White et al.](../fig/3_white_table_1.jpg)
 

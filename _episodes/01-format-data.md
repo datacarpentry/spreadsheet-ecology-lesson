@@ -115,9 +115,7 @@ So, instead we should have:
 in 2013 and one in 2014, and they both kept track of the data in their own way. Now
 you're the person in charge of this project and you want to be able to 
 start analyzing the data.   
-> - With the person next to you, discuss how to organize the messy data so that a computer will
-be able to understand it. Explain the steps you would take to clean up the 2013 and 2014 tabs, and to put them all together
-in one spreadsheet. 
+> - With the person next to you, identify what is wrong with this spreadsheet. Also discuss the steps you would need to take to clean up the 2013 and 2014 tabs, and to put them all together in one spreadsheet. 
 >
 > **Important** Do not forget our first piece of advice, the
 > create a new file (or tab) for the cleaned data, never

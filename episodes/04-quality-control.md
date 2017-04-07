@@ -111,9 +111,9 @@ If your dataset is well-structured and does not contain formulas, sorting should
  Remember to expand your sort in order to prevent data corruption. Expanding your sort ensures that 
 > the the all the data in one row move together instead of only sorting a single column in isolation as shown in the screenshot.
 
-Let's try do the following sorting challange:
+Let's try do the following sorting exersize:
 
-> Challenge: 
+> ## Exersize: 
 >
 > Download this data file based on the 2013 survey data to your computer: src="https://figshare.com/articles/survey_data_messy_quality_control/4830016" 
 >
@@ -122,16 +122,16 @@ Let's try do the following sorting challange:
 > What do you notice?
 >
 > > ## Solution
-> > <img width="699" alt="screen shot 2017-04-02 at 2 31 38 pm" src="https://cloud.githubusercontent.com/assets/13110354/24587036/c906a16c-17ae-11e7-9df1-f696d7b8083f.png">
-> >
+> > ![quality_control1, exersize 1](../fig/sorting_exersize.png)
+> > {: .output}
 > > Note how the outliers in the case of the 2013 data sort to the bottom of the tabular data. 
 > > The cells containing no data values as well as the cells where the letter "g" was included can be 
 > > found towards the bottom of the tabular data.
-> > <img width="573" alt="screen shot 2017-04-02 at 2 32 51 pm 1" src="https://cloud.githubusercontent.com/assets/13110354/24587039/d64d5578-17ae-11e7-97e8-d969266d0510.png">
-> >
+> > ![quality_control2, exersize 1](../fig/sorting_solution.png)
+> > {: .output}
 > {: .solution}
->
 {: .challenge}
+
 
 
 ## Conditional formatting ##

@@ -111,7 +111,7 @@ stats or figures require you to do more complex calculations. Furthermore,
 in doing calculations in a spreadsheet, it’s easy to accidentally apply a 
 slightly different formula to multiple adjacent cells. When using a 
 command-line based statistics program like R or SAS, it’s practically 
-impossible to accidentally apply a calculation to one observation in your 
+impossible to apply a calculation to one observation in your 
 dataset but not another unless you’re doing it on purpose. 
 
 ### Using Spreadsheets for Data Entry and Cleaning

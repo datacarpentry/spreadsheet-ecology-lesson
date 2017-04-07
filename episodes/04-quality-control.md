@@ -124,7 +124,7 @@ Let's try the following sorting exercise:
 > > 
 > > Click the Sort button on the data tab in Excel
 > >
-> > ![quality_control1, exercise1](../fig/sorting_button.png)
+> > ![quality_control0, exercise1](../fig/sorting_button.png)
 > > {: .output}
 > >
 > > The following window will display, choose the column you want to sort as well as the sort order.

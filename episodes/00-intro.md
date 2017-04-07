@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
 teaching: 15
-exercises: 0
+exercises: 1
 questions:
 - "Introduction to spreadsheets for good data organization"
 objectives:
@@ -71,7 +71,7 @@ Head First Excel by O'Reilly
 Commands may differ a bit between programs, but the general idea
 is the same.
 
-> ## Questions:
+> ## Exercise
 > - How many people have used spreadsheets in their research?
 > - How many people have accidentally done something that made them
 > frustrated or sad?

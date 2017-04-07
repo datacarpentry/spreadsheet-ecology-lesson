@@ -25,7 +25,7 @@ and stores the dates may be problematic.
 In particular, please remember that functions that are valid for a given
 spreadsheet program (be it LibreOffice, Microsoft Excel, OpenOffice,
 Gnumeric, etc.) are usually guaranteed to be compatible only within the same
-famly of products. If you will later need to export the data and need to
+family of products. If you will later need to export the data and need to
 conserve the timestamps, you are better off handling them using one of the solutions discussed below.  
 
 > ## Exercise 
@@ -35,16 +35,16 @@ conserve the timestamps, you are better off handling them using one of the solut
 > - In the `dates` tab of your spreadsheet you have the data from 2014 plot 3. 
 > There's a `Date collected` column.
 > - Let’s extract month, day and year from the dates to new columns. For this we 
-> can use the built in Excel functions
+> can use the built in Excel functions shown below. 
 >
 > =MONTH(A3)    
 > =DAY(A3)  
 > =YEAR(A3)
 >
-> (Make sure the new column is formatted as a number and not as a date.)
+> Make sure your new columns are formatted as numbers and not as dates. This can be set using Format > Cells > Number.
+> Also make sure that the formula is applied to all rows of the dataset.
 >
-> You can see that even though you wanted the year to be 2014, your spreadsheet program
-> automatically interpreted it as 2015, the year you entered the data.
+> What year does the spreadsheet program assume the data is from? Why would this be?
 >
 > > ## Solution
 > > ![dates, exersize 1](../fig/solution_exercise_1_dates.png)

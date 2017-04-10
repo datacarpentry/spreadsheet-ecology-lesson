@@ -28,22 +28,22 @@ observation
 :   a single measurement or record of the object being recorded (e.g. the weight of a particular mouse)
 
 plain text
-:   
+:   unformatted text
 
 quality assurance  
-:   definition
+:   any process which checks data for validity during entry  
 
 quality control  
-:   definition
+:   any process which removes problematic data from a dataset
 
 raw data  
-:   definition
+:   data that has not been manipulated and represents actual recorded values
 
 rich text  
-:   
+:  formatted text (e.g. text that appears bolded, colored or italicized)
 
 string  
-:   definition
+:   a collection of characters (e.g. "thisisastring")
 
 TSV (tab separated values) format  
 :   a plain text file format in which values are separated by tabs

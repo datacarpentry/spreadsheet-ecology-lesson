@@ -19,13 +19,13 @@ factor
 :   a variable that takes on a limited number of possible values (i.e. categorical data)
 
 metadata  
-:   definition
+:   data which describes other data  
 
 null value  
-:   definition
+:   a value used to record observations missing from a dataset
 
 observation  
-:   definition
+:   a single measurement or record of the object being recorded (e.g. the weight of a particular mouse)
 
 plain text
 :   
@@ -49,4 +49,4 @@ TSV (tab separated values) format
 :   a plain text file format in which values are separated by tabs
 
 variable  
-:   definition
+:   a category of data being collected on the object being recorded (e.g. a mouse's weight)

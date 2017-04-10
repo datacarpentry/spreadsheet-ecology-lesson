@@ -6,10 +6,10 @@ questions:
 - "How can we export data from spreadsheets in a way that is useful for downstream applications?"
 objectives:
 - "Store spreadsheet data in universal file formats."
-- "Export data from a spreadsheet to a .csv file."
+- "Export data from a spreadsheet to a CSV file."
 keypoints:
 - "Data stored in common spreadsheet formats will often not be read correctly into data analysis software, introducing errors into your data."
-- "Exporting data from spreadsheets to formats like .csv or .tsv puts it in a format that can be used consistently by most programs."
+- "Exporting data from spreadsheets to formats like CSV or TSV puts it in a format that can be used consistently by most programs."
 ---
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
@@ -52,7 +52,7 @@ it's a
 good format to work with for maximum portability and endurance. Most spreadsheet programs can save to delimited text formats like CSV
 easily, although they may give you a warning during the file export.
 
-To save a file you have opened in Excel in `*.csv` format:
+To save a file you have opened in Excel in CSV format:
 
 1. From the top menu select 'File' and 'Save as'.
 2. In the 'Format' field, from the list, select 'Comma Separated Values' (`*.csv`).

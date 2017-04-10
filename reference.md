@@ -5,42 +5,48 @@ permalink: /reference/
 
 ## Glossary
 
-{:auto_ids}
-cleaned data
+{:auto_ids}  
+cleaned data  
+:   data that has been manipulated post-collection to remove errors or inaccuracies, introduce desired formatting changes, or otherwise prepare the data for analysis
+
+conditional formatting  
+:   formatting that is applied to a specific cell or range of cells depending on a set of criteria  
+
+CSV (comma separated values) format  
+:   a plain text file format in which values are separated by commas
+
+factor  
+:   a variable that takes on a limited number of possible values (i.e. categorical data)
+
+metadata  
 :   definition
 
-conditional formatting
+null value  
 :   definition
 
-CSV format
+observation  
 :   definition
 
-factor
+plain text
+:   
+
+quality assurance  
 :   definition
 
-metadata
+quality control  
 :   definition
 
-null value
+raw data  
 :   definition
 
-observation
+rich text  
+:   
+
+string  
 :   definition
 
-quality assurance
-:   definition
+TSV (tab separated values) format  
+:   a plain text file format in which values are separated by tabs
 
-quality control
-:   definition
-
-raw data
-:   definition
-
-string
-:   definition
-
-TSV format
-:   definition
-
-variable
+variable  
 :   definition

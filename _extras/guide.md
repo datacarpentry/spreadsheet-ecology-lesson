@@ -70,7 +70,7 @@ Instead discuss the concepts of quality control, and how things like sorting can
 
 #### [Exporting data](/05-exporting-data/)
 
-* Have the students export their cleaned data as csv. Reiterate again the need for
+* Have the students export their cleaned data as CSV. Reiterate again the need for
 data in this format for the other tools we'll be using.
 
 

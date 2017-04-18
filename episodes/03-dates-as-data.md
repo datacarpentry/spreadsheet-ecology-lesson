@@ -60,13 +60,18 @@ conserve the timestamps, you are better off handling them using one of the solut
 > returns the current date and time, and `TODAY()`, which returns the current
 > date. The results will be formatted according to your computer's settings.
 > 
-> - Extract the year, month and day from the current date and time string
+> 1) Extract the year, month and day from the current date and time string
 > returned by the `NOW()` function.
-> - Calculate the current time using `NOW()-TODAY()`.
-> - Extract the hour, minute and second from the current time using
+> 2) Calculate the current time using `NOW()-TODAY()`.
+> 3) Extract the hour, minute and second from the current time using
 > functions `HOUR()`, `MINUTE()` and `SECOND()`.
-> - Press `F9` to force the spreadsheet to recalculate the `NOW()` function,
+> 4) Press `F9` to force the spreadsheet to recalculate the `NOW()` function,
 > and check that it has been updated.
+> > ## Solution
+> > 1) To get the year, type `=YEAR(NOW())` into any cell in your spreadsheet. To get the month, type `=MONTH(NOW())`. To get the day, type `=DAY(NOW())`.
+> > 2) Typing `=NOW()-TODAY()` will result in a decimal value that is not easily human parsable to a clock-based time. You will need to use the strategies in the third part of this challenge to convert this decimal value to readable time.
+> > 3) To extract the hour, type `=HOUR(NOW()-TODAY())` and similarly for minute and second.
+> {: .solution}
 {: .challenge}
 
 ## Preferred date format

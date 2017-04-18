@@ -68,9 +68,9 @@ conserve the timestamps, you are better off handling them using one of the solut
 > 4) Press `F9` to force the spreadsheet to recalculate the `NOW()` function,
 > and check that it has been updated.
 > > ## Solution
-> > 1) To get the year, type `=YEAR(NOW())` into any cell in your spreadsheet. To get the month, type `=MONTH(NOW())`. To get the day, type `=DAY(NOW())`.
-> > 2) Typing `=NOW()-TODAY()` will result in a decimal value that is not easily human parsable to a clock-based time. You will need to use the strategies in the third part of this challenge to convert this decimal value to readable time.
-> > 3) To extract the hour, type `=HOUR(NOW()-TODAY())` and similarly for minute and second.
+> > 1) To get the year, type `=YEAR(NOW())` into any cell in your spreadsheet. To get the month, type `=MONTH(NOW())`. To get the day, type `=DAY(NOW())`.  
+> > 2) Typing `=NOW()-TODAY()` will result in a decimal value that is not easily human parsable to a clock-based time. You will need to use the strategies in the third part of this challenge to convert this decimal value to readable time.  
+> > 3) To extract the hour, type `=HOUR(NOW()-TODAY())` and similarly for minute and second.  
 > {: .solution}
 {: .challenge}
 
@@ -135,6 +135,7 @@ fully aware of which format you’re using, you can end up actually entering you
 
 > ## Exercise  
 > What happens to the dates in the "dates" tab of our workbook if we save this sheet in Excel (in `csv` format) and then open the file in a plain text editor (like TextEdit or Notepad)? What happens to the dates if we then open the `csv` file in Excel?
+> > ## Solution
 > > Click to the "dates" tab of the workbook and double-click on any of the values in the `Date collected` column. Notice that the dates display with the year 2015. 
 > > Select `File -> Save As` in Excel and in the drop down menu for file format select `CSV UTF-8 (Comma delimited) (.csv)`. Click `Save`.
 > > You will see a pop-up that says "This workbook cannot be saved in the selected file format because it contains multiple sheets." Choose `Save Active Sheet`. 

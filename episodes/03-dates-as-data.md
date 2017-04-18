@@ -134,8 +134,15 @@ there are many ways that ambiguity creeps into your data depending on the format
 fully aware of which format you’re using, you can end up actually entering your data in a way that Excel will badly misinterpret. 
 
 > ## Exercise  
-> What will happen if you save our data file in Excel (in `csv` format) and then open the file using a plain text editor? 
-{: .callout}
+> What happens to the dates in the "dates" tab of our workbook if we save this sheet in Excel (in `csv` format) and then open the file in a plain text editor (like TextEdit or Notepad)? What happens to the dates if we then open the `csv` file in Excel?
+> > Click to the "dates" tab of the workbook and double-click on any of the values in the `Date collected` column. Notice that the dates display with the year 2015. 
+> > Select `File -> Save As` in Excel and in the drop down menu for file format select `CSV UTF-8 (Comma delimited) (.csv)`. Click `Save`.
+> > You will see a pop-up that says "This workbook cannot be saved in the selected file format because it contains multiple sheets." Choose `Save Active Sheet`. 
+> > Navigate to the file in your finder application. Right click and select `Open With`. Choose a plain text editor application and view the file. Notice that the dates display as month/day without any year information. 
+> > Now right click on the file again and open with Excel. Notice that the dates display with the current year, not 2015.
+> > As you can see, exporting data from Excel and then importing it back into Excel fundamentally changed the data!
+> {: .solution}
+{: .challenge}
 
 **Note**  
 You will notice that when exporting into a text-based format (such as CSV), Excel will export its internal date integer instead of a useful value (that is, the dates will be represented as integer numbers). This can potentially lead to problems if you use other software to manipulate the file.

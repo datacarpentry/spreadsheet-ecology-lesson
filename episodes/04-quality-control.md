@@ -116,7 +116,7 @@ Let's try the following sorting exercise:
 
 > ## Exercise : 
 >
-> Download this data file based on the 2013 survey data to your computer: [survey_sorting_exercise](../data/survey_data_messy_quality_control.xlsx)
+> Download this data file based on the 2013 survey data to your computer: [survey_sorting_exercise](https://ndownloader.figshare.com/files/2252083)
 >
 > Once downloaded, sort the *weight_grams* column in your spreadsheet program from *Smallest to Largest*. 
 >

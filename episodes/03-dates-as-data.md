@@ -61,12 +61,12 @@ conserve the timestamps, you are better off handling them using one of the solut
 > date. The results will be formatted according to your computer's settings.
 > 
 > 1) Extract the year, month and day from the current date and time string
-> returned by the `NOW()` function.
-> 2) Calculate the current time using `NOW()-TODAY()`.
+> returned by the `NOW()` function.  
+> 2) Calculate the current time using `NOW()-TODAY()`.   
 > 3) Extract the hour, minute and second from the current time using
-> functions `HOUR()`, `MINUTE()` and `SECOND()`.
+> functions `HOUR()`, `MINUTE()` and `SECOND()`.  
 > 4) Press `F9` to force the spreadsheet to recalculate the `NOW()` function,
-> and check that it has been updated.
+> and check that it has been updated.  
 > > ## Solution
 > > 1) To get the year, type `=YEAR(NOW())` into any cell in your spreadsheet. To get the month, type `=MONTH(NOW())`. To get the day, type `=DAY(NOW())`.  
 > > 2) Typing `=NOW()-TODAY()` will result in a decimal value that is not easily human parsable to a clock-based time. You will need to use the strategies in the third part of this challenge to convert this decimal value to readable time.  
@@ -136,12 +136,12 @@ fully aware of which format you’re using, you can end up actually entering you
 > ## Exercise  
 > What happens to the dates in the "dates" tab of our workbook if we save this sheet in Excel (in `csv` format) and then open the file in a plain text editor (like TextEdit or Notepad)? What happens to the dates if we then open the `csv` file in Excel?
 > > ## Solution
-> > Click to the "dates" tab of the workbook and double-click on any of the values in the `Date collected` column. Notice that the dates display with the year 2015. 
-> > Select `File -> Save As` in Excel and in the drop down menu for file format select `CSV UTF-8 (Comma delimited) (.csv)`. Click `Save`.
-> > You will see a pop-up that says "This workbook cannot be saved in the selected file format because it contains multiple sheets." Choose `Save Active Sheet`. 
-> > Navigate to the file in your finder application. Right click and select `Open With`. Choose a plain text editor application and view the file. Notice that the dates display as month/day without any year information. 
-> > Now right click on the file again and open with Excel. Notice that the dates display with the current year, not 2015.
-> > As you can see, exporting data from Excel and then importing it back into Excel fundamentally changed the data!
+> > - Click to the "dates" tab of the workbook and double-click on any of the values in the `Date collected` column. Notice that the dates display with the year 2015.   
+> > - Select `File -> Save As` in Excel and in the drop down menu for file format select `CSV UTF-8 (Comma delimited) (.csv)`. Click `Save`.  
+> > - You will see a pop-up that says "This workbook cannot be saved in the selected file format because it contains multiple sheets." Choose `Save Active Sheet`.   
+> > - Navigate to the file in your finder application. Right click and select `Open With`. Choose a plain text editor application and view the file. Notice that the dates display as month/day without any year information.   
+> > - Now right click on the file again and open with Excel. Notice that the dates display with the current year, not 2015.   
+> > As you can see, exporting data from Excel and then importing it back into Excel fundamentally changed the data!  
 > {: .solution}
 {: .challenge}
 

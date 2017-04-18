@@ -220,9 +220,25 @@ it were a simple web form that can only contain text and spaces.
 
 **Example**: You add a legend at the top or bottom of your data table explaining column meaning, units, exceptions, etc.
 
-**Solution**: While recording data about your data ("metadata") is essential, this information should not be contained in the data file
-itself. Unlike a table in a paper or a supplemental file, metadata (in the form of legends) should not be included in a data file since
-this information is not data, and including it can disrupt how computer programs interpret your data file. Rather, metadata should be
-stored as a separate file in the same directory as your data file, preferably in plain text format with a name that clearly associates
-it with your data file. Because metadata files are free text format, they also allow you to encode comments, units, information about
-how null values are encoded, etc. that are important to document but can disrupt the formatting of your data file.
+**Solution**: Recording data about your data (“metadata”) is essential. You may be on intimate terms with your dataset while you are 
+collecting and analysing it, but the chances that you will still remember that the variable "sglmemgp" means single member of group, for
+example, or the exact algorithm you used to transform a variable or create a derived one, after a few months, a year, or more are slim.  
+
+As well, there are many reasons other people may want to examine or use your data - to understand your findings, to verify your findings,
+to review your submitted publication, to replicate your results, to design a similar study, or even to archive your data for access and 
+re-use by others. While digital data by definition are machine-readable, understanding their meaning is a job for human beings. The 
+importance of documenting your data during the collection and analysis phase of your research cannot be overestimated, especially if your
+research is going to be part of the scholarly record.  
+
+However, metadata should not be contained in the data file itself. Unlike a table in a paper or a supplemental file, metadata (in the 
+form of legends) should not be included in a data file since this information is not data, and including it can disrupt how computer 
+programs interpret your data file. Rather, metadata should be stored as a separate file in the same directory as your data file, 
+preferably in plain text format with a name that clearly associates it with your data file. Because metadata files are free text format,
+they also allow you to encode comments, units, information about how null values are encoded, etc. that are important to document but can
+disrupt the formatting of your data file.  
+
+Additionally, file or database level metadata describes how files that make up the dataset relate to each other; what format are they are 
+in; and whether they supercede or are superceded by previous files. A folder-level readme.txt file is the classic way of accounting for 
+all the files and folders in a project.  
+
+(Text on metadata adapted from the online course Research Data [MANTRA](http://datalib.edina.ac.uk/mantra) by EDINA and Data Library, University of Edinburgh. MANTRA is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).)

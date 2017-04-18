@@ -110,15 +110,43 @@ will group at the ends of the sorted data. Sort your data by each field, one at 
 attention to the top and the bottom of a column. 
 If your dataset is well-structured and does not contain formulas, sorting should never affect the integrity of your dataset.
 
-Let's try this with the *1980* tab in our messy spreadsheet. Go to that tab. Select Data then select Sort
-
-Sort by *wgt* in the order *Smallest to Largest*
+**Remember** to expand your sort in order to prevent data corruption. Expanding your sort ensures that the all the data in one row move together instead of only sorting a single column in isolation as shown in the screenshot.
 
 ![Figure of Sorting menu](../fig/sorting.png)
 
-- When you do this sort, do you notice anything strange?
+Let's try the following sorting exercise:
 
-- Try sorting by *species*. Anything strange there?
+> ## Exercise : 
+>
+> Download this data file based on the 2013 survey data to your computer: [survey_sorting_exercise](https://ndownloader.figshare.com/files/2252083)
+>
+> Once downloaded, sort the *weight_grams* column in your spreadsheet program from *Smallest to Largest*. 
+>
+> What do you notice?
+>
+> > ## Solution
+> > 
+> > Click the Sort button on the data tab in Excel
+> >
+> > ![quality_control0, exercise1](../fig/sorting_button.png)
+> > {: .output}
+> >
+> > The following window will display, choose the column you want to sort as well as the sort order.
+> >
+> > ![quality_control1, exercise1](../fig/sorting_example.png)
+> > {: .output}
+> > 
+> > 
+> > **Note** how the outliers of the 2013 data sort to the bottom of the tabular data. 
+> > The cells containing no data values as well as the cells where the letter "g" was included can be found towards the bottom of the tabular data.
+> > 
+> > ![quality_control2, exercise1](../fig/sorting_solution.png)
+> > {: .output}
+> > 
+> > 
+> {: .solution}
+{: .challenge}
+
 
 
 ## Conditional formatting ##

@@ -119,4 +119,4 @@ interpreted as delimiters.
 
 If you are working with data that contains commas, you likely will need to use another delimiter when working in a spreadsheet. In this
 case, consider using tabs as your delimiter and working with TSV files. TSV files can be exported from spreadsheet
-programs in the same way as CSV files.
+programs in the same way as CSV files. For more of a discussion on data formats and potential issues with commas within datasets see [the discussion page](http://www.datacarpentry.org/spreadsheet-ecology-lesson/discuss/).

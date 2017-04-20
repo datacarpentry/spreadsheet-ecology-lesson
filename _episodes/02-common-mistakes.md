@@ -56,7 +56,10 @@ into a usable form. The example below depicts the problem:
 
 ![multiple tabs](../fig/2_datasheet_example.jpg)
 
-
+In the example above, the computer will see (for example) row 4 and assume that all columns A-AF 
+refer to the same sample. This row actually represents four distinct samples 
+(sample 1 for each of four different collection dates - May 29th, June 12th, June 19th, and June 26th), 
+as well as some calculated summary statistics (an average (avr) and standard error of measurement (SEM)) for two of those samples. Other rows are similarly problematic.
 
 ## <a name="tabs"></a> Using multiple tabs
 

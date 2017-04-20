@@ -34,6 +34,8 @@ version) isn't a good idea. Why?
   to deposit your data in a data repository, and most of them don't
   accept Excel format. It needs to be in one of the formats
   discussed below.
+  
+- The above points also apply to other formats such as open data formats used by LibreOffice / Open Office. These formats are not static and do not get parsed the same way by different software packages.
 
 As an example of inconsistencies in data storage, do you remember how we talked about how Excel stores dates earlier? It turns out that 
 there are multiple defaults for different versions of the software, and you can switch between them all. So, say you’re

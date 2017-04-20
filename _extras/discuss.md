@@ -16,6 +16,7 @@ For example, our data might look like this:
 		AB,Amphispiza,bilineata,Bird
 		AH,Ammospermophilus,harrisi,Rodent-not,censused
 		AS,Ammodramus,savannarum,Bird
+		BA,Baiomys,taylori,Rodent
 
 In the record `AH,Ammospermophilus,harrisi,Rodent-not,censused` the value for `taxa` includes a comma (`Rodent-not,censused`). 
 If we try to read the above into Excel (or other spreadsheet program), we will get something like this:
@@ -30,6 +31,7 @@ If you want to store your data in `csv` format and expect that your data values 
 	"AB","Amphispiza","bilineata","Bird"
 	"AH","Ammospermophilus","harrisi","Rodent-not, censused"
 	"AS","Ammodramus","savannarum","Bird"
+	"BA","Baiomys","taylori","Rodent"
 
 Now opening this file as a `csv` in Excel will not lead to an extra column, because Excel will only use commas that fall outside of quotation marks as delimiting characters. However, if you are working with an already existing dataset in which the data values are not included in "" but which have commas as both delimiters and parts of data values, you are potentially facing a major problem with data cleaning.
 

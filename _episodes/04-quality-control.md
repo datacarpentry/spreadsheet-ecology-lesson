@@ -110,11 +110,7 @@ will group at the ends of the sorted data. Sort your data by each field, one at 
 attention to the top and the bottom of a column. 
 If your dataset is well-structured and does not contain formulas, sorting should never affect the integrity of your dataset.
 
-**Remember** to expand your sort in order to prevent data corruption. Expanding your sort ensures that the all the data in one row move together instead of only sorting a single column in isolation as shown in the screenshot.
-
-![Figure of Sorting menu](../fig/sorting.png)
-
-Let's try the following sorting exercise:
+**Remember** to expand your sort in order to prevent data corruption. Expanding your sort ensures that the all the data in one row move together instead of only sorting a single column in isolation. Sorting by only a single column will scramble your data - a single row will no longer represent an individual observation.
 
 > ## Exercise : 
 >

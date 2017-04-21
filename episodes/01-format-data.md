@@ -14,8 +14,6 @@ keypoints:
 ---
 
 Authors: **Christie Bahlai**, **Aleksandra Pawlik**<br>
-Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, 
-**Ben Marwick** and **Sebastian Kupny**.
 
 The most common mistake made is treating treating spreadsheet programs like lab notebooks, that is, 
 relying on context, notes in the margin,

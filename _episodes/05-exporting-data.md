@@ -95,8 +95,8 @@ thus causing terrible things to happen to your data.  For example, `2\r` is not 
 There are a handful of solutions for enforcing uniform UNIX-style line endings on your exported CSV files:
 
 1. When exporting from Excel, save as a “Windows comma separated (.csv)” file
-2. If you store your data file under version control (which you should be doing!) using Git, edit the `.git/config` file in your repository to automatically translate `\r\n` line endings into `\n`.
-Add the follwing to the file ([see the detailed tutorial](http://nicercode.github.io/blog/2013-04-30-excel-and-line-endings)):
+2. If you store your data file under version control using Git, edit the `.git/config` file in your repository to automatically translate `\r\n` line endings into `\n`.
+Add the following to the file ([see the detailed tutorial](http://nicercode.github.io/blog/2013-04-30-excel-and-line-endings)):
 
 		[filter "cr"]
     		clean = LC_CTYPE=C awk '{printf(\"%s\\n\", $0)}' | LC_CTYPE=C tr '\\r' '\\n'

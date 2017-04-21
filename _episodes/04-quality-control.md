@@ -134,9 +134,11 @@ If your dataset is well-structured and does not contain formulas, sorting should
 > > **Note** how the odd values sort to the top and bottom of the tabular data. 
 > > The cells containing no data values sort to the bottom of the tabular data, while the cells where the letter "g" was included can be found towards the top. This is a powerful way to check your data for outliers and odd values.
 > > 
-> > ![quality_control2, exercise1](../fig/sorting_solution.png)
+> > ![quality_control2, exercise1](../fig/sorting_solution_1.png)
 > > {: .output}
-> > 
+> >
+> > ![quality_control3, exercise1](../fig/sorting_solution_2.png)
+> > {: .output}
 > > 
 > {: .solution}
 {: .challenge}

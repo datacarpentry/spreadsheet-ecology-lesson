@@ -118,15 +118,15 @@ Let's try the following sorting exercise:
 
 > ## Exercise : 
 >
-> Download this data file based on the 2013 survey data to your computer: [survey_sorting_exercise](https://ndownloader.figshare.com/files/2252083)
+> We've combined all of the tables from the messy data into a single table in a single tab. Download this semi-cleaned data file to your computer: [survey_sorting_exercise](../data/survey_data_messy_quality_control.xlsx)
 >
-> Once downloaded, sort the *weight_grams* column in your spreadsheet program from *Smallest to Largest*. 
+> Once downloaded, sort the `Weight_grams` column in your spreadsheet program from `Largest to Smallest`. 
 >
 > What do you notice?
 >
 > > ## Solution
 > > 
-> > Click the Sort button on the data tab in Excel
+> > Click the Sort button on the data tab in Excel. A pop-up will appear. Make sure you select `Expand the selection`.
 > >
 > > ![quality_control0, exercise1](../fig/sorting_button.png)
 > > {: .output}
@@ -137,8 +137,8 @@ Let's try the following sorting exercise:
 > > {: .output}
 > > 
 > > 
-> > **Note** how the outliers of the 2013 data sort to the bottom of the tabular data. 
-> > The cells containing no data values as well as the cells where the letter "g" was included can be found towards the bottom of the tabular data.
+> > **Note** how the odd values sort to the top and bottom of the tabular data. 
+> > The cells containing no data values sort to the bottom of the tabular data, while the cells where the letter "g" was included can be found towards the top. This is a powerful way to check your data for outliers and odd values.
 > > 
 > > ![quality_control2, exercise1](../fig/sorting_solution.png)
 > > {: .output}

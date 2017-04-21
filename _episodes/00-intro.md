@@ -10,9 +10,7 @@ keypoints:
 - "Good data organization is the foundation of any research project."
 ---
 
-Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
-Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, **Clare Sloggett**, **Harriet Dashnow** and
-**Ben Marwick**
+Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>  
 
 Good data organization is the foundation of your research
 project. Most researchers have data or do data entry in

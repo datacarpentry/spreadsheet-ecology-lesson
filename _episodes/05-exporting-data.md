@@ -78,13 +78,13 @@ However, if you open your CSV file on a system that does not parse the "\r" it w
 
 Your data in text format then look like this:
 
-data1
-data2\r
-1
-2\r
-…
+>data1 <br>
+>data2\r<br>
+>1<br>
+>2\r<br>
+>…
 
-and it will parce of follow:
+This will then in turn parse as:
 
 <img width="308" alt="screen shot 2017-03-31 at 7 26 42 pm" src="https://cloud.githubusercontent.com/assets/13110354/24561066/a990327c-1645-11e7-90b5-35a44e90f8d9.png">
 

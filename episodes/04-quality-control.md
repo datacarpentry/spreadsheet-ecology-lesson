@@ -102,8 +102,6 @@ document the manipulations or analyses that were carried out on those data.
 [Cornell University's Research Data Management Service Group](https://data.research.cornell.edu/content/readme) provides detailed
 guidelines for how to write a good readMe file, along with an adaptable template.
 
-<!-- [Example: converting all data to values: use soybean aphid suction trap dataset for this section] -->
-
 ## Sorting
 Bad values often sort to the bottom or top of the column. For example, if your data should be numeric, then alphabetical and null data
 will group at the ends of the sorted data. Sort your data by each field, one at a time. Scan through each column, but pay the most
@@ -114,7 +112,7 @@ If your dataset is well-structured and does not contain formulas, sorting should
 
 > ## Exercise : 
 >
-> We've combined all of the tables from the messy data into a single table in a single tab. Download this semi-cleaned data file to your computer: [survey_sorting_exercise](../data/survey_data_messy_quality_control.xlsx)
+> We've combined all of the tables from the messy data into a single table in a single tab. Download this semi-cleaned data file to your computer: [survey_sorting_exercise](https://github.com/datacarpentry/spreadsheet-ecology-lesson/blob/gh-pages/data/survey_data_messy_quality_control.xlsx)  (click `Download`)
 >
 > Once downloaded, sort the `Weight_grams` column in your spreadsheet program from `Largest to Smallest`. 
 >

@@ -64,19 +64,31 @@ An important note for backwards compatibility: you can open CSV files in Excel!
 
 ## A Note on Cross-platform Operability
 
-By default, most coding and statistical environments expect UNIX-style line endings (`\n`) as representing line breaks.  However, Windows uses an alternate line ending signifier (`\r\n`) by default for legacy compatibility with Teletype-based systems.  As such, when exporting to CSV using Excel, your data will look like this:
+By default, most coding and statistical environments expect UNIX-style line endings (`\n`) as representing line breaks.  However, Windows uses an alternate line ending signifier (`\r\n`) by default for legacy compatibility with Teletype-based systems.  
 
->data1,data2\r\n1,2\r\n4,5\r\n…
+As such, when exporting to CSV using Excel, your data in text format will look like this:
 
-which, upon passing into most environments (which split on `\n`), will parse as:
+>data1,data2\r\n1,2\r\n4,5\r\n
 
->data1<br>
->data2\r<br>
->1<br>
->2\r<br>
->...
+When opening your CSV file in Excel again, it will parse it as follows:
 
-thus causing terrible things to happen to your data.  For example, `2\r` is not a valid integer, and thus will throw an error (if you’re lucky) when you attempt to operate on it in R or Python.  Note that this happens on Excel for OSX as well as Windows, due to legacy Windows compatibility.
+<img width="307" alt="screen shot 2017-03-31 at 7 15 07 pm" src="https://cloud.githubusercontent.com/assets/13110354/24560663/db4a5786-1643-11e7-931a-ca2c72336878.png">
+
+However, if you open your CSV file on a system that does not parse the "\r" it will interpret your CSV file differently:
+
+Your data in text format then look like this:
+
+data1
+data2\r
+1
+2\r
+…
+
+and it will parce of follow:
+
+<img width="308" alt="screen shot 2017-03-31 at 7 26 42 pm" src="https://cloud.githubusercontent.com/assets/13110354/24561066/a990327c-1645-11e7-90b5-35a44e90f8d9.png">
+
+Clearly causing terrible things to happen to your data.  For example, `2\r` is not a valid integer, and thus will throw an error (if you’re lucky) when you attempt to operate on it in R or Python.  Note that this happens on Excel for OSX as well as Windows, due to legacy Windows compatibility.
 
 There are a handful of solutions for enforcing uniform UNIX-style line endings on your exported CSV files:
 

@@ -74,7 +74,7 @@ When opening your CSV file in Excel again, it will parse it as follows:
 
 <img width="307" alt="screen shot 2017-03-31 at 7 15 07 pm" src="https://cloud.githubusercontent.com/assets/13110354/24560663/db4a5786-1643-11e7-931a-ca2c72336878.png">
 
-However, if you open your CSV file on a system that does not parse the "\r" it will interpret your CSV file differently:
+However, if you open your CSV file on a different system that does not parse the "\r" it will interpret your CSV file differently:
 
 Your data in text format then look like this:
 

@@ -152,11 +152,17 @@ criteria or lowest to highest. This makes it easy to scan your data for outliers
 Conditional formatting should be used with caution, but it can be a great way to flag inconsistent values when entering data.
 
 > ## Exercise
-> Let's try this again with weight. Go to Format then Conditional Formatting.
+> 1. In the main Excel menu bar, click `Format` > `Conditional Formating...` Click the `+` to add a formatting rule.
+> 2. Apply a `2-Color Scale` formatting rule with the lowest values set to orange and the highest values set to yellow.
+> 3. Now we can scan through and different colors will stand out. Do you notice any strange values?
 > 
-> We'll do the *2-Color Scale* with Lowest to Highest for the orange colors. Then we'll 
-> apply that to the *wgt* column again. Now we can scan through and different colors will
-> stand out. Again, do we notice any strange values?
+> > ## Solution
+> > 
+> > Cells that contain non-numerical values are not colored. This includes both the cells where the letter "g" was included and the empty cells. 
+> > ![quality_control4, exercise2](../fig/conditional_formating.png)
+> > {: .output}
+> > 
+> {: .solution}
 {: .challenge} 
 
 It is nice to do be able to do these scans in spreadsheets, but we also can do these

@@ -21,7 +21,6 @@ keypoints:
 ---
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
-Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, and **Ben Marwick**
 
 ## Common Spreadsheet Errors
 

@@ -14,8 +14,6 @@ keypoints:
 ---
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
-Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**,
-**Ben Marwick**, and **Ethan White**
 
 When you have a well-structured data table, you can use several simple
 techniques within your spreadsheet to ensure the data you enter is

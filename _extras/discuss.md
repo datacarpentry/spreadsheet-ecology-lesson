@@ -6,7 +6,7 @@ permalink: /discuss/
 
 ### Dealing with commas as part of data values in `csv` files
 
-When talking about [exporting data](05-exporting-data.md) we discussed how to export Excel file formats into `csv`. Comma Separated Value files are indeed very useful and allow for easily exchanging and sharing data. 
+When talking about [exporting data](../05-exporting-data/) we discussed how to export Excel file formats into `csv`. Comma Separated Value files are indeed very useful and allow for easily exchanging and sharing data. 
 
 However, there are some significant problems with this particular format. Quite often the data values themselves may include commas (,). In that case, the software which you use (including Excel) will most likely incorrectly display the data in columns. This is because the commas which are a part of the data values will be interpreted as delimiters.
 

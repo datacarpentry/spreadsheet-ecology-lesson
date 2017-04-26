@@ -42,4 +42,3 @@ may be reported by following our [reporting guidelines](http://www.datacarpentry
 - [Software and Data Carpentry Code of Conduct](http://www.datacarpentry.org/code-of-conduct/)
 - [Code of Conduct Reporting Guide](http://www.datacarpentry.org/CoC-reporting/)
 
-{% include links.md %}

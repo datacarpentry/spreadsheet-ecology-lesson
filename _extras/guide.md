@@ -6,15 +6,15 @@ permalink: /guide/
 
 ## Instructor notes
 
-### Lesson purpose
+## Lesson motivation and learning objectives
 
 The purpose of this lesson is not to teach how to do data analysis in spreadsheets, 
 but to teach good data organization and how to do some data cleaning and 
 quality control in a spreadsheet program.
 
-### Narrative
+## Lesson design
 
-#### [Introduction](/00-intro/)
+#### [Introduction](../00-intro/)
 
 * Introduce that we're teaching data organization, and that we're using
 spreadsheets, because most people do data entry in spreadsheets or 
@@ -33,7 +33,7 @@ does spreadsheets like Excel, LibreOffice, OpenOffice. Most learners are probabl
 of the data in the spreadsheet. What are the pain points!?
 * As people answer highlight some of these issues with spreadsheets
 
-#### [Formatting data](/01-format-data/)
+#### [Formatting data](../01-format-data/)
 
 * Go through the point about keeping track of your steps and keeping raw data raw
 * Go through the cardinal rule of spreadsheets about columns, rows and cells
@@ -50,17 +50,17 @@ There's an exercise in that file about how to change the
 date into three columns using Excel's built in MONTH, DAY, YEAR functions. Have them
 run through that exercise. 
 
-#### [Common formatting problems](/02-common-mistakes/)
+#### [Common formatting problems](../02-common-mistakes/)
 
 * **Don't go through this chapter** except to refer to as responses to the exercise in
 the previous chapter.
 
-#### [Dates as data](/03-dates-as-data/)
+#### [Dates as data](../03-dates-as-data/)
 
 * Do the exercise and make the point about dates either in reponse to a learner bringing
 up date as an issue during the responses, or at the end of the response time.
 
-#### [Quality control](/04-quality-control/)
+#### [Quality control](../04-quality-control/)
 *This lesson is optional*
 
 The challenge with this lesson is that the instructor's version of the spreadsheet software is going to look different than about half the room's. It makes
@@ -68,11 +68,10 @@ it challenging to show where you can find menu options and navigate through.
 
 Instead discuss the concepts of quality control, and how things like sorting can help you find outliers in your data.
 
-#### [Exporting data](/05-exporting-data/)
+#### [Exporting data](../05-exporting-data/)
 
 * Have the students export their cleaned data as CSV. Reiterate again the need for
 data in this format for the other tools we'll be using.
-
 
 #### Concluding points
 
@@ -86,9 +85,16 @@ is great for data cleaning and for some of the quality control that we touched o
 in this lesson. It also has the advantage that it automatically keeps track of the
 steps you take. 
 
-### Potential issues
+## Technical tips and tricks
 
-#### Excel looks and acts different on different OSes
+Provide information on setting up your environment for learners to view your 
+live coding (increasing text size, changing text color, etc), as well as 
+general recommendations for working with coding tools to best suit the 
+learning environment.
+
+## Common problems
+
+#### Excel looks and acts different on different operating systems
 
 The main challenge with this lesson is that Excel looks very different and how you
 do things is even different between Mac and PC, and between different versions of
@@ -106,3 +112,4 @@ This lesson depends on people working on the exercise and responding with things
 that are fixed. If your audience is reluctant to participate, start out with
 some things on your own, or ask a helper for their answers. This generally gets
 even a reluctant audience started. 
+

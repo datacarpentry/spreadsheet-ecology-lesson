@@ -23,7 +23,7 @@ permalink: /setup/
 {: .prereq}
 
 
-To interact with spreadsheets, we can use LibreOffice, Microsoft Excel, Gnumeric, OpenOffice.org, or other programs. Commands may differ a bit between programs, but general ideas for thinking about spreadsheets is the same.
+To interact with spreadsheets, we can use LibreOffice, Microsoft Excel, Gnumeric, OpenOffice.org, or other programs. Commands may differ a bit between programs, but general ideas for thinking about spreadsheets are the same.
 
 For this lesson, if you don't have a spreadsheet program already, you can use LibreOffice. It's a free, open source spreadsheet program.
 
@@ -32,19 +32,19 @@ For this lesson, if you don't have a spreadsheet program already, you can use Li
 - Download the Installer 
   - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Windows should automatically be selected. Click Download Version X.X.X. You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.
 - Install LibreOffice 
-- Once the installer is downloaded, double click on it and it should install.
+- Once the installer is downloaded, double click on it and LibreOffice should install.
 
 #### Mac OS X
 
 - Download the Installer 
-  - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Windows should automatically be selected. Click Download Version X.X.X. You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.
+  - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Mac should automatically be selected. Click Download Version X.X.X. You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.
 - Install LibreOffice 
-- The file LibreOffice_4.4.2_MacOS_x86-64 should have been downloaded. Double click on this file, and LibreOffice will be installed.
+- Once the installer is downloaded, double click on it and LibreOffice should install.
 
 
 #### Linux
 
 - Download the Installer 
-  - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Windows should automatically be selected. Click Download Version X.X.X. You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.
+  - Install LibreOffice by going to [the installation page](https://www.libreoffice.org/download/libreoffice-fresh/). The version for Linux should automatically be selected. Click Download Version X.X.X. You will go to a page that asks about a donation, but you don't need to make one. Your download should begin automatically.
 - Install LibreOffice 
-- Once the installer is downloaded, double click on it and it should install.
+- Once the installer is downloaded, double click on it and LibreOffice should install.

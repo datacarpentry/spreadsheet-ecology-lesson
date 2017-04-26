@@ -6,13 +6,13 @@ permalink: /guide/
 
 ## Instructor notes
 
-### Lesson purpose
+## Lesson motivation and learning objectives
 
 The purpose of this lesson is not to teach how to do data analysis in spreadsheets, 
 but to teach good data organization and how to do some data cleaning and 
 quality control in a spreadsheet program.
 
-### Narrative
+## Lesson design
 
 #### [Introduction](/00-intro/)
 
@@ -73,7 +73,6 @@ Instead discuss the concepts of quality control, and how things like sorting can
 * Have the students export their cleaned data as CSV. Reiterate again the need for
 data in this format for the other tools we'll be using.
 
-
 #### Concluding points
 
 * Now your data is organized so that a computer can read and understand it. This
@@ -86,9 +85,16 @@ is great for data cleaning and for some of the quality control that we touched o
 in this lesson. It also has the advantage that it automatically keeps track of the
 steps you take. 
 
-### Potential issues
+## Technical tips and tricks
 
-#### Excel looks and acts different on different OSes
+Provide information on setting up your environment for learners to view your 
+live coding (increasing text size, changing text color, etc), as well as 
+general recommendations for working with coding tools to best suit the 
+learning environment.
+
+## Common problems
+
+#### Excel looks and acts different on different operating systems
 
 The main challenge with this lesson is that Excel looks very different and how you
 do things is even different between Mac and PC, and between different versions of
@@ -106,3 +112,4 @@ This lesson depends on people working on the exercise and responding with things
 that are fixed. If your audience is reluctant to participate, start out with
 some things on your own, or ask a helper for their answers. This generally gets
 even a reluctant audience started. 
+

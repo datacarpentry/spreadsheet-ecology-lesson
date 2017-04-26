@@ -46,8 +46,8 @@ and to meet some of our community members.
 ## Where to Contribute
 
 1.  If you wish to change this lesson,
-    please work in <https://github.com/swcarpentry/FIXME>,
-    which can be viewed at <https://swcarpentry.github.io/FIXME>.
+    please work in <https://github.com/datacarpentry/spreadsheet-ecology-lesson>,
+    which can be viewed at <http://www.datacarpentry.org/spreadsheet-ecology-lesson/>.
 
 2.  If you wish to change the example lesson,
     please work in <https://github.com/swcarpentry/lesson-example>,
@@ -135,7 +135,7 @@ happens on the [discussion mailing list][discuss-list],
 which everyone is welcome to join.
 You can also [reach us by email][contact].
 
-[contact]: mailto:admin@software-carpentry.org
+[contact]: mailto:admin@datacarpentry.org
 [dc-issues]: https://github.com/issues?q=user%3Adatacarpentry
 [dc-lessons]: http://datacarpentry.org/lessons/
 [dc-site]: http://datacarpentry.org/

@@ -18,7 +18,7 @@ Authors: **Christie Bahlai**, **Aleksandra Pawlik**<br>
 The most common mistake made is treating treating spreadsheet programs like lab notebooks, that is, 
 relying on context, notes in the margin,
 spatial layout of data and fields to convey information. As humans, we
-can (usually) interpret these things, but computers are dumb, and
+can (usually) interpret these things, but computers don't view information the same way, and
 unless we explain to the computer what every single thing means (and
 that can be hard!), it will not be able to see how our data fit
 together.

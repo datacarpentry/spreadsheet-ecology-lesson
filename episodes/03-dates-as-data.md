@@ -13,8 +13,6 @@ keypoints:
 ---
 
 Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
-Contributors: **Jennifer Bryan**, **Angel Corpuz**, **Alexander Duryee**,
-**Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, and **Ben Marwick**
 
 Dates in spreadsheets are stored in a single column. While this seems the
 most natural way to record dates, it actually is not best

@@ -5,16 +5,9 @@ instruction of lessons by Karen Cranston, Hilmar Lapp, Tracy Teal and Ethan Whit
 
 ## Data
 
-### Biology
 Data is from the paper S. K. Morgan Ernest, Thomas J. Valone, and James H. Brown. 2009. Long-term monitoring and experimental manipulation of a Chihuahuan Desert ecosystem near Portal, Arizona, USA. Ecology 90:1708.
 
 http://esapubs.org/archive/ecol/E090/118/
-
-Excel data is from the paper Bahlai, C.A., Schaafsma, A.W., Lagos, D., Voegtlin, D., Smith, J.L., Welsman, J.A., Xue, Y., DiFonzo, C., Hallett, R.H., 2014. Factors inducing migratory forms of soybean aphid and an examination of North American spatial dynamics of this species in the context of migratory behavior. Agriculture and Forest Entomology. 16, 240-250.
-
-http://onlinelibrary.wiley.com/doi/10.1111/afe.12051/full
-
-Master_suction_trap_data_list_uncleaned.csv is a pre-cleaning version of a publically available dataset by David Voegtlin, Doris Lagos, Douglas Landis and Christie Bahlai, available at http://lter.kbs.msu.edu/datatables/122
 
 ## Lessons
 

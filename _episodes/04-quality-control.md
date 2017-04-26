@@ -100,31 +100,25 @@ document the manipulations or analyses that were carried out on those data.
 [Cornell University's Research Data Management Service Group](https://data.research.cornell.edu/content/readme) provides detailed
 guidelines for how to write a good readMe file, along with an adaptable template.
 
-<!-- [Example: converting all data to values: use soybean aphid suction trap dataset for this section] -->
-
 ## Sorting
 Bad values often sort to the bottom or top of the column. For example, if your data should be numeric, then alphabetical and null data
 will group at the ends of the sorted data. Sort your data by each field, one at a time. Scan through each column, but pay the most
 attention to the top and the bottom of a column. 
 If your dataset is well-structured and does not contain formulas, sorting should never affect the integrity of your dataset.
 
-**Remember** to expand your sort in order to prevent data corruption. Expanding your sort ensures that the all the data in one row move together instead of only sorting a single column in isolation as shown in the screenshot.
-
-![Figure of Sorting menu](../fig/sorting.png)
-
-Let's try the following sorting exercise:
+**Remember** to expand your sort in order to prevent data corruption. Expanding your sort ensures that the all the data in one row move together instead of only sorting a single column in isolation. Sorting by only a single column will scramble your data - a single row will no longer represent an individual observation.
 
 > ## Exercise : 
 >
-> Download this data file based on the 2013 survey data to your computer: [survey_sorting_exercise](https://ndownloader.figshare.com/files/2252083)
+> We've combined all of the tables from the messy data into a single table in a single tab. Download this semi-cleaned data file to your computer: [survey_sorting_exercise](https://github.com/datacarpentry/spreadsheet-ecology-lesson/blob/gh-pages/data/survey_data_messy_quality_control.xlsx?raw=true)
 >
-> Once downloaded, sort the *weight_grams* column in your spreadsheet program from *Smallest to Largest*. 
+> Once downloaded, sort the `Weight_grams` column in your spreadsheet program from `Largest to Smallest`. 
 >
 > What do you notice?
 >
 > > ## Solution
 > > 
-> > Click the Sort button on the data tab in Excel
+> > Click the Sort button on the data tab in Excel. A pop-up will appear. Make sure you select `Expand the selection`.
 > >
 > > ![quality_control0, exercise1](../fig/sorting_button.png)
 > > {: .output}
@@ -135,12 +129,14 @@ Let's try the following sorting exercise:
 > > {: .output}
 > > 
 > > 
-> > **Note** how the outliers of the 2013 data sort to the bottom of the tabular data. 
-> > The cells containing no data values as well as the cells where the letter "g" was included can be found towards the bottom of the tabular data.
+> > **Note** how the odd values sort to the top and bottom of the tabular data. 
+> > The cells containing no data values sort to the bottom of the tabular data, while the cells where the letter "g" was included can be found towards the top. This is a powerful way to check your data for outliers and odd values.
 > > 
-> > ![quality_control2, exercise1](../fig/sorting_solution.png)
+> > ![quality_control2, exercise1](../fig/sorting_solution_1.png)
 > > {: .output}
-> > 
+> >
+> > ![quality_control3, exercise1](../fig/sorting_solution_2.png)
+> > {: .output}
 > > 
 > {: .solution}
 {: .challenge}
@@ -154,11 +150,17 @@ criteria or lowest to highest. This makes it easy to scan your data for outliers
 Conditional formatting should be used with caution, but it can be a great way to flag inconsistent values when entering data.
 
 > ## Exercise
-> Let's try this again with weight. Go to Format then Conditional Formatting.
+> 1. In the main Excel menu bar, click `Format` > `Conditional Formating...` Click the `+` to add a formatting rule.
+> 2. Apply a `2-Color Scale` formatting rule with the lowest values set to orange and the highest values set to yellow.
+> 3. Now we can scan through and different colors will stand out. Do you notice any strange values?
 > 
-> We'll do the *2-Color Scale* with Lowest to Highest for the orange colors. Then we'll 
-> apply that to the *wgt* column again. Now we can scan through and different colors will
-> stand out. Again, do we notice any strange values?
+> > ## Solution
+> > 
+> > Cells that contain non-numerical values are not colored. This includes both the cells where the letter "g" was included and the empty cells. 
+> > ![quality_control4, exercise2](../fig/conditional_formating.png)
+> > {: .output}
+> > 
+> {: .solution}
 {: .challenge} 
 
 It is nice to do be able to do these scans in spreadsheets, but we also can do these

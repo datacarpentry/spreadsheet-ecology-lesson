@@ -110,7 +110,7 @@ If your dataset is well-structured and does not contain formulas, sorting should
 
 > ## Exercise   
 >
-> We've combined all of the tables from the messy data into a single table in a single tab. Download this semi-cleaned data file to your computer: [survey_sorting_exercise](https://github.com/datacarpentry/spreadsheet-ecology-lesson/blob/gh-pages/data/survey_data_messy_quality_control.xlsx?raw=true)
+> We've combined all of the tables from the messy data into a single table in a single tab. Download this semi-cleaned data file to your computer: [survey_sorting_exercise](https://figshare.com/articles/survey_data_messy_quality_control/4830016)
 >
 > Once downloaded, sort the `Weight_grams` column in your spreadsheet program from `Largest to Smallest`. 
 >

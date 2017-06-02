@@ -96,7 +96,7 @@ null value).
 
 The spreadsheets or statistical programs will likely mis-interpret blank cells that you intend to be zeros. By not entering the value of
 your observation, you are telling your computer to represent that data as unknown or missing (null). This can cause problems with 
-subsequent caluclations or analyses. For example, the average of a set of numbers which includes a single null value is always null
+subsequent calculations or analyses. For example, the average of a set of numbers which includes a single null value is always null
 (because the computer can't guess the value of the missing observations). Because of this, it's very important to record zeros as zeros and truly missing data as nulls.
 
 ## <a name="null"></a> Using problematic null values

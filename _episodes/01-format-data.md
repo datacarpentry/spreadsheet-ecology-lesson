@@ -116,7 +116,7 @@ So, instead we should have:
 
 > ## Exercise
 > 
-> We're going to take a messy version of the survey data and describle how we would clean it up.
+> We're going to take a messy version of the survey data and describe how we would clean it up.
 >
 > 1. Download the data by clicking [here](https://ndownloader.figshare.com/files/2252083) to get it from FigShare.
 > 2. Open up the data in a spreadsheet program. 

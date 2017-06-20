@@ -20,7 +20,7 @@ relying on context, notes in the margin,
 spatial layout of data and fields to convey information. As humans, we
 can (usually) interpret these things, but computers don't view information the same way, and
 unless we explain to the computer what every single thing means (and
-that can be hard!), it will not be able to see how our data fit
+that can be hard!), it will not be able to see how our data fits
 together.
 
 Using the power of computers, we can manage and analyze data in much more 

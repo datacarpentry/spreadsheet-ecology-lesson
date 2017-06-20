@@ -82,8 +82,7 @@ The cardinal rules of using spreadsheet programs for data:
    most data repositories.
 
 For instance, we have data from a survey of small mammals in a desert
-ecosystem. Different people have gone to the field and entered data in
-to a spreadsheet. They keep track of things like species, plot,
+ecosystem. Different people have gone to the field and entered data into a spreadsheet. They keep track of things like species, plot,
 weight, sex and date collected.
 
 If they were to keep track of the data like this:

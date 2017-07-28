@@ -35,10 +35,10 @@ conserve the timestamps, you are better off handling them using one of the solut
 > - Let’s extract month, day and year from the dates to new columns. For this we 
 > can use the built in Excel functions
 >
+> `YEAR()`
 > `MONTH()`    
 > `DAY()`  
-> `YEAR()`
->
+> 
 > (Make sure the new column is formatted as a number and not as a date.)
 >
 > You can see that even though you wanted the year to be 2014, your spreadsheet program
@@ -74,7 +74,7 @@ conserve the timestamps, you are better off handling them using one of the solut
 
 ## Preferred date format
 
-It is much safer to store dates with [MONTH, DAY and YEAR](#day) in separate columns or as [YEAR and DAY-OF-YEAR](#doy) in separate columns.
+It is much safer to store dates with [YEAR, MONTH, DAY](#day) in separate columns or as [YEAR and DAY-OF-YEAR](#doy) in separate columns.
 
 **Note**: Excel is unable to parse dates from before 1899-12-31, and will thus leave these untouched.  If you’re mixing historic data
 from before and after this date, Excel will translate only the post-1900 dates into its internal format, thus resulting in mixed data.

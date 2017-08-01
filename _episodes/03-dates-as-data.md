@@ -23,7 +23,7 @@ and stores the dates may be problematic.
 In particular, please remember that functions that are valid for a given
 spreadsheet program (be it LibreOffice, Microsoft Excel, OpenOffice,
 Gnumeric, etc.) are usually guaranteed to be compatible only within the same
-famly of products. If you will later need to export the data and need to
+family of products. If you will later need to export the data and need to
 conserve the timestamps, you are better off handling them using one of the solutions discussed below.  
 
 > ## Exercise 

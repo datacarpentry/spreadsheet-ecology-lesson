@@ -137,7 +137,7 @@ start analyzing the data.
 > > - Take about 10 minutes to work on this exercise.
 > > - All the mistakes in [02-common-mistakes](../02-common-mistakes) are present in the messy dataset. If
 > > exercise is done during a workshop, ask people what they saw as wrong with
-> > the data data. As they bring up different points, you can refer to [02-common-mistakes](../02-common-mistakes)
+> > the data. As they bring up different points, you can refer to [02-common-mistakes](../02-common-mistakes)
 > > or expand a bit on the point they brought up.
 > > - If you get a response where they've fixed the date, you can pause and go to the [03-dates-as-data](../03-dates-as-data) lesson. Or you can say you'll come back to dates at the end. 
 > {: .solution}

@@ -8,7 +8,7 @@ permalink: /guide/
 
 ## Lesson motivation and learning objectives
 
-The purpose of this lesson is not to teach how to do data analysis in spreadsheets, 
+The purpose of this lesson is *not* to teach how to do data analysis in spreadsheets,
 but to teach good data organization and how to do some data cleaning and 
 quality control in a spreadsheet program.
 

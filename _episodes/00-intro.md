@@ -42,8 +42,8 @@ about data organization and some practices for more effective data wrangling.
 - How to do *plotting* in a spreadsheet
 - How to *write code* in spreadsheet programs
 
-If you're looking to do this, a good reference is
-[Head First Excel](https://www.amazon.com/Head-First-Excel-learners-spreadsheets/dp/0596807694/ref=sr_1_1?ie=UTF8&qid=1491594584&sr=8-1&keywords=head+first+excel), published by O'Reilly
+If you're looking to do this, a good reference is [*Head First Excel*](https://www.amazon.com/Head-First-Excel-learners-spreadsheets/dp/0596807694/ref=sr_1_1?ie=UTF8&qid=1491594584&sr=8-1&keywords=head+first+excel), published by O'Reilly, or a good online reference is [GCFLearnfree.org](https://www.gcflearnfree.org/excel2016/), as well as many other online sites such as those listed [here](https://www.inc.com/larry-kim/11-places-to-learn-microsoft-excel-for-free-that-w.html). 
+<!--- (This change is suggested because of the commitment to open sourced information) --->
 
 ---
 

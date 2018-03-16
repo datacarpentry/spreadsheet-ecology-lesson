@@ -108,9 +108,9 @@ If your dataset is well-structured and does not contain formulas, sorting should
 
 **Remember** to expand your sort in order to prevent data corruption. Expanding your sort ensures that the all the data in one row move together instead of only sorting a single column in isolation. Sorting by only a single column will scramble your data - a single row will no longer represent an individual observation.
 
-> ## Exercise : 
+> ## Exercise   
 >
-> We've combined all of the tables from the messy data into a single table in a single tab. Download this semi-cleaned data file to your computer: [survey_sorting_exercise](https://github.com/datacarpentry/spreadsheet-ecology-lesson/blob/gh-pages/data/survey_sorting_exercise.xlsx?raw=true)
+> We've combined all of the tables from the messy data into a single table in a single tab. Download this semi-cleaned data file to your computer: [survey_sorting_exercise](https://github.com/datacarpentry/spreadsheet-ecology-lesson/blob/gh-pages/data/survey_data_spreadsheet_messy.xls?raw=true)
 >
 > Once downloaded, sort the `Weight_grams` column in your spreadsheet program from `Largest to Smallest`. 
 >

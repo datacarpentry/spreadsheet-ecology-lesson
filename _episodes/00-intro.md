@@ -5,7 +5,7 @@ exercises: 3
 questions:
 - "What are basic principles for using spreadsheets for good data organization?"
 objectives:
-- "Understand how to organize data so computers can make the best use of the data"
+- "Describe best practices for organizing data so computers can make the best use of data sets."
 keypoints:
 - "Good data organization is the foundation of any research project."
 ---

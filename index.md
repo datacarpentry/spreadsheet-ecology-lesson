@@ -22,8 +22,10 @@ In this lesson, you will learn:
 - Basic quality control and data manipulation in spreadsheets
 - Exporting data from spreadsheets
 
-Much of your time as a researcher will be spent in this 'data wrangling' 
-stage. It's not the most fun, but it is necessary. In this lesson you will 
+In this lesson, however, you will *not* learn about data analysis with spreadsheets.
+Much of your time as a researcher will be spent in the initial 'data wrangling'
+stage, where you need to organize the data to perform a proper analysis later.
+It's not the most fun, but it is necessary. In this lesson you will
 learn how to think about data organization and some practices for more 
 effective data wrangling. With this approach you can better format current data
 and plan new data collection so less data wrangling is needed.
@@ -40,8 +42,8 @@ and plan new data collection so less data wrangling is needed.
 >
 > #### Prerequisites
 >
-> This lesson requires a working copy of spreadsheet software, like Microsoft 
-> Excel or LibreOffice.
+> This lesson requires a working copy of spreadsheet software, such as Microsoft
+> Excel or LibreOffice or OpenOffice.org (see more details in "[Setup](setup/)").
 > <br>To most effectively use these materials, please make sure to install 
 > everything *before* working through this lesson.
 {: .prereq}

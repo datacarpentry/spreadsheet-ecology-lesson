@@ -15,12 +15,12 @@ keypoints:
 
 Authors: **Christie Bahlai**, **Aleksandra Pawlik**<br>
 
-The most common mistake made is treating treating spreadsheet programs like lab notebooks, that is, 
+The most common mistake made is treating spreadsheet programs like lab notebooks, that is,
 relying on context, notes in the margin,
 spatial layout of data and fields to convey information. As humans, we
 can (usually) interpret these things, but computers don't view information the same way, and
 unless we explain to the computer what every single thing means (and
-that can be hard!), it will not be able to see how our data fit
+that can be hard!), it will not be able to see how our data fits
 together.
 
 Using the power of computers, we can manage and analyze data in much more 
@@ -82,8 +82,7 @@ The cardinal rules of using spreadsheet programs for data:
    most data repositories.
 
 For instance, we have data from a survey of small mammals in a desert
-ecosystem. Different people have gone to the field and entered data in
-to a spreadsheet. They keep track of things like species, plot,
+ecosystem. Different people have gone to the field and entered data into a spreadsheet. They keep track of things like species, plot,
 weight, sex and date collected.
 
 If they were to keep track of the data like this:
@@ -116,7 +115,7 @@ So, instead we should have:
 
 > ## Exercise
 > 
-> We're going to take a messy version of the survey data and describle how we would clean it up.
+> We're going to take a messy version of the survey data and describe how we would clean it up.
 >
 > 1. Download the data by clicking [here](https://ndownloader.figshare.com/files/2252083) to get it from FigShare.
 > 2. Open up the data in a spreadsheet program. 
@@ -126,7 +125,7 @@ you're the person in charge of this project and you want to be able to
 start analyzing the data.   
 > 4. With the person next to you, identify what is wrong with this spreadsheet. Also discuss the steps you would need to take to clean up the 2013 and 2014 tabs, and to put them all together in one spreadsheet. 
 >
-> **Important** Do not forget our first piece of advice, the
+> **Important** Do not forget our first piece of advice: to
 > create a new file (or tab) for the cleaned data, never
 > modify your original (raw) data.
 > 
@@ -135,9 +134,9 @@ start analyzing the data.
 > 
 > > ## Solution
 > > - Take about 10 minutes to work on this exercise.
-> > - All the mistakes in [02-common-mistakes](../02-common-mistakes) are present in the messy dataset. If
+> > - All the mistakes in [02-common-mistakes](../02-common-mistakes) are present in the messy dataset. If the
 > > exercise is done during a workshop, ask people what they saw as wrong with
-> > the data data. As they bring up different points, you can refer to [02-common-mistakes](../02-common-mistakes)
+> > the data. As they bring up different points, you can refer to [02-common-mistakes](../02-common-mistakes)
 > > or expand a bit on the point they brought up.
 > > - If you get a response where they've fixed the date, you can pause and go to the [03-dates-as-data](../03-dates-as-data) lesson. Or you can say you'll come back to dates at the end. 
 > {: .solution}

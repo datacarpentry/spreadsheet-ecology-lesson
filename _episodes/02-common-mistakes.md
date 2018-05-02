@@ -99,10 +99,17 @@ your observation, you are telling your computer to represent that data as unknow
 subsequent calculations or analyses. For example, the average of a set of numbers which includes a single null value is always null
 (because the computer can't guess the value of the missing observations). Because of this, it's very important to record zeros as zeros and truly missing data as nulls.
 
-## <a name="null"></a> Using problematic null values
-**Example**: using -999 or other numerical values (or zero) to represent missing data.
 
-**Solution**: One common practice is to record unknown or missing data as -999, 999, or 0. Many statistical programs will not recognize
+## <a name="null"></a> Using problematic null values
+**Example**: using -999 or other numerical values (or zero) to represent missing data. 
+
+**Solutions**: 
+
+There are a few reasons why null values get represented differently within a dataset.
+Sometimes confusing null values are automatically recorded from the measuring device. If that's the case, there's not much you can do, but it can be addressed in data cleaning with a tool like [OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/) before analysis. Other times different null values are used to convey different reasons why the data isn't there. This is important information to capture, but is in effect using one column to capture two pieces of information. Like for [using formatting to convey information]((#formatting) it would be good here to create a new column like 'data_missing' and use that column to capture the different reasons. 
+
+Whatever the reason, it's a problem if unknown or missing data is recorded as -999, 999, or 0.
+Many statistical programs will not recognize
 that these are intended to represent missing (null) values. How these values are interpreted will depend on the software you use to
 analyze your data. It is essential to use a clearly defined and consistent null indicator.
 Blanks (most applications) and NA (for R) are good choices. White et al, 2013, explain good choices for indicating null values for different software applications in their article:

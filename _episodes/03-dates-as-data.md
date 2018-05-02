@@ -162,8 +162,10 @@ but I believe time travel was beyond even their grasp.
 Entering dates in one cell is helpful but due to the fact that the spreadsheet programs may interpret and save the data in different ways
 (doing that somewhat behind the scenes), there is a better practice.  
 
-In dealing with dates in spreadsheets, separate date data into separate fields (day, month, year), which will eliminate any chance of
-ambiguity. 
+In dealing with dates in spreadsheets, separate date data into separate fields (day, month, year), 
+which will eliminate any chance of ambiguity.
+
+![simplesummary](../fig/Simple_dates_in_Excel.png)
 
 ### <a name="doy"></a> Storing dates as YEAR, DAY-OF-YEAR
 
@@ -176,6 +178,10 @@ year-to-year variation, and DOY can be used to measure the passage of time withi
 So, can you convert all your dates into DOY format? Well, in Excel, here’s a useful guide:
 
 ![Kill that ambiguity before it bites you!](../fig/7_excel_dates_3.jpg)
+
+**Notice** that when using the DOY and the 'Date' function, the 'month' designated in the middle of (B2,1,C2) 
+is always set to **'1'** which means January.
+This is because the DOY starts at the beginning of the year (i.e. January 1). 
 
 ### <a name="str"></a> Storing dates as a single string
 

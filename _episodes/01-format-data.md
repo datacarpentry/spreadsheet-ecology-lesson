@@ -56,7 +56,7 @@ the original dataset, or you will never know where you started!
 - minimize the numbers of tabs (worksheets) used for data. As noted in the next section on "common-mistakes", too many tabs are bad for data analytics. When cleaning data, ask yourself if you could avoid using additional tabs by adding more columns to the copy of your original spreadsheet.
 - keep track of the steps you took in your clean up or analysis. You should track 
 these steps as you would any step in an experiment. You can
-do this in another text file, or this is a dood option to create a new tab in your spreadsheet
+do this in another text file, or a good option is to create a new tab in your spreadsheet
 with your notes. This way the notes and data stay together.
 
 This might be an example of a spreadsheet setup:

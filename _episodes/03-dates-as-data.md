@@ -162,8 +162,7 @@ but I believe time travel was beyond even their grasp.
 Entering dates in one cell is helpful but due to the fact that the spreadsheet programs may interpret and save the data in different ways
 (doing that somewhat behind the scenes), there is a better practice.  
 
-In dealing with dates in spreadsheets, separate date data into separate fields (day, month, year), 
-which will eliminate any chance of ambiguity.
+In dealing with dates in spreadsheets, separate date data into separate fields (day, month, year), which will eliminate any chance of ambiguity.
 
 ![simplesummary](../fig/Simple_dates_in_Excel.png)
 

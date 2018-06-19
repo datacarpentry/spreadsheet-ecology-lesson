@@ -112,8 +112,9 @@ dataset but not another unless you’re doing it on purpose.
 ### Using Spreadsheets for Data Entry and Cleaning
 
 However, there are circumstances where you might want to use a spreadsheet 
-program to produce “quick and dirty” calculations or figures, and some of 
-these features can be used in data cleaning, prior to importation into a 
+program to produce “quick and dirty” calculations or figures, and data 
+cleaning will help you use some of these features. Data cleaning also
+puts your data in a better format prior to importation into a 
 statistical analysis program. We will show you how to use some features of 
 spreadsheet programs to check your data quality along the way and produce 
 preliminary summary statistics.

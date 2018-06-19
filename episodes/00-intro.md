@@ -20,13 +20,12 @@ quality control functions.
 
 ### Spreadsheet outline
 
-In this lesson, we’re going to talk about:
-
-- Good data entry practices - formatting data tables in spreadsheets
-- How to avoid common formatting mistakes
-- Dates as data - beware!
-- Basic quality control and data manipulation in spreadsheets
-- Exporting data from spreadsheets
+After this lesson, you will be able to:
+- Implement best practices in data table formatting  
+- Identify and address common formatting mistakes
+- Understand approaches for handling dates in spreadsheets
+- Utilize basic quality control features and data manipulation practices
+- Effectively export data from spreadsheet programs
 
 *Overall good data practices*
 

@@ -20,13 +20,12 @@ quality control functions.
 
 ### Spreadsheet outline
 
-In this lesson, we’re going to talk about:
-
-- Good data entry practices - formatting data tables in spreadsheets
-- How to avoid common formatting mistakes
-- Dates as data - beware!
-- Basic quality control and data manipulation in spreadsheets
-- Exporting data from spreadsheets
+After this lesson, you will be able to:
+- Implement best practices in data table formatting  
+- Identify and address common formatting mistakes
+- Understand approaches for handling dates in spreadsheets
+- Utilize basic quality control features and data manipulation practices
+- Effectively export data from spreadsheet programs
 
 *Overall good data practices*
 
@@ -113,8 +112,9 @@ dataset but not another unless you’re doing it on purpose.
 ### Using Spreadsheets for Data Entry and Cleaning
 
 However, there are circumstances where you might want to use a spreadsheet 
-program to produce “quick and dirty” calculations or figures, and some of 
-these features can be used in data cleaning, prior to importation into a 
+program to produce “quick and dirty” calculations or figures, and data 
+cleaning will help you use some of these features. Data cleaning also
+puts your data in a better format prior to importation into a 
 statistical analysis program. We will show you how to use some features of 
 spreadsheet programs to check your data quality along the way and produce 
 preliminary summary statistics.

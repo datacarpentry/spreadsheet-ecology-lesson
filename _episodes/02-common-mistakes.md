@@ -8,7 +8,7 @@ objectives:
 - "Recognize and resolve common spreadsheet formatting problems."
 keypoints:
 - "Avoid using multiple tables within one spreadsheet."
-- "Avoid spreading data across multiple tabs."
+- "Avoid spreading data across multiple tabs (but do use a new tab to record data cleaning or manipulations)."
 - "Record zeros as zeros."
 - "Use an appropriate null value to record missing data."
 - "Don't use formatting to convey information or to make your spreadsheet look pretty."
@@ -62,7 +62,9 @@ as well as some calculated summary statistics (an average (avr) and standard err
 
 ## <a name="tabs"></a> Using multiple tabs
 
-But what about workbook tabs? That seems like an easy way to organize data, right? Well, yes and no. When you create extra tabs, you fail to allow the computer to see connections in the data that are there (you have to introduce spreadsheet application-specific functions or scripting to ensure this connection). Say, for instance, you make a separate tab for each day you take a measurement.
+But what about workbook tabs? That seems like an easy way to organize data, right? Well, yes and no. When you create extra tabs, you fail
+to allow the computer to see connections in the data that are there (you have to introduce spreadsheet application-specific functions or
+scripting to ensure this connection). Say, for instance, you make a separate tab for each day you take a measurement.
 
 This isn't good practice for two reasons:
 1) you are more likely to accidentally add inconsistencies to your data if each time you take a measurement, you start recording data in a new tab, and
@@ -70,7 +72,8 @@ This isn't good practice for two reasons:
 data because you will have to combine these data into a single datatable. You will have to explicitly tell the computer how to combine
 tabs - and if the tabs are inconsistently formatted, you might even have to do it manually.
 
-The next time you’re entering data, and you go to create another tab or table, ask yourself if you could avoid adding this tab by adding another column to your original spreadsheet. We used multiple tabs in our example of a messy data file, but now you've seen how you can reorganize your data to consolidate across tabs.
+The next time you’re entering data, and you go to create another tab or table,
+ask yourself if you could avoid adding this tab by adding another column to your original spreadsheet.
 
 Your data sheet might get very long over the course of the experiment. This makes it harder to enter data if you can’t see your headers
 at the top of the spreadsheet. But don't repeat your header row. These can easily get mixed into the data, 

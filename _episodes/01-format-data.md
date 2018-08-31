@@ -9,7 +9,7 @@ objectives:
 - "Apply best practices to arrange variables and observations in a spreadsheet."
 keypoints:
 - "Never modify your raw data. Always make a copy before making any changes."  
-- "Keep track of all of the steps you take to clean your data."  
+- "Keep track of all of the steps you take to clean your data in a plain text file."  
 - "Organize your data according to tidy data principles."  
 ---
 
@@ -51,18 +51,19 @@ very easy to end up with a spreadsheet that looks very different from the one
 you started with. In order to be able to reproduce your analyses or figure out
 what you did when Reviewer #3 asks for a different analysis, you should
 
-- create a new file or tab with your cleaned or analyzed data. Don't modify
+- create a new file with your cleaned or analyzed data. Don't modify
 the original dataset, or you will never know where you started!
 - keep track of the steps you took in your clean up or analysis. You should track 
-these steps as you would any step in an experiment. You can
-do this in another text file, or a good option is to create a new tab in your spreadsheet
-with your notes. This way the notes and data stay together.
+these steps as you would any step in an experiment. We recommend that you 
+do this in a plain text file stored in the same folder as the data file. 
 
 This might be an example of a spreadsheet setup:
 
-![spreadsheet setup](../fig/spreadsheet-setup.png)
+![spreadsheet setup](../fig/spreadsheet-setup-updated.png)
 
-Put these principles in to practice today during your Exercises. 
+Put these principles in to practice today during your Exercises.
+
+>Note: This is out of scope for this lesson, but for information on how to maintain version control over your data, look at our lesson on ['Git'](http://swcarpentry.github.io/git-novice/).
 
 
 ### Structuring data in spreadsheets

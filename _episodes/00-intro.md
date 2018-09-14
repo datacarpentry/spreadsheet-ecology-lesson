@@ -127,8 +127,8 @@ to be the program most used by biologists and ecologists.
 In this lesson we're going to talk about:
 
 1. [Formatting data tables in spreadsheets](./01-format-data.md/)
-2. [Formatting problems](../02-common-mistakes.md)
-3. [Dates as data](../03-dates-as-data.md)
-4. [Quality control](../04-quality-control.md)
-5. [Exporting data](../05-exporting-data.md)
+2. [Formatting problems](./02-common-mistakes.md)
+3. [Dates as data](./03-dates-as-data.md)
+4. [Quality control](./04-quality-control.md)
+5. [Exporting data](./05-exporting-data.md)
 

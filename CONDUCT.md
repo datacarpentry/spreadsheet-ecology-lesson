@@ -1,7 +1,6 @@
 ---
 layout: page
-title: "Contributor Code of Conduct"
-permalink: /conduct/
+title: Contributor Code of Conduct
 ---
 As contributors and maintainers of this project,
 we pledge to respect all people who contribute through reporting issues,

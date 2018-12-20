@@ -1,6 +1,5 @@
 ---
 layout: lesson
-root: .
 ---
 
 Good data organization is the foundation of any research project. Most 
@@ -37,7 +36,7 @@ and plan new data collection so less data wrangling is needed.
 > their own computers to insure the proper setup of tools for an efficient 
 > workflow. <br>**These lessons assume no prior knowledge of the skills or tools.**
 >
-> To get started, follow the directions in the "[Setup](setup/)" tab to 
+> To get started, follow the directions in the "[Setup]({% link setup.md %})" tab to 
 > download data to your computer and follow any installation instructions.
 >
 > #### Prerequisites

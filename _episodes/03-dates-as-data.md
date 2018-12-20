@@ -84,7 +84,7 @@ from before and after this date, Excel will translate only the post-1900 dates i
 If you’re working with historic data, be extremely careful with your dates!
 
 Excel also entertains a second date system, the 1904 date system, as the default in Excel for Macintosh. This system will assign a
-different serial number than the [1900 date system](https://support.microsoft.com/kb/180162). Because of this,
+different serial number than the [1900 date system](https://support.microsoft.com/en-us/help/214330/differences-between-the-1900-and-the-1904-date-system-in-excel). Because of this,
 [dates must be checked for accuracy when exporting data from Excel](http://uc3.cdlib.org/2014/04/09/abandon-all-hope-ye-who-enter-dates-in-excel/) (look for dates that are ~4 years off). 
 
 ## Data formats in spreadsheets

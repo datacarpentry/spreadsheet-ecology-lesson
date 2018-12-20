@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Discussion
-permalink: /discuss/
 ---
 
 ### Dealing with commas as part of data values in `csv` files

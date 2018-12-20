@@ -10,7 +10,9 @@ All Software Carpentry, Data Carpentry, and Library Carpentry instructional mate
 made available under the [Creative Commons Attribution
 license][cc-by-human]. The following is a human-readable summary of
 (and not a substitute for) the [full legal text of the CC BY 4.0
-license][cc-by-legal]. You are free:
+license][cc-by-legal]. 
+
+You are free:
 
 * to **Share**---to copy, distribute and transmit the work
 * to **Remix**---to adapt the work
@@ -20,7 +22,7 @@ Under the following conditions:
 * **Attribution**---You must attribute the work using "Copyright (c)
   Data Carpentry" (but not in any way that suggests that we
   endorse you or your use of the work).  Where practical, you must
-  also include a hyperlink to http://datacarpentry.org.
+  also include a hyperlink to https://datacarpentry.org.
 
 With the understanding that:
 

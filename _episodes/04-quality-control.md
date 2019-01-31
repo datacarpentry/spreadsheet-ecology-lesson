@@ -143,7 +143,7 @@ If your dataset is well-structured and does not contain formulas, sorting should
 
 
 
-## Conditional formatting ##
+## Somalua ##
 Conditional formatting basically can do something like color code your values by some
 criteria or lowest to highest. This makes it easy to scan your data for outliers.
 

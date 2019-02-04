@@ -103,7 +103,7 @@ subsequent calculations or analyses. For example, the average of a set of number
 **Solutions**: 
 
 There are a few reasons why null values get represented differently within a dataset.
-Sometimes confusing null values are automatically recorded from the measuring device. If that's the case, there's not much you can do, but it can be addressed in data cleaning with a tool like [OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/) before analysis. Other times different null values are used to convey different reasons why the data isn't there. This is important information to capture, but is in effect using one column to capture two pieces of information. Like for [using formatting to convey information]((#formatting) it would be good here to create a new column like 'data_missing' and use that column to capture the different reasons. 
+Sometimes confusing null values are automatically recorded from the measuring device. If that's the case, there's not much you can do, but it can be addressed in data cleaning with a tool like [OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/) before analysis. Other times different null values are used to convey different reasons why the data isn't there. This is important information to capture, but is in effect using one column to capture two pieces of information. Like for [using formatting to convey information](#formatting) it would be good here to create a new column like 'data_missing' and use that column to capture the different reasons. 
 
 Whatever the reason, it's a problem if unknown or missing data is recorded as -999, 999, or 0.
 Many statistical programs will not recognize

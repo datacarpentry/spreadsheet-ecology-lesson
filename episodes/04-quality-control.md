@@ -31,7 +31,7 @@ keyboard) should never be entered. Likewise if one of the kinds of data being
 collected is a count, only integers greater than or equal to zero should be
 allowed.
 
-To control the kind of data entered into a a spreadsheet we use Data Validation
+To control the kind of data entered into a spreadsheet we use Data Validation
 (Excel) or Validity (Libre Office Calc), to set the values that can be entered
 in each data column.
 
@@ -163,5 +163,5 @@ Conditional formatting should be used with caution, but it can be a great way to
 > {: .solution}
 {: .challenge} 
 
-It is nice to do be able to do these scans in spreadsheets, but we also can do these
+It is nice to be able to do these scans in spreadsheets, but we also can do these
 checks in a programming language like R, or in OpenRefine or SQL. 

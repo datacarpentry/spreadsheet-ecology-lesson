@@ -1,3 +1,8 @@
+---
+layout: page
+title: Data Management Tips
+---
+
 **Tips for managing your data**
 
 1. **3-2-1**: Fires, floods, and theft all happen -- not to mention bitrot (the deterioration of storage media over time). So, keep at least three copies of your data, on two different media, at least one of which is off-site. (And be sure to store your local copies under proper environmental conditions!)

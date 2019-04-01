@@ -1,3 +1,5 @@
+[The following is distilled from a _Nature_ Toolbox article that was published on 1 April 2019: Perkel, J.M. 11 ways to avert a data-storage disaster. _Nature_ **568**, 131-132 (2019). [https://www.nature.com/articles/d41586-019-01040-w](https://www.nature.com/articles/d41586-019-01040-w)]
+
 **Tips for managing your data**
 
 1. **3-2-1**: Fires, floods, and theft all happen -- not to mention bitrot (the deterioration of storage media over time). So, keep at least three copies of your data, on two different media, at least one of which is off-site. (And be sure to store your local copies under proper environmental conditions!)

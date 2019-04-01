@@ -2,6 +2,7 @@
 layout: page
 title: Data Management Tips
 ---
+[The following is distilled from a _Nature_ Toolbox article that was published on 1 April 2019: Perkel, J.M. 11 ways to avert a data-storage disaster. _Nature_ **568**, 131-132 (2019). [https://www.nature.com/articles/d41586-019-01040-w](https://www.nature.com/articles/d41586-019-01040-w)]
 
 **Tips for managing your data**
 

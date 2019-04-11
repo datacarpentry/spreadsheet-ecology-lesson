@@ -64,27 +64,27 @@ An important note for backwards compatibility: you can open CSV files in Excel!
 
 ## A Note on Cross-platform Operability
 
-By default, most coding and statistical environments expect UNIX-style line endings (`\n`) as representing line breaks.  However, Windows uses an alternate line ending signifier (`\r\n`) by default for legacy compatibility with Teletype-based systems.  
+By default, most coding and statistical environments expect UNIX-style line endings (ASCII `LF` character) as representing line breaks.  However, Windows uses an alternate line ending signifier (ASCII `CR LF` characters) by default for legacy compatibility with Teletype-based systems.
 
 As such, when exporting to CSV using Excel, your data in text format will look like this:
 
->data1,data2\r\n1,2\r\n4,5\r\n
+>data1,data2<CR><LF>1,2<CR><LF>4,5<CR><LF>
 
 When opening your CSV file in Excel again, it will parse it as follows:
 
 <img width="307" alt="screen shot 2017-03-31 at 7 15 07 pm" src="https://cloud.githubusercontent.com/assets/13110354/24560663/db4a5786-1643-11e7-931a-ca2c72336878.png">
 
-However, if you open your CSV file on a different system that does not parse the "\r" it will interpret your CSV file differently:
+However, if you open your CSV file on a different system that does not parse the `CR` character it will interpret your CSV file differently:
 
 Your data in text format then look like this:
 
->data1 <br>
->data2\r<br>
+>data1<br>
+>data2<CR><br>
 >1<br>
->2\r<br>
+>2<CR><br>
 >…
 
-This will then in turn parse as:
+You will then see a weird character or possibly the string `CR` or `\r`:
 
 <img width="308" alt="screen shot 2017-03-31 at 7 26 42 pm" src="https://cloud.githubusercontent.com/assets/13110354/24561066/a990327c-1645-11e7-90b5-35a44e90f8d9.png">
 

@@ -153,8 +153,8 @@ Conditional formatting should be used with caution, but it can be a great way to
 > ## Exercise
 > 1. Make sure the Weight_grams column is highlighted.
 > 2. In the main Excel menu bar, click `Home` > `Conditional Formatting...` choose a formatting rule.
-> 2. Apply any `2-Color Scale` formatting rule.
-> 3. Now we can scan through and different colors will stand out. Do you notice any strange values?
+> 3. Apply any `2-Color Scale` formatting rule.
+> 4. Now we can scan through and different colors will stand out. Do you notice any strange values?
 > 
 > > ## Solution
 > > 

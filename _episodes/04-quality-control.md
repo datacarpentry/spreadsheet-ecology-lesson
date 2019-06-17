@@ -148,10 +148,12 @@ Conditional formatting basically can do something like color code your values by
 criteria or lowest to highest. This makes it easy to scan your data for outliers.
 
 Conditional formatting should be used with caution, but it can be a great way to flag inconsistent values when entering data.
+! You mention the need for caution when using conditional formatting a couple of times--it might be helpful to note why, that is, mention a way that conditional formatting can go wrong.
 
 > ## Exercise
-> 1. In the main Excel menu bar, click `Home` > `Conditional Formatting...` choose a formatting rule.
-> 2. Apply a `2-Color Scale` formatting rule with the lowest values set to orange and the highest values set to yellow.
+> 1. Make sure the Weight_grams column is highlighted.
+> 2. In the main Excel menu bar, click `Home` > `Conditional Formatting...` choose a formatting rule.
+> 2. Apply any `2-Color Scale` formatting rule.
 > 3. Now we can scan through and different colors will stand out. Do you notice any strange values?
 > 
 > > ## Solution

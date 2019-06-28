@@ -1,1 +1,141 @@
-{"contributors":[{"type":"Editor","name":"Christie Bahlai"},{"type":"Editor","name":"Tracy Teal"}],"creators":[{"name":"Tracy Teal"},{"name":"Erin Becker"},{"name":"Greg Wilson"},{"name":"Aleksandra Pawlik"},{"name":"Raniere Silva"},{"name":"Laurent Gatto"},{"name":"Francois Michonneau"},{"name":"Juan Steyn"},{"name":"Abigail Cabunoc"},{"name":"Christie Bahlai"},{"name":"Hilmar Lapp"},{"name":"Ethan White"},{"name":"Kari L. Jordan"},{"name":"Ben Marwick"},{"name":"Sebastian"},{"name":"leonorgg"},{"name":"Rémi Emonet"},{"name":"Piotr Banaszkiewicz"},{"name":"Angel Corpuz"},{"name":"Rudi Brauning"},{"name":"Amy Nurnberger"},{"name":"Anelda van der Walt"},{"name":"Casey Bergman"},{"name":"Harriet Dashnow"},{"name":"James Allen"},{"name":"Jon Pipitone"},{"name":"Karthik Ram"},{"name":"Maxim Belkin"},{"name":"Michael Hansen"},{"name":"Moritz Neeb"},{"name":"Nick Young"},{"name":"Zack Brym"},{"name":"evanwill"},{"name":"Alexander Konovalov"},{"name":"Bill Mills"},{"name":"Carlos Martinez"},{"name":"Dave Beck"},{"name":"Francisco Rodriguez-Sanchez"},{"name":"Gabriel A. Devenyi"},{"name":"Ian Carroll"},{"name":"Jaclyn Saunders"},{"name":"Jeffrey W. Hollister"},{"name":"Jonah Duckles"},{"name":"Kara Woo"},{"name":"Martin Dreyer"},{"name":"Timothée Poisot"},{"name":"W. Trevor King"},{"name":"rcarns"}]}
+{
+  "contributors": [
+    {
+      "type": "Editor",
+      "name": "Christie Bahlai",
+      "orcid": "0000-0002-8937-8709"
+    },
+    {
+      "type": "Editor",
+      "name": "Tracy Teal",
+      "orcid": "0000-0002-9180-9598"
+    },
+    {
+      "type": "Editor",
+      "name": "Peter Hoyt",
+      "orcid": "0000-0002-2767-0923"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Tracy Teal",
+      "orcid": "0000-0002-9180-9598"
+    },
+    {
+      "name": "Erin Alison Becker",
+      "orcid": "0000-0002-6832-0233"
+    },
+    {
+      "name": "Aleksandra Natalia Pawlik",
+      "orcid": "0000-0001-8418-6735"
+    },
+    {
+      "name": "Peter R. Hoyt",
+      "orcid": "0000-0002-2767-0923"
+    },
+    {
+      "name": "François Michonneau",
+      "orcid": "0000-0002-9092-966X"
+    },
+    {
+      "name": "Christie Bahlai",
+      "orcid": "0000-0002-8937-8709"
+    },
+    {
+      "name": "Ethan P White",
+      "orcid": "0000-0001-6728-7745"
+    },
+    {
+      "name": "Ben Marwick",
+      "orcid": "0000-0001-7879-4531"
+    },
+    {
+      "name": "Kari L Jordan",
+      "orcid": "0000-0003-4121-2432"
+    },
+    {
+      "name": "Sebastian"
+    },
+    {
+      "name": "Christie Bahlai"
+    },
+    {
+      "name": "Alejandra Noemi Gonzalez-Beltran",
+      "orcid": "0000-0003-3499-8262"
+    },
+    {
+      "name": "Angel Corpuz"
+    },
+    {
+      "name": "Jeffrey Perkel"
+    },
+    {
+      "name": "Michele Hayslett"
+    },
+    {
+      "name": "Rudiger Brauning",
+      "orcid": "0000-0001-5068-9166"
+    },
+    {
+      "name": "aNurnberger"
+    },
+    {
+      "name": "Casey Bergman"
+    },
+    {
+      "name": "Harriet Dashnow",
+      "orcid": "0000-0001-8433-6270"
+    },
+    {
+      "name": "Funmilola Kemi Megbowon",
+      "orcid": "0000-0002-1008-1145"
+    },
+    {
+      "name": "Moritz Neeb"
+    },
+    {
+      "name": "Zack Brym",
+      "orcid": "0000-0002-0659-2938"
+    },
+    {
+      "name": "David Beck",
+      "orcid": "0000-0002-5371-7035"
+    },
+    {
+      "name": "jaclynsaunders"
+    },
+    {
+      "name": "Jeffrey W. Hollister"
+    },
+    {
+      "name": "Kara Woo",
+      "orcid": "0000-0002-5125-4188"
+    },
+    {
+      "name": "Karen Cranston",
+      "orcid": "0000-0002-4798-9499"
+    },
+    {
+      "name": "kmadzima"
+    },
+    {
+      "name": "Lactatia Motsuku",
+      "orcid": "0000-0003-2671-6632"
+    },
+    {
+      "name": "Mita"
+    },
+    {
+      "name": "Pakillo"
+    },
+    {
+      "name": "rcarns"
+    },
+    {
+      "name": "Toby Reiter"
+    }
+  ],
+  "license": {
+    "id": "CC-BY-4.0"
+  }
+}

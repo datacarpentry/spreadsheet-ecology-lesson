@@ -109,7 +109,7 @@ Add the following to the file ([see the detailed tutorial](http://nicercode.gith
 
 #### A note on R and `.xlsx`
 
-There are R packages that can read `.xls or .xlsx` files (as well as
+There are R packages that can read `.xls` or `.xlsx` files (as well as
 Google spreadsheets). It is even possible to access different
 worksheets in the `.xlsx` documents.
 

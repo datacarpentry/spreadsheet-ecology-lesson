@@ -27,7 +27,7 @@ Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
 This lesson is meant to be used as a reference for discussion as learners identify issues with the messy dataset discussed in the
 previous lesson. Instructors: don't go through this lesson except to refer to responses to the exercise in the previous lesson.
 
-There are a few potential errors to be on the lookout for in your own data as well as data from collaborators or the Internet. If you are aware of the errors and the possible negative effect on downstream data analysis and result interpretation, it might motivate yourself and your project members to try and avoid them. Making small changes to the way you format your data in spreadsheets, can have a great impact on efficiency and reliability when it comes to data cleaning and analysis.
+There are a few potential errors to be on the lookout for in your own data as well as data from collaborators or the Internet. If you are aware of the errors and the possible negative effect on downstream data analysis and result interpretation, it might motivate yourself and your project members to try and avoid them. Making small changes to the way you format your data in spreadsheets can have a great impact on efficiency and reliability when it comes to data cleaning and analysis.
 
 - [Using multiple tables](#tables)
 - [Using multiple tabs](#tabs)
@@ -78,7 +78,7 @@ leading to problems down the road.
 
 Instead you can freeze the column headers so that they remain visible even when you have a spreadsheet with many rows.
 
-[Documentation on how to freeze column headers](https://support.office.com/en-ca/article/Freeze-column-headings-for-easy-scrolling-57ccce0c-cf85-4725-9579-c5d13106ca6a)
+[Documentation on how to freeze column headers in MS Excel](https://support.office.com/en-ca/article/Freeze-column-headings-for-easy-scrolling-57ccce0c-cf85-4725-9579-c5d13106ca6a)
 
 ## <a name="zeros"></a> Not filling in zeros
 

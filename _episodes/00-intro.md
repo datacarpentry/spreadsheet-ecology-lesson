@@ -42,7 +42,7 @@ about data organization and some practices for more effective data wrangling.
 - How to *write code* in spreadsheet programs
 
 If you're looking to do this, a good reference is
-[Head First Excel](https://www.amazon.com/Head-First-Excel-learners-spreadsheets/dp/0596807694/), published by O'Reilly
+[Head First Excel](https://www.amazon.com/Head-First-Excel-learners-spreadsheets/dp/0596807694/), published by O'Reilly.
 
 ---
 
@@ -61,7 +61,7 @@ If you're looking to do this, a good reference is
 
 Many spreadsheet programs are available. Since most participants utilize Excel as their primary spreadsheet program, this lesson will make use of Excel examples.
 
-A free spreadsheet program that can also be used is LibreOffice
+A free spreadsheet program that can also be used is LibreOffice.
 
 Commands may differ a bit between programs, but the general idea
 is the same.

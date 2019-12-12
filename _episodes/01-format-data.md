@@ -69,7 +69,7 @@ Put these principles in to practice today during your Exercises.
 ### Structuring data in spreadsheets
 
 
-The cardinal rules of using spreadsheet programs for data is to keep it "tidy":
+The cardinal rule of using spreadsheet programs for data is to keep it "tidy":
 
 1. Put all your variables in columns - the thing you're measuring,
    like 'weight' or 'temperature'.

@@ -83,7 +83,7 @@ will provide you with a drop-downlist of the available items. So, instead of
 trying to remember how to spell *Dipodomys spectabilis*, you can select the
 right option from the list.
 
-![Image of drop-down menu](../fig/drop_down_list.png)
+![Image of drop-down menu](../fig/drop_down_list2.png)
 
 # Quality Control
 

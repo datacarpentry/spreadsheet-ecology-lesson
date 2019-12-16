@@ -87,7 +87,7 @@ Excel also entertains a second date system, the 1904 date system, as the default
 different serial number than the [1900 date system](https://support.microsoft.com/en-us/help/214330/differences-between-the-1900-and-the-1904-date-system-in-excel). Because of this,
 [dates must be checked for accuracy when exporting data from Excel](http://uc3.cdlib.org/2014/04/09/abandon-all-hope-ye-who-enter-dates-in-excel/) (look for dates that are ~4 years off). 
 
-## Data formats in spreadsheets
+## Date formats in spreadsheets
 
 Spreadsheet programs have numerous “useful features” which allow them to handle dates in a variety of ways.
 

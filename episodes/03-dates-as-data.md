@@ -12,8 +12,6 @@ keypoints:
 - "Treating dates as multiple pieces of data rather than one makes them easier to handle."
 ---
 
-Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
-
 Dates in spreadsheets are stored in a single column. While this seems the
 most natural way to record dates, it actually is not best
 practice. A spreadsheet application will display the dates in a

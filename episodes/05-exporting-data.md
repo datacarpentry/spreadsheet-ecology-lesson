@@ -12,8 +12,6 @@ keypoints:
 - "Exporting data from spreadsheets to formats like CSV or TSV puts it in a format that can be used consistently by most programs."
 ---
 
-Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
-
 Storing the data you're going to work with for your analyses in Excel
 default file format (`*.xls` or `*.xlsx` - depending on the Excel
 version) isn't a good idea. Why?

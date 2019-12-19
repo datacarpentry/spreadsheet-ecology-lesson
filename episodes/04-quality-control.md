@@ -13,8 +13,6 @@ keypoints:
 - "Use conditional formatting (cautiously) to check for invalid data."
 ---
 
-Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
-
 When you have a well-structured data table, you can use several simple
 techniques within your spreadsheet to ensure the data you enter is
 free of errors. These approaches include techniques that are

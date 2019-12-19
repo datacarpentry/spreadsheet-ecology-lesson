@@ -13,8 +13,6 @@ keypoints:
 - "Organize your data according to tidy data principles."  
 ---
 
-Authors: **Christie Bahlai**, **Aleksandra Pawlik**<br>
-
 The most common mistake made is treating spreadsheet programs like lab notebooks, that is,
 relying on context, notes in the margin,
 spatial layout of data and fields to convey information. As humans, we

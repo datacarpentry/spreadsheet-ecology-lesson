@@ -10,8 +10,6 @@ keypoints:
 - "Good data organization is the foundation of any research project."
 ---
 
-Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>  
-
 Good data organization is the foundation of your research
 project. Most researchers have data or do data entry in
 spreadsheets. Spreadsheet programs are very useful graphical

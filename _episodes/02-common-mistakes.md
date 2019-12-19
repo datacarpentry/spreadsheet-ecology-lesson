@@ -20,8 +20,6 @@ keypoints:
 - "Record metadata in a separate plain text file."
 ---
 
-Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
-
 ## Common Spreadsheet Errors
 
 This lesson is meant to be used as a reference for discussion as learners identify issues with the messy dataset discussed in the

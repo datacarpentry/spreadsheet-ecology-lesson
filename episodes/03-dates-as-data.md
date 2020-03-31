@@ -121,7 +121,7 @@ Adding years and months and days is slightly trickier because we need to make
 sure that we are adding the amount to the correct entity.
 
 - First we extract the single entities (day, month or year)
-- We can then add values to to that
+- We can then add values to do that
 - Finally the complete date string is reconstructed using the `DATE()` function.
 
 As for dates, times are handled in a similar way; seconds can be directly

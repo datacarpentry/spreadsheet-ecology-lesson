@@ -56,7 +56,7 @@ the previous chapter.
 
 #### [Dates as data](../03-dates-as-data/)
 
-* Do the exercise and make the point about dates either in reponse to a learner bringing
+* Do the exercise and make the point about dates either in response to a learner bringing
 up date as an issue during the responses, or at the end of the response time.
 
 #### [Quality control](../04-quality-control/)

@@ -119,10 +119,11 @@ So, instead we should have:
 > 1. Download the data by clicking [here](https://ndownloader.figshare.com/files/2252083) to get it from FigShare.
 > 2. Open up the data in a spreadsheet program. 
 > 3. You can see that there are two tabs. Two field assistants conducted the surveys, one
-in 2013 and one in 2014, and they both kept track of the data in their own way. Now
+in 2013 and one in 2014, and they both kept track of the data in their own way in tabs `2013` and `2014` of the dataset, 
+>respectively. Now
 you're the person in charge of this project and you want to be able to 
 start analyzing the data.   
-> 4. With the person next to you, identify what is wrong with this spreadsheet. Also discuss the steps you would need to take to clean up the 2013 and 2014 tabs, and to put them all together in one spreadsheet. 
+> 4. With the person next to you, identify what is wrong with this spreadsheet. Also discuss the steps you would need to take to clean up the `2013` and `2014` tabs, and to put them all together in one spreadsheet. 
 >
 > **Important** Do not forget our first piece of advice: to
 > create a new file (or tab) for the cleaned data, never
@@ -136,8 +137,15 @@ start analyzing the data.
 > > - All the mistakes in [02-common-mistakes](../02-common-mistakes) are present in the messy dataset. If the
 > > exercise is done during a workshop, ask people what they saw as wrong with
 > > the data. As they bring up different points, you can refer to [02-common-mistakes](../02-common-mistakes)
-> > or expand a bit on the point they brought up.
-> > - If you get a response where they've fixed the date, you can pause and go to the [03-dates-as-data](../03-dates-as-data) lesson. Or you can say you'll come back to dates at the end. 
+> > or expand a bit on the point they brought up.  
+> > - Note that there is a problem with dates in table 'plot 3' in `2014` tab. The field assistant who collected the data
+> > for year 2014 initially forgot to include their data for 'plot 3'. They came back in 2015 to include the missing data and 
+> > entered the dates for 'plot 3' in the dataset without the year. Excel automatically filled in the missing year as the
+> > current year (i.e. 2015) - introducing an error in the data without the field assistant realising. If you get a response 
+> > from the participants that they've spotted and fixed the problem with date, you can say you'll come back to dates again 
+> > towards the end of lesson in episode [03-dates-as-data](../03-dates-as-data). If participants have not spotted the 
+> > problem with dates in 'plot 3' table, that's fine as you will address peculiarities of working with dates in 
+> > spreadsheets in episode [03-dates-as-data](../03-dates-as-data).  
 > {: .solution}
 {: .challenge}
 

@@ -30,20 +30,20 @@ for example names or identifiers like MAR1, DEC1, OCT4. So if you're avoiding th
 > ## Exercise 
 >
 > Challenge: pulling month, day and year out of dates 
+>   
+> - Let's create a tab called `dates` in our data spreadsheet and copy the 'plot 3' table from the `2014` tab (that contains the problematic dates). 
+> - Let’s extract month, day and year from the dates in the `Date collected` column into new columns. For this we 
+> can use the following built-in Excel functions:
 >
-> - In the `dates` tab of your spreadsheet you have the data from 2014 plot 3. 
-> There's a `Date collected` column.
-> - Let’s extract month, day and year from the dates to new columns. For this we 
-> can use the built in Excel functions
+> `YEAR()`  
 >
-> `YEAR()`
-> `MONTH()`    
-> `DAY()`  
+> `MONTH()`             
+>
+> `DAY()`
 > 
-> (Make sure the new column is formatted as a number and not as a date.)
+> (Make sure the new columns are formatted as a number and not as a date.)
 >
-> You can see that even though you wanted the year to be 2014, your spreadsheet program
-> automatically interpreted it as 2015, the year you entered the data.
+> You can see that even though we expected the year to be 2014, the year is actually 2015. What happened here is that the field assistant who collected the data for year 2014 initially forgot to include their data for 'plot 3' in this dataset. They came back in 2015 to add the missing data into the dataset and entered the dates for 'plot 3' without the year. Excel automatically interpreted the year as 2015 - the year the data was entered into the spreadsheet and not the year the data was collected. Thereby, the spreadsheet program introduced an error in the dataset without the field assistant realising.
 >
 > > ## Solution
 > > ![dates, exersize 1](../fig/solution_exercise_1_dates.png)
@@ -130,17 +130,18 @@ the quantities to the correct entities.
 
 Which brings us to the many different ways Excel provides in how it displays dates. If you refer to the figure above, you’ll see that
 there are many ways that ambiguity creeps into your data depending on the format you chose when you enter your data, and if you’re not
-fully aware of which format you’re using, you can end up actually entering your data in a way that Excel will badly misinterpret. 
+fully aware of which format you’re using, you can end up actually entering your data in a way that Excel will badly misinterpret and 
+you will end up with errors in your data that will be extremely difficult to track down and troubleshoot. 
 
 > ## Exercise  
-> What happens to the dates in the "dates" tab of our workbook if we save this sheet in Excel (in `csv` format) and then open the file in a plain text editor (like TextEdit or Notepad)? What happens to the dates if we then open the `csv` file in Excel?
+> What happens to the dates in the `dates` tab of our workbook if we save this sheet in Excel (in `csv` format) and then open the file in a plain text editor (like TextEdit or Notepad)? What happens to the dates if we then open the `csv` file in Excel?
 > > ## Solution
-> > - Click to the "dates" tab of the workbook and double-click on any of the values in the `Date collected` column. Notice that the dates display with the year 2015.   
+> > - Click to the `dates` tab of the workbook and double-click on any of the values in the `Date collected` column. Notice that the dates display with the year 2015.   
 > > - Select `File -> Save As` in Excel and in the drop down menu for file format select `CSV UTF-8 (Comma delimited) (.csv)`. Click `Save`.  
 > > - You will see a pop-up that says "This workbook cannot be saved in the selected file format because it contains multiple sheets." Choose `Save Active Sheet`.   
 > > - Navigate to the file in your finder application. Right click and select `Open With`. Choose a plain text editor application and view the file. Notice that the dates display as month/day without any year information.   
 > > - Now right click on the file again and open with Excel. Notice that the dates display with the current year, not 2015.   
-> > As you can see, exporting data from Excel and then importing it back into Excel fundamentally changed the data!  
+> > As you can see, exporting data from Excel and then importing it back into Excel fundamentally changed the data once again!  
 > {: .solution}
 {: .challenge}
 

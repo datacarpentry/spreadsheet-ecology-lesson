@@ -3,7 +3,7 @@ layout: page
 title: Instructor Notes
 ---
 
-## Instructor notes
+## Instructor Notes
 
 ## Lesson motivation and learning objectives
 
@@ -60,12 +60,14 @@ the previous chapter.
 up date as an issue during the responses, or at the end of the response time.
 
 #### [Quality control](../04-quality-control/)
-*This lesson is optional*
+*This lesson is optional.*
 
-The challenge with this lesson is that the instructor's version of the spreadsheet software is going to look different than about half the room's. It makes
-it challenging to show where you can find menu options and navigate through.
+The challenge with this lesson is that the instructor's version of the spreadsheet software is going to look different 
+than about half the room's, especially if learners are using programmes other than Excel. It makes it challenging to show where you can find menu options and navigate through.
 
-Instead discuss the concepts of quality control, and how things like sorting can help you find outliers in your data.
+You can attempt to get the learners to find these options in their version of Excel or spreadsheet programme they are using.
+ Or you can instead discuss the concepts of quality control, and how things like sorting can help you find outliers in your data 
+ by showing them on your computer. 
 
 #### [Exporting data](../05-exporting-data/)
 

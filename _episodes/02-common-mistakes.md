@@ -58,21 +58,23 @@ program (and many humans too).
 ![multiple tabs](../fig/2_datasheet_example.jpg)
 
 There are a number of problems with multiple tables on one page. The main problem is that - although clearly separate to
-a human observer - a computer will rigidly interpret anything in the same row as belonging to the same observation.
+a human observer - a computer will rigidly interpret anything in the same row as belonging to the same observation. 
+This is a common mistake that people do - treating their spreadsheet as a data report. In this case your spreadsheet is 
+not just a data-recording file, it is an entry to your computational analysis. 
 
 In the example above, the computer will read row 4 and assume that all
 columns A-AF refer to the same sample. This row actually represents four distinct samples (sample 1 for each of four
 different collection dates - May 29th, June 12th, June 19th, and June 26th), as well as some calculated summary
-statistics (an average (avr) and standard error of measurement (SEM)) for two of those samples.
+statistics (an average (avr) and standard error of measurement (SEM)) for two of those samples. 
 
 There is no reason why observations from different sites or different years should not go into a single table. You just
-need to keep track of them by using new columns (in this examples, one for site and one for year). Keeping data
+need to keep track of them by using new columns (in this example, one for site and one for year). Keeping data
 from the same experiment in a single table will help you stick to a consistent data structure, and avoid errors when
 looking up data from different tables.
 
 Using multiple tables on one page also makes it difficult for humans to keep track of the data - especially if one of
-the tables is *hidden* off the edge of the spreadsheet. Multiple tables also increases the risk of using the same column
-name in multiple places, which will make it significantly harder to clean your data.
+the tables is *hidden* off the edge of the spreadsheet. Multiple tables also increases the risk of using a 
+slightly different spelling of the same column in multiple places, which will make it significantly harder to clean your data.
 
 ## <a name="tabs"></a> Using multiple tabs
 
@@ -137,6 +139,9 @@ Statistical programs do not know that these are intended to represent missing (n
 valid numbers, they will be included in calculations which will lead to incorrect results. How these values are
 interpreted will depend on the software you use to analyse your data.
 
+Statistical software will differ on what they interpret as a null value. Make sure you know the correct representation 
+for null in your downstream analyses. If uncertain, using blanks, `NA` (used in R), or `NaN` (used in Python) are good options. 
+
 It is essential to use a clearly defined and consistent null indicator. Although open to ambiguity, blanks are still
  used by a number of applications, but options like and 'NA' (for R) and 'NaN' (for Python) are good choices. For more
  information, see White et al.
@@ -166,8 +171,8 @@ will confuse statistics software, which will read the merged cell as a single da
 data in the following rows.
 
 Your primary goal with structuring data is to accurately capture the data and make the connections in the data transparent
- to yourself and any program you use for analysis. You will want pretty tables for publications and suchlike, but those
- should be completely separate from the tables you use to record the data.
+ to yourself and any program you use for analysis. You will want pretty tables for publications, reports and suchlike, but those
+ should be completely separate from the tables you use to record the data which is an entry to your computational analysis.
 
 ## <a name="units"></a> Placing comments or units in cells
 

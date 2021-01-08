@@ -111,9 +111,9 @@ So, instead we should have:
 > This is a real dataset that has been used in over 100 publications. We’ve simplified it just a little bit for the workshop, but you can download the full dataset and work with it using exactly the same tools we’ll learn about today.  
 {: .discussion}
 
+I think this exercise could be incorporated throughout this episode. There is a lot of text and explanation at the beginning, which would result in the instructor speaking for a while at the beginning and potentially losing the participants. I like when the lessons are more interactive and while there is this exercise to engage the audience, sprinkling it throughout the lesson could help ensure participants are engaged throughout and really absorbing the lesson.
 
 > ## Exercise
-> 
 > We're going to take a messy version of the survey data and describe how we would clean it up.
 >
 > 1. Download the data by clicking [here](https://ndownloader.figshare.com/files/2252083) to get it from FigShare.

@@ -182,8 +182,10 @@ So, can you convert all your dates into DOY format? Well, in Excel, here’s a u
 ### <a name="str"></a> Storing dates as a single string
 
 Another alternative could be to convert the date string
-into a single string using the `YYYYMMDDhhmmss` format.
-For example the date `March 24, 2015 17:25:35` would
+into a single string using the `YYYYMMDD` format.
+For example the date `March 24, 2015` would become `20150324`.
+This option also works for datetimes using the `YYYYMMDDhhmmss` format.
+So the datetime `March 24, 2015 17:25:35` would
 become `20150324172535`, where:
 
 

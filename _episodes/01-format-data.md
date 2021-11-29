@@ -37,10 +37,13 @@ but some of these choices can limit your ability to work with the data in other 
 have the you-of-6-months-from-now or your collaborator work with the
 data.
 
-> Note: the best layouts/formats (as well as software and
+> ## Note
+> 
+> The best layouts/formats (as well as software and
 > interfaces) for data entry and data analysis might be
 > different. It is important to take this into account, and ideally
 > automate the conversion from one to another.
+{: .callout}
 
 ### Keeping track of your analyses
 
@@ -61,7 +64,12 @@ This might be an example of a spreadsheet setup:
 
 Put these principles in to practice today during your Exercises.
 
->Note: This is out of scope for this lesson, but for information on how to maintain version control over your data, look at our lesson on ['Git'](http://swcarpentry.github.io/git-novice/).
+> ## Note
+> 
+> This is out of scope for this lesson, but for information on how to
+> maintain version control over your data, look at our lesson on
+> ['Git'](http://swcarpentry.github.io/git-novice/).
+{: .callout}
 
 
 ### Structuring data in spreadsheets

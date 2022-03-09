@@ -94,7 +94,7 @@ optimal - often, when formatting a data table for publication, we’re
 reporting key summary statistics in a way that is not really meant to
 be read as data, and often involves special formatting
 (merging cells, creating borders, making it pretty). Cutting and pasting from a spreadsheet
-to a document software (like Word) can have unpredictabile results.
+to a document software (like Word) can have unpredictable results.
 We advise you to create tables within these document software
 using the document's own table editing software.
 

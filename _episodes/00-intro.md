@@ -93,8 +93,10 @@ Generating tables for publications in a spreadsheet is not
 optimal - often, when formatting a data table for publication, we’re
 reporting key summary statistics in a way that is not really meant to
 be read as data, and often involves special formatting
-(merging cells, creating borders, making it pretty). We advise you to
-do this sort of operation within your document editing software.
+(merging cells, creating borders, making it pretty). Cutting and pasting from a spreadsheet
+to a document software (like Word) can have unpredictabile results.
+We advise you to create tables within these document software
+using the document's own table editing software.
 
 The latter two applications, generating statistics and figures, should 
 be used with caution: because of the graphical, drag and drop nature of 

@@ -22,9 +22,9 @@ and stores the dates may be problematic.
 In particular, please remember that DATE functions that are valid for a given
 spreadsheet program (be it LibreOffice Calc, Microsoft Excel, OpenOffice,
 Gnumeric, etc.) DATE functions are usually guaranteed to be compatible only within the same
-family of products. Most of the images of spreadsheets in this esson come 
+family of products. Most of the images of spreadsheets in this lesson come 
 from Microsoft Excel, run on a Mac or on Windows.
-Regardless of yoour spreadsheet, if you will later need to export the data and 
+Regardless of your spreadsheet, if you will later need to export the data and 
 ***need to conserve the timestamps***, you are better off handling them using one of the solutions discussed below.
 
 One of the big problems with Excel is it can [turn things that aren't dates into dates](https://nsaunders.wordpress.com/2012/10/22/gene-name-errors-and-excel-lessons-not-learned/), 

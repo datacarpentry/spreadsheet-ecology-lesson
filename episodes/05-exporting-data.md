@@ -121,9 +121,10 @@ worksheets in the `.xlsx` documents.
 
 #### Caveats on commas
 
-In some datasets, the data values themselves may include commas (,). In that case, the software which you use (including Excel)
+In some datasets, the data values themselves may include commas (,). This is particularly true in countries that 
+use commas as decimal separators. In that case, the software which you use (including Excel)
 will most likely incorrectly display the data in columns. This is because the commas which are a part of the data values will be
-interpreted as delimiters.
+interpreted as delimiters. 
 
 If you are working with data that contains commas, you likely will need to use another delimiter when working in a spreadsheet. In this
 case, consider using tabs as your delimiter and working with TSV files. TSV files can be exported from spreadsheet

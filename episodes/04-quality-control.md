@@ -46,7 +46,7 @@ in each data column.
 ![Image of Data Validation window](../fig/data_validation_window.png)
    
 4\. After selecting an item enter any additional details. For example, if you've
-   chosen a list of values, enter a comma-delimited list of allowable
+   chosen a list of values, enter a comma-delimited or semi-colon list of allowable
    values in the `Source` box.
 
 Let's try this out by setting the plot column in our spreadsheet to only allow

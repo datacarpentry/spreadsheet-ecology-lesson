@@ -59,7 +59,7 @@ If you're looking to do this, a good reference is
 
 Many spreadsheet programs are available. Since most participants utilize Excel as their primary spreadsheet program, this lesson will make use of Excel examples.
 
-A free spreadsheet program that can also be used is LibreOffice.
+Free spreadsheet programs that can also be used are LibreOffice Calc, and even Google Sheets.
 
 Commands may differ a bit between programs, but the general idea
 is the same.

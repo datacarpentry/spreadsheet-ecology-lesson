@@ -157,9 +157,14 @@ start analyzing the data.
 > {: .solution}
 {: .challenge}
 
-An excellent reference, in particular with regard to R scripting is
+There excellent references to help you work with data in spreadsheets. These include:
 
+Regarding R scripting; 
 > Hadley Wickham, *Tidy Data*, Vol. 59, Issue 10, Sep 2014, Journal of
 > Statistical Software. [http://www.jstatsoft.org/v59/i10](http://www.jstatsoft.org/v59/i10).
+
+Appropriately Regarding Data organization in spreadsheets;
+> Broman KW, Woo KH. 2018. Data organization in spreadsheets. PeerJ Preprints 
+> 6:e3183v2 [Data organization in spreadsheets](https://peerj.com/preprints/3183/).
 
 

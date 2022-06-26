@@ -157,7 +157,7 @@ start analyzing the data.
 > {: .solution}
 {: .challenge}
 
-There excellent references to help you work with data in spreadsheets. These include:
+There are excellent references to help you work with data in spreadsheets. These include:
 
 Regarding R scripting; 
 > Hadley Wickham, *Tidy Data*, Vol. 59, Issue 10, Sep 2014, Journal of

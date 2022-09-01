@@ -31,7 +31,10 @@ Spreadsheets are good for data entry. Therefore we have a lot of data
 in spreadsheets. 
 Much of your time as a researcher will be spent in this 'data wrangling' stage.
 It's not the most fun, but it's necessary. We'll teach you how to think
-about data organization and some practices for more effective data wrangling.
+about data organization and some practices for more effective data wrangling. Not only 
+will this save time and effort, it also paves the way for more equitable and inclusive 
+science. Making our work more accessible provides wider avenues for collaboration 
+and improvement! 
 
 ### What this lesson will not teach you
 

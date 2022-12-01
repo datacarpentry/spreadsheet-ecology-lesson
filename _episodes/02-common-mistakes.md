@@ -266,6 +266,11 @@ that are excessively long. Including the units in the field names avoids confusi
 	<td> CellType </td>
 	<td> Cell Type </td>
 </tr>
+<tr>
+	<td> Observation_01 </td>
+	<td> first_observation</td>
+	<td> 1st Obs</td>
+</tr>
 </table>
 
 ## <a name="special"></a> Using special characters in data

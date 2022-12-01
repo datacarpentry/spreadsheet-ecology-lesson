@@ -110,7 +110,74 @@ analyze your data. It is essential to use a clearly defined and consistent null 
 Blanks (most applications) and NA (for R) are good choices. White et al, 2013, explain good choices for indicating null values for different software applications in their article:
 [Nine simple ways to make it easier to (re)use your data.](https://peerj.com/preprints/7/) Ideas in Ecology and Evolution.
 
-![White et al.](../fig/3_white_table_1.jpg)
+<table align = "left" style = "width =50%; border: 1px solid black;">
+<tr>
+	<td> <b>Null Values</b></td> <br />
+	<td> <b>Problems </b> </td><br />
+	<td> <b>Compatibility </b></td><br />
+	<td> <b>Recommendation </b></td><br />
+</tr>
+<tr>
+	<td> 0 </td>
+	<td> Indistinguishable from a true zero </td>
+	<td>    </td>
+	<td> Never use </td>
+</tr>
+<tr>
+	<td> Blank </td>
+	<td> Hard to distinguish values that are missing from those overlooked on entry. Hard to distinguish blanks from spaces, which behave differently </td>
+	<td> R, Python, SQL </td>
+	<td> Best Option </td>
+</tr>	
+<tr>
+	<td> -999, 999 </td>
+	<td> Not recognized as null by many programs without user input. Can be inadvertently entered into calculations </td>
+	<td>    </td>
+	<td> Avoid </td>
+</tr>	
+<tr>
+	<td> NA, na </td>
+	<td> Can also be an abbreviation (e.g., North America), can  cause problems with data type (turn a numerical column into a text column). NA is more commonly recognized than na. </td>	
+	<td> R </td>
+	<td> Good Option </td>
+</tr>
+<tr>	
+	<td> N/A </td>
+	<td> Alternative form of NA, but often not compatible with software </td>	
+	<td>   </td>
+	<td> Avoid </td>
+</tr>
+<tr>	
+	<td> NULL </td>
+	<td> Can cause problem with data type </td>
+	<td>  </td>
+	<td> Avoid </td>
+</tr>
+<tr>
+	<td> None </td>
+	<td> Uncommon. Can cause problem with data type. </td>
+	<td> Python </td>
+	<td> Avoid </td>
+</tr>
+<tr>
+	<td> No data </td>
+	<td> Uncommon. Can cause problem with data type, Contains a space </td>
+	<td>  </td>
+	<td> Avoid </td>
+</tr>
+<tr>
+	<td> Missing </td>
+	<td> Uncommon. Can cause problem with data type. </td>
+	<td>  </td>
+	<td> Avoid </td>
+</tr>
+<tr>
+	<td> -,+,. </td>
+	<td> Uncommon. Can cause problem with data type. </td>
+	<td>  </td>
+	<td> Avoid </td>
+</tr>
+</table>
 
 
 ## <a name="formatting"></a> Using formatting to convey information 

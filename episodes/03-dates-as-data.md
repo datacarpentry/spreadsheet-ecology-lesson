@@ -21,7 +21,7 @@ and stores the dates may be problematic.
 
 In particular, please remember that DATE functions that are valid for a given
 spreadsheet program (be it LibreOffice Calc, Microsoft Excel, OpenOffice,
-Gnumeric, etc.) DATE functions are usually guaranteed to be compatible only within the same
+Gnumeric, etc.) are usually guaranteed to be compatible only within the same
 family of products. Most of the images of spreadsheets in this lesson come 
 from Microsoft Excel, run on a Mac or on Windows.
 Regardless of your spreadsheet, if you will later need to export the data and 

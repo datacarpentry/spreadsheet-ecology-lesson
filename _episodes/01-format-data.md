@@ -164,7 +164,7 @@ Regarding R scripting;
 > Statistical Software. [http://www.jstatsoft.org/v59/i10](http://www.jstatsoft.org/v59/i10).
 
 Appropriately Regarding Data organization in spreadsheets;
-> Broman KW, Woo KH. 2018. Data organization in spreadsheets. PeerJ Preprints 
-> 6:e3183v2 [Data organization in spreadsheets](https://peerj.com/preprints/3183/).
+> Karl W. Broman & Kara H. Woo (2018) Data Organization in Spreadsheets, The American Statistician, 72:1, 2-10, 
+> [DOI: 10.1080/00031305.2017.1375989](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989).
 
 

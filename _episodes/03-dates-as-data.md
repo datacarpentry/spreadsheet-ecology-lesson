@@ -121,7 +121,7 @@ part) of the cell that is being operated upon, (unless you did some sort of
 formatting to the cell before, and then all bets are off). Month and year
 rollovers are internally tracked and applied.
 
-**Note**
+**Notes**
 Adding years and months and days is slightly trickier because we need to make
 sure that we are adding the amount to the correct entity.
 

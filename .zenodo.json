@@ -2,137 +2,70 @@
   "contributors": [
     {
       "type": "Editor",
-      "name": "Christie Bahlai",
-      "orcid": "0000-0002-8937-8709"
-    },
-    {
-      "type": "Editor",
-      "name": "Tracy Teal",
-      "orcid": "0000-0002-9180-9598"
+      "name": "Juan A. Ugalde",
+      "orcid": "0000-0001-6638-0817"
     },
     {
       "type": "Editor",
       "name": "Peter Hoyt",
       "orcid": "0000-0002-2767-0923"
+    },
+    {
+      "type": "Editor",
+      "name": "Monah Abou Alezz",
+      "orcid": "0000-0002-2006-4250"
     }
   ],
   "creators": [
     {
-      "name": "Tracy Teal",
-      "orcid": "0000-0002-9180-9598"
-    },
-    {
-      "name": "Erin Alison Becker",
-      "orcid": "0000-0002-6832-0233"
-    },
-    {
-      "name": "apawlik",
-      "orcid": "0000-0001-8418-6735"
-    },
-    {
       "name": "Peter Hoyt",
       "orcid": "0000-0002-2767-0923"
     },
     {
-      "name": "Francois Michonneau",
-      "orcid": "0000-0002-9092-966X"
+      "name": "Maneesha Sane"
+    },
+    {
+      "name": "Aleksandra Nenadic",
+      "orcid": "0000-0002-2269-3894"
     },
     {
       "name": "Christie Bahlai",
       "orcid": "0000-0002-8937-8709"
     },
     {
-      "name": "Ethan White",
-      "orcid": "0000-0001-6728-7745"
+      "name": "Katrin Leinweber",
+      "orcid": "0000-0001-5135-5758"
     },
     {
-      "name": "Ben Marwick",
-      "orcid": "0000-0001-7879-4531"
+      "name": "Tracy Teal",
+      "orcid": "0000-0002-9180-9598"
     },
     {
-      "name": "Kari Jordan",
-      "orcid": "0000-0003-4121-2432"
+      "name": "Ileana Fenwick"
     },
     {
-      "name": "Sebastian"
+      "name": "Jannetta Steyn"
     },
     {
-      "name": "Christie Bahlai"
+      "name": "K Briney"
     },
     {
-      "name": "Alejandra Gonzalez-Beltran",
-      "orcid": "0000-0003-3499-8262"
+      "name": "Karl Benedict",
+      "orcid": "0000-0002-9109-2072"
     },
     {
-      "name": "Angel Corpuz"
+      "name": "Sarah M Brown",
+      "orcid": "0000-0001-5728-0822"
     },
     {
-      "name": "Samar Salah Mohamedahmed Elsheikh"
+      "name": "Sarah Stryeck"
     },
     {
-      "name": "Jeffrey Perkel"
+      "name": "Stephen Formel"
     },
     {
-      "name": "Michele Hayslett"
-    },
-    {
-      "name": "Rudiger Brauning",
-      "orcid": "0000-0001-5068-9166"
-    },
-    {
-      "name": "aNurnberger"
-    },
-    {
-      "name": "Casey Bergman"
-    },
-    {
-      "name": "Harriet Dashnow",
-      "orcid": "0000-0001-8433-6270"
-    },
-    {
-      "name": "Funmilola Megbowon",
-      "orcid": "0000-0002-1008-1145"
-    },
-    {
-      "name": "Moritz Neeb"
-    },
-    {
-      "name": "Zachary Brym",
-      "orcid": "0000-0002-0659-2938"
-    },
-    {
-      "name": "David Beck",
-      "orcid": "0000-0002-5371-7035"
-    },
-    {
-      "name": "jaclynsaunders"
-    },
-    {
-      "name": "Kara Woo",
-      "orcid": "0000-0002-5125-4188"
-    },
-    {
-      "name": "Karen Ann Cranston",
-      "orcid": "0000-0002-4798-9499"
-    },
-    {
-      "name": "kmadzima"
-    },
-    {
-      "name": "Lactatia Motsuku",
-      "orcid": "0000-0003-2671-6632"
-    },
-    {
-      "name": "Mita"
-    },
-    {
-      "name": "Pakillo"
-    },
-    {
-      "name": "rcarns"
-    },
-    {
-      "name": "Toby Reiter"
+      "name": "ZINE SAPULA",
+      "orcid": "0000-0002-2346-1681"
     }
   ],
   "license": {

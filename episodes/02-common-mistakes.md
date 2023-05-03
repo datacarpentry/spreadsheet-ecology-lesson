@@ -28,10 +28,10 @@ There are a few potential errors to be on the lookout for in your own data as we
 - [Not filling in zeros](#zeros)
 - [Using problematic null values](#null)
 - [Using formatting to convey information](#formatting)
-- [Using formatting to make the data sheet look pretty](#formatting_pretty)
+- [Using formatting to make the data sheet look pretty](#formatting-pretty)
 - [Placing comments or units in cells](#units)
 - [Entering more than one piece of information in a cell](#info)
-- [Using problematic field names](#field_name)
+- [Using problematic field names](#field-name)
 - [Using special characters in data](#special)
 - [Inclusion of metadata in data table](#metadata)
 - [Date formatting](03-dates-as-data.md)
@@ -190,7 +190,7 @@ Blanks (most applications) and NA (for R) are good choices. White et al, 2013, e
 
 ![](fig/good_formatting.png){alt='good formatting'}
 
-## Using formatting to make the data sheet look pretty {#formatting\_pretty}
+## Using formatting to make the data sheet look pretty {#formatting-pretty}
 
 **Example**: merging cells.
 
@@ -216,7 +216,7 @@ another field and specify the units the cell is in.
 If you need both these measurements, design your data sheet to include this information. For example, include one column for number of
 individuals and a separate column for sex.
 
-## Using problematic field names {#field\_name}
+## Using problematic field names {#field-name}
 
 Choose descriptive field names, but be careful not to include spaces, numbers, or special characters of any kind. Spaces can be
 misinterpreted by parsers that use whitespace as delimiters and some programs don't like field names that are text strings that start

@@ -31,10 +31,16 @@
     <loc>https://datacarpentry.github.io/spreadsheet-ecology-lesson/NEWS.html</loc>
   </url>
   <url>
+    <loc>https://datacarpentry.github.io/spreadsheet-ecology-lesson/aio.html</loc>
+  </url>
+  <url>
     <loc>https://datacarpentry.github.io/spreadsheet-ecology-lesson/datamanagement.html</loc>
   </url>
   <url>
     <loc>https://datacarpentry.github.io/spreadsheet-ecology-lesson/discuss.html</loc>
+  </url>
+  <url>
+    <loc>https://datacarpentry.github.io/spreadsheet-ecology-lesson/images.html</loc>
   </url>
   <url>
     <loc>https://datacarpentry.github.io/spreadsheet-ecology-lesson/index.html</loc>
@@ -70,19 +76,37 @@
     <loc>https://datacarpentry.github.io/spreadsheet-ecology-lesson/instructor/NEWS.html</loc>
   </url>
   <url>
+    <loc>https://datacarpentry.github.io/spreadsheet-ecology-lesson/instructor/aio.html</loc>
+  </url>
+  <url>
     <loc>https://datacarpentry.github.io/spreadsheet-ecology-lesson/instructor/datamanagement.html</loc>
   </url>
   <url>
     <loc>https://datacarpentry.github.io/spreadsheet-ecology-lesson/instructor/discuss.html</loc>
   </url>
   <url>
+    <loc>https://datacarpentry.github.io/spreadsheet-ecology-lesson/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://datacarpentry.github.io/spreadsheet-ecology-lesson/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://datacarpentry.github.io/spreadsheet-ecology-lesson/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://datacarpentry.github.io/spreadsheet-ecology-lesson/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://datacarpentry.github.io/spreadsheet-ecology-lesson/instructor/profiles.html</loc>
   </url>
   <url>
     <loc>https://datacarpentry.github.io/spreadsheet-ecology-lesson/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://datacarpentry.github.io/spreadsheet-ecology-lesson/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://datacarpentry.github.io/spreadsheet-ecology-lesson/key-points.html</loc>
   </url>
   <url>
     <loc>https://datacarpentry.github.io/spreadsheet-ecology-lesson/profiles.html</loc>

@@ -125,7 +125,7 @@ So, instead we should have:
 ## Discussion
 
 If not already discussed, introduce the dataset that will be used in this
-lesson, and in the other ecology lessons, the [Portal Project Teaching Dataset](https://www.datacarpentry.org/ecology-workshop/data/).
+lesson, and in the other ecology lessons, the [Portal Project Teaching Dataset](https://www.datacarpentry.org/ecology-workshop/data).
 
 The data used in the ecology lessons are observations of a small mammal community in southern Arizona. This is part of a project studying the effects of rodents and ants on the plant community that has been running for almost 40 years. The rodents are sampled on a series of 24 plots, with different experimental manipulations controlling which rodents are allowed to access which plots.
 

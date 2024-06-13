@@ -50,7 +50,7 @@ and improvement!
 - How to *write code* in spreadsheet programs
 
 If you're looking to do this, a good reference is
-[Head First Excel](https://www.amazon.com/Head-First-Excel-learners-spreadsheets/dp/0596807694/), published by O'Reilly.
+[Excel Cookbook](https://www.amazon.com/Excel-Cookbook-Recipes-Mastering-Microsoft/dp/1098143329/), published by O'Reilly.
 
 ***
 

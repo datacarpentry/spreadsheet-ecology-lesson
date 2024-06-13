@@ -309,7 +309,7 @@ Additionally, file or database level metadata describes how files that make up t
 in; and whether they supercede or are superceded by previous files. A folder-level readme.txt file is the classic way of accounting for
 all the files and folders in a project.
 
-(Text on metadata adapted from the online course Research Data [MANTRA](https://datalib.edina.ac.uk/mantra) by EDINA and Data Library, University of Edinburgh. MANTRA is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).)
+(Text on metadata adapted from the online course Research Data [MANTRA](https://mantra.ed.ac.uk/) by EDINA and Data Library, University of Edinburgh. MANTRA is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).)
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 

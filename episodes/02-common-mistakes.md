@@ -227,7 +227,6 @@ readability. Remember that abbreviations that make sense at the moment may not b
 that are excessively long. Including the units in the field names avoids confusion and enables others to readily interpret your fields.
 
 **Examples**
-
 <table align = "left" style = "width =50%; border: 1px solid black;">
 <tr>
 	<td> <b>Good Name</b></td> <br />
@@ -270,6 +269,21 @@ that are excessively long. Including the units in the field names avoids confusi
 	<td> 1st Obs</td>
 </tr>
 </table>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Using special characters in data {#special}
 

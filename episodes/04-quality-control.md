@@ -126,21 +126,18 @@ What do you notice?
 
 Click the Sort button on the data tab in Excel. A pop-up will appear. Make sure you select `Expand the selection`.
 
-![](fig/sorting_button.png)
-{alt='quality\_control0, exercise1' .output}
+![alt='quality\_control0, exercise1' .output](fig/sorting_button.png)
 
 The following window will display, choose the column you want to sort as well as the sort order.
 
-![](fig/sorting_example.png)
-{alt='quality\_control1, exercise1' .output}
+![alt='quality\_control1, exercise1' .output](fig/sorting_example.png)
 
 **Note** how the odd values sort to the top and bottom of the tabular data.
 The cells containing no data values sort to the bottom of the tabular data, while the cells where the letter "g" was included can be found towards the top. This is a powerful way to check your data for outliers and odd values.
 
-![](fig/sorting_solution_1.png)
-{alt='quality\_control2, exercise1' .output}
+![alt='quality\_control2, exercise1' .output](fig/sorting_solution_1.png)
 
-![](fig/sorting_solution_2.png)
+![alt='quality\_control3, exercise1' .output](fig/sorting_solution_2.png)
 {alt='quality\_control3, exercise1' .output}
 
 :::::::::::::::::::::::::
@@ -168,8 +165,7 @@ Conditional formatting should be used with caution, but it can be a great way to
 ### Solution
 
 Cells that contain non-numerical values are not colored. This includes both the cells where the letter "g" was included and the empty cells.
-![](fig/conditional_formating.png)
-{alt='quality\_control4, exercise2' .output}
+![alt='quality\_control4, exercise2' .output](fig/conditional_formating.png)
 
 :::::::::::::::::::::::::
 

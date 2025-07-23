@@ -38,7 +38,7 @@ in each data column.
 
 1\. Select the cells or column you want to validate
 
-2\. On the `Data` tab select `Data Validation`
+2\. On the `Data` tab, Open `Data Tools` then select `Data Validation`
 
 ![](fig/data_validation.png){alt='Image of Data Validation button on Data tab'}
 

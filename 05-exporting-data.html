@@ -333,7 +333,7 @@
       </div>
     </nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Exporting data</h1>
-        <p>Last updated on 2024-03-09 |
+        <p>Last updated on 2026-10-30 |
 
         <a href="https://github.com/datacarpentry/spreadsheet-ecology-lesson/edit/main/episodes/05-exporting-data.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -453,8 +453,8 @@ line endings on your exported CSV files:</p>
 <li><p>If you store your data file under version control using Git, edit
 the <code>.git/config</code> file in your repository to automatically
 translate <code>\r\n</code> line endings into <code>\n</code>. Add the
-following to the file (<a href="https://nicercode.github.io/blog/2013-04-30-excel-and-line-endings" class="external-link">see
-the detailed tutorial</a>):</p></li>
+following to the file (<a href="https://docs.github.com/en/get-started/git-basics/configuring-git-to-handle-line-endings" class="external-link">see
+GitHub’s guide to configuring line endings</a>):</p></li>
 </ol><pre><code> [filter "cr"]
  	clean = LC_CTYPE=C awk '{printf(\"%s\\n\", $0)}' | LC_CTYPE=C tr '\\r' '\\n'
  	smudge = tr '\\n' '\\r'` </code></pre>
@@ -571,8 +571,8 @@ in a format that can be used consistently by most programs.</li>
   "url": "https://datacarpentry.github.io/spreadsheet-ecology-lesson/05-exporting-data.html",
   "identifier": "https://datacarpentry.github.io/spreadsheet-ecology-lesson/05-exporting-data.html",
   "dateCreated": "2015-03-09",
-  "dateModified": "2024-03-09",
-  "datePublished": "2026-10-28"
+  "dateModified": "2026-10-30",
+  "datePublished": "2026-10-30"
 }
 
   </script><script>

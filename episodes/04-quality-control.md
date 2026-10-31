@@ -126,19 +126,18 @@ What do you notice?
 
 Click the Sort button on the data tab in Excel. A pop-up will appear. Make sure you select `Expand the selection`.
 
-![alt='quality\_control0, exercise1' .output](fig/sorting_button.png)
+![](fig/sorting_button.png){alt='The Sort button from the Excel Data tab, an icon with the letters A and Z above the label Sort.'}
 
 The following window will display, choose the column you want to sort as well as the sort order.
 
-![alt='quality\_control1, exercise1' .output](fig/sorting_example.png)
+![](fig/sorting_example.png){alt='Excel Sort dialog with My list has headers checked and one sort level: sort by Weight_grams, sort on Values, order Smallest to Largest.'}
 
 **Note** how the odd values sort to the top and bottom of the tabular data.
 The cells containing no data values sort to the bottom of the tabular data, while the cells where the letter "g" was included can be found towards the top. This is a powerful way to check your data for outliers and odd values.
 
-![alt='quality\_control2, exercise1' .output](fig/sorting_solution_1.png)
+![](fig/sorting_solution_1.png){alt='Survey data sorted by Weight_grams: the top rows hold text values with the letter g such as 48g and 46g, followed by numeric weights in descending order from 218.'}
 
-![alt='quality\_control3, exercise1' .output](fig/sorting_solution_2.png)
-{alt='quality\_control3, exercise1' .output}
+![](fig/sorting_solution_2.png){alt='Bottom of the survey data sorted by Weight_grams: the smallest numeric weights, down to 7, are followed by rows with empty Weight_grams cells.' .output}
 
 :::::::::::::::::::::::::
 
@@ -165,7 +164,7 @@ Conditional formatting should be used with caution, but it can be a great way to
 ### Solution
 
 Cells that contain non-numerical values are not colored. This includes both the cells where the letter "g" was included and the empty cells.
-![alt='quality\_control4, exercise2' .output](fig/conditional_formating.png)
+![](fig/conditional_formating.png){alt='Survey data with a two-color scale applied to Weight_grams: numeric weights are shaded from yellow to orange, while the cells with text values such as 48g are not colored.'}
 
 :::::::::::::::::::::::::
 

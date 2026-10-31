@@ -62,8 +62,7 @@ You can see that even though we expected the year to be 2014, the year is actual
 
 ## Solution
 
-![](fig/solution_exercise_1_dates.png)
-{alt='dates, exersize 1' .output}
+![](fig/solution_exercise_1_dates.png){alt='Spreadsheet of plot 3 data with Month, Day and Year columns computed from the Date collected column using the MONTH, DAY and YEAR functions; every row shows the year 2015 instead of 2014.' .output}
 
 
 
